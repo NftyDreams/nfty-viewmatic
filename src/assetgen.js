@@ -9,7 +9,7 @@ const UHD_HEIGHT = 2160;
 
 const GUTTER = 600;
 const MARGIN = 80;
-const WEB_URL = 'https://nftydreams.github.io/nfty-viewmatic';
+const WEB_URL = 'https://gallery.nftydreams.com';
 
 class AssetGen {
 
