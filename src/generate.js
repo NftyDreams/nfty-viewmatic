@@ -19,7 +19,7 @@ var dir = require('node-dir');
     const artworksFile = path.join(dataPath, 'artworks.json');
     const flagsFile = path.join(dataPath, 'flags.json');
     const artworksDir = path.join(dataPath, 'input');
-    const outputDir = path.join(dataPath, 'output');
+    const outputDir = path.join(__dirname, '..', 'docs', 'assets');
     const logoUrl = path.join(dataPath, 'NftyDreams-Logomark.png');
     const tmpDir = path.join(dataPath, 'tmp');
 

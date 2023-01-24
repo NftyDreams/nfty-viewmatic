@@ -134,7 +134,7 @@ class AssetGen {
 
 
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            await QRCode.toFile(qrCodeFile, 'https://www.google.com', {width: GUTTER, color: { light: '#000000', dark: '#666666'}});
+            await QRCode.toFile(qrCodeFile, 'https://nftydreams.github.io/nfty-viewmatic?a=' + options.account + '&id=' + options.id, {width: GUTTER, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
                 input: qrCodeFile,
                 top: isLandscape ? UHD_HEIGHT - GUTTER - MARGIN : UHD_WIDTH - GUTTER - MARGIN,
@@ -173,7 +173,7 @@ class AssetGen {
             if (!fse.existsSync(options.outputPath)) {
                 fse.mkdirSync(options.outputPath);
             }
-            const outfile = path.join(options.outputPath, options.name + '.png');
+            const outfile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
             console.log(outfile)
             sharp(buffer)
                 .toFile(outfile);
