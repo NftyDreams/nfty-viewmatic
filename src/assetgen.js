@@ -9,6 +9,7 @@ const UHD_HEIGHT = 2160;
 
 const GUTTER = 600;
 const MARGIN = 80;
+const WEB_URL = 'https://nftydreams.github.io/nfty-viewmatic';
 
 class AssetGen {
 
@@ -134,7 +135,7 @@ class AssetGen {
 
 
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            await QRCode.toFile(qrCodeFile, 'https://nftydreams.github.io/nfty-viewmatic?a=' + options.account + '&id=' + options.id, {width: GUTTER, color: { light: '#000000', dark: '#666666'}});
+            await QRCode.toFile(qrCodeFile, WEB_URL + '?a=' + options.account + '&id=' + options.id, {width: GUTTER, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
                 input: qrCodeFile,
                 top: isLandscape ? UHD_HEIGHT - GUTTER - MARGIN : UHD_WIDTH - GUTTER - MARGIN,
@@ -178,7 +179,7 @@ class AssetGen {
             sharp(buffer)
                 .toFile(outfile);
 
-            return outfile;
+            return WEB_URL + outfile.split('docs')[1];
 
         } else {
             throw 'Invalid options';
