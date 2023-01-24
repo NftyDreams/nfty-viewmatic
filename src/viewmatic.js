@@ -36,15 +36,15 @@ async function viewmatic(artworks, artfiles, flags, logoUrl, tmpDir) {
                 options.description = artwork.description;
                 options.landscape = options.path.indexOf('-L-') > -1 ? true : false;
 
-                if (options.landscape === true)  {
-                    if (lDone > 3) continue;
-                    lDone++;
-                }
+                // if (options.landscape === true)  {
+                //     if (lDone > 3) continue;
+                //     lDone++;
+                // }
 
-                if (options.landscape === false)  {
-                    if (pDone > 3) continue;
-                    pDone++;
-                }
+                // if (options.landscape === false)  {
+                //     if (pDone > 3) continue;
+                //     pDone++;
+                // }
 
                 exhibits.push(
                     await AssetGen.render(options)
