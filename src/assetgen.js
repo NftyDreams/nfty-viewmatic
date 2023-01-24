@@ -135,12 +135,12 @@ class AssetGen {
 
 
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            await QRCode.toFile(qrCodeFile, WEB_URL + '?a=' + options.account + '&id=' + options.id, {width: GUTTER, color: { light: '#000000', dark: '#666666'}});
+            await QRCode.toFile(qrCodeFile, WEB_URL + '?id=' + options.source + '-' + options.account, {width: GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
                 input: qrCodeFile,
-                top: isLandscape ? UHD_HEIGHT - GUTTER - MARGIN : UHD_WIDTH - GUTTER - MARGIN,
-                left: isLandscape ? leftOffset : UHD_HEIGHT - GUTTER - MARGIN,
-                height: GUTTER 
+                top: isLandscape ? UHD_HEIGHT - GUTTER * .6 - MARGIN : UHD_WIDTH - GUTTER * .6 - MARGIN,
+                left: isLandscape ? leftOffset + (GUTTER - GUTTER *.6)/2 : UHD_HEIGHT - GUTTER * .6 - MARGIN,
+                height: GUTTER * .6
             });
 
             return await sharp({
@@ -175,7 +175,6 @@ class AssetGen {
                 fse.mkdirSync(options.outputPath);
             }
             const outfile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
-            console.log(outfile)
             sharp(buffer)
                 .toFile(outfile);
 
