@@ -8,8 +8,8 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
 
     const exhibits = [];
 
-    let lDone = 0;
-    let pDone = 0;
+    // let lDone = 0;
+    // let pDone = 0;
 
     for (let a = 0; a < artfiles.length; a++) {  //async/await in forEach has problems; don't use
         let artfile = artfiles[a];
@@ -34,15 +34,15 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
             options.description = artwork.description;
             options.landscape = options.path.indexOf('L-') > -1 ? true : false;
 
-            if (options.landscape === true) {
-                if (lDone > 3) continue;
-                lDone++;
-            }
+            // if (options.landscape === true) {
+            //     if (lDone > 3) continue;
+            //     lDone++;
+            // }
 
-            if (options.landscape === false) {
-                if (pDone > 3) continue;
-                pDone++;
-            }
+            // if (options.landscape === false) {
+            //     if (pDone > 3) continue;
+            //     pDone++;
+            // }
 
             const pathFrags = artfile.path.split('-');
             const level = pathFrags[pathFrags.length - 2];

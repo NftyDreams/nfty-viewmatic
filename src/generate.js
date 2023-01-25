@@ -10,10 +10,6 @@ const { resourceLimits } = require('worker_threads');
 
     let project = process.argv[2];
 
-    // let c = process.argv[3];
-    // let s = process.argv[4]
-    // let r = process.argv[5]
-
     let dataPath = path.join(__dirname, '..', 'data');
     const help = "\nUsage: generate\n\t{ source }\n\n".green;
 
