@@ -15,7 +15,7 @@
   let first = false;
   let last = false;
   let timeout = false;
-  let speed = gallery.speed || 15000;
+  let speed = gallery.speed || 12000;
   let all;
 
   const params = new Proxy(new URLSearchParams(window.location.search), {
