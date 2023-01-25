@@ -26,7 +26,7 @@
   let project = params.p;
 
   if (playlist && project) {
-
+   
     fetch(`./${project}/${project}-exhibits.json`)
       .then((response) => response.json())
       .then((exhibits) => {
@@ -41,11 +41,11 @@
                 media.push(item);
               } else {
                  const urls = exhibits.filter(e => e.mediaUrl.indexOf(`/${item}/`) > -1);
-                 urls.forEach(url => media.push(url.mediaUrl));
+                 urls.forEach(url => media.push(url.mediaUrl.replace('https://gallery.nftydreams.com','')));
               }
             });
 
-            gallery.media = media;console.log(media, gallery.media)
+            gallery.media = media;
             all = gallery.media.length
             validatecounter();
           });
