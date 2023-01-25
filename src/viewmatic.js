@@ -58,7 +58,7 @@ async function viewmatic(artworks, artfiles, flags, logoUrl, tmpDir) {
                 account: options.account,
                 description: options.description,
                 landscape: options.landscape,
-                imageUrl: options.name.indexOf('.mp4') < 0 ? await AssetGen.render(options) : '',
+                mediaUrl: options.name.indexOf('.mp4') < 0 ? await AssetGen.renderImage(options) : await AssetGen.renderVideo(options),
                 level: level
             }
 

@@ -49,14 +49,8 @@ const { resourceLimits } = require('worker_threads');
             if (err) throw err;
             subdirs.forEach(function(filePath) {
                 const files = fse.readdirSync(filePath);
-                files.forEach((file) => {
-                    if (err) {
-                      console.log("Error getting directory information.")
-                    } else {
-                      files.forEach(function(file) {           
-                        artfiles.push({ path: filePath, name: file})
-                      });
-                    }
+                files.forEach((file) => {         
+                    artfiles.push({ path: filePath, name: file})
                 });
             });
 

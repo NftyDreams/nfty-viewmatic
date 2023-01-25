@@ -160,7 +160,30 @@ class AssetGen {
         }
     }
 
-    static async render(options) {
+    static async renderVideo(options) {
+
+        if (options.path) {
+
+            AssetGen._log(1, 'START');
+            AssetGen._log(1, 'Options:');
+            AssetGen._log(1, '');
+            AssetGen._log(2, JSON.stringify(options, null, 4));
+            AssetGen._log(1, '');
+
+            if (!fse.existsSync(options.outputPath)) {
+                fse.mkdirSync(options.outputPath);
+            }
+            const outfile = path.join(options.outputPath, options.name.split(' ')[0] + '.mp4');
+
+            fse.copyFileSync(path.join(options.path, options.name), outfile);            
+            return WEB_URL + outfile.split('docs')[1];
+
+        } else {
+            throw 'Invalid options';
+        }        
+    }
+
+    static async renderImage(options) {
 
         if (options.path) {
 
