@@ -21,6 +21,8 @@ class AssetGen {
     static async _drawImage(options) {
 
         let src = path.join(options.path, options.name);
+
+
         try {
             let overlays = [];
             //modulateInfo.hue = sortedLayers[s].hue;
@@ -133,7 +135,6 @@ class AssetGen {
                 left: leftOffset
             });
 
-
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
             await QRCode.toFile(qrCodeFile, WEB_URL + '?id=' + options.source + '-' + options.account, {width: GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
@@ -194,10 +195,12 @@ class AssetGen {
             AssetGen._log(1, '');
 
             const buffer = await AssetGen._drawImage(options);
+
             if (!fse.existsSync(options.outputPath)) {
-                fse.mkdirSync(options.outputPath);
+                fse.mkdirSync(options.outputPath, { recursive: true });
             }
             const outfile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
+
             sharp(buffer)
                 .toFile(outfile);
 

@@ -4,23 +4,22 @@ const { AssetGen } = require('./assetgen');
  * Generates all images for an exhibition
  */
 
-async function viewmatic(artworks, artfiles, flags, logoUrl, tmpDir) {
+async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
 
     const exhibits = [];
 
-    // let lDone = 0;
-    // let pDone = 0;
+    let lDone = 0;
+    let pDone = 0;
 
     for (let a = 0; a < artfiles.length; a++) {  //async/await in forEach has problems; don't use
         let artfile = artfiles[a];
         let options = {
             path: artfile.path,
-            outputPath: artfile.path.replace('data', 'docs').replace('input', 'assets'),
+            outputPath: artfile.path.replace('data', 'docs'),
             name: artfile.name,
             logoUrl,
             tmpDir
         }
-
         let account = artfile.name.split(' ')[0].toLowerCase();
         let artwork = artworks.find(e => e.account.toLowerCase() === account);
         if (artwork) {
@@ -33,17 +32,17 @@ async function viewmatic(artworks, artfiles, flags, logoUrl, tmpDir) {
             options.source = artwork.source;
             options.account = artwork.account;
             options.description = artwork.description;
-            options.landscape = options.path.indexOf('-L-') > -1 ? true : false;
+            options.landscape = options.path.indexOf('L-') > -1 ? true : false;
 
-            // if (options.landscape === true) {
-            //     if (lDone > 3) continue;
-            //     lDone++;
-            // }
+            if (options.landscape === true) {
+                if (lDone > 3) continue;
+                lDone++;
+            }
 
-            // if (options.landscape === false) {
-            //     if (pDone > 3) continue;
-            //     pDone++;
-            // }
+            if (options.landscape === false) {
+                if (pDone > 3) continue;
+                pDone++;
+            }
 
             const pathFrags = artfile.path.split('-');
             const level = pathFrags[pathFrags.length - 2];
@@ -61,7 +60,6 @@ async function viewmatic(artworks, artfiles, flags, logoUrl, tmpDir) {
                 mediaUrl: options.name.indexOf('.mp4') < 0 ? await AssetGen.renderImage(options) : await AssetGen.renderVideo(options),
                 level: level
             }
-
             exhibits.push(artInfo);
 
         }

@@ -18,13 +18,41 @@
   let speed = gallery.speed || 15000;
   let all;
 
-  fetch(`./playlists/${gallery.playlist}.json`)
-  .then((response) => response.json())
-  .then((media) => {
-    gallery.media = media;
-    all = gallery.media.length
-    validatecounter();
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
   });
+
+  let playlist = params.l;
+  let project = params.p;
+
+  if (playlist && project) {
+
+    fetch(`./${project}/${project}-exhibits.json`)
+      .then((response) => response.json())
+      .then((exhibits) => {
+
+        fetch(`./playlists/${playlist}.json`)
+          .then((response) => response.json())
+          .then((list) => {
+
+            let media = [];
+            list.forEach((item) => {
+              if (item.indexOf('.') > -1) {
+                media.push(item);
+              } else {
+                 const urls = exhibits.filter(e => e.mediaUrl.indexOf(`/${item}/`) > -1);
+                 urls.forEach(url => media.push(url.mediaUrl));
+              }
+            });
+
+            gallery.media = media;console.log(media, gallery.media)
+            all = gallery.media.length
+            validatecounter();
+          });
+    
+      });
+
+  }
   
 
 

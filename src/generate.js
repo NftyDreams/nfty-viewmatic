@@ -8,7 +8,7 @@ const { resourceLimits } = require('worker_threads');
 
 (async () => {
 
-    let p = process.argv[2];
+    let project = process.argv[2];
 
     // let c = process.argv[3];
     // let s = process.argv[4]
@@ -18,14 +18,14 @@ const { resourceLimits } = require('worker_threads');
     const help = "\nUsage: generate\n\t{ source }\n\n".green;
 
 
-    const artworksFile = path.join(dataPath, p + '.json');
+    const artworksFile = path.join(dataPath, project, project + '.json');
     const flagsFile = path.join(dataPath, 'flags.json');
-    const artworksDir = path.join(dataPath, 'input');
-    const outputDir = path.join(__dirname, '..', 'docs', 'assets');
+    const artworksDir = path.join(dataPath, project);
+    const outputDir = path.join(__dirname, '..', 'docs', project);
     const logoUrl = path.join(dataPath, 'NftyDreams-Logomark.png');
     const tmpDir = path.join(dataPath, 'tmp');
-    const outFileJson = path.join(outputDir, p + '-exhibits.json');
-    const outFileHtml = path.join(outputDir, p + '.html');
+    const outFileJson = path.join(outputDir, project + '-exhibits.json');
+    const outFileHtml = path.join(outputDir, project + '.html');
 
     if (fse.existsSync(outputDir)) {
         fse.rmSync(outputDir, { recursive: true });
@@ -47,6 +47,7 @@ const { resourceLimits } = require('worker_threads');
 
         dir.subdirs(artworksDir, async function(err, subdirs) {
             if (err) throw err;
+            console.log(subdirs)
             subdirs.forEach(function(filePath) {
                 const files = fse.readdirSync(filePath);
                 files.forEach((file) => {         
@@ -54,7 +55,7 @@ const { resourceLimits } = require('worker_threads');
                 });
             });
 
-            const result = await viewmatic(artworks, artfiles, flags, logoUrl, tmpDir)
+            const result = await viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir)
 
             // Write output files
             fse.writeJsonSync(outFileJson, result, { spaces: 2 });
