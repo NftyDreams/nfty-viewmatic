@@ -40,8 +40,10 @@
               if (item.indexOf('.') > -1) {
                 media.push(item);
               } else {
-                 const urls = exhibits.filter(e => e.mediaUrl.indexOf(`/${item}/`) > -1);
-                 urls.forEach(url => media.push(url.mediaUrl.replace('https://gallery.nftydreams.com','')));
+                 const filtered = exhibits.filter(e => e.mediaUrl.indexOf(`/${item}/`) > -1 && e.mediaUrl.indexOf('.mp4') < 0);
+                 filtered.forEach((exhibit) => {
+                    media.push(exhibit.mediaUrl.replace('https://gallery.nftydreams.com',''))
+                 });
               }
             });
 
@@ -52,6 +54,8 @@
     
       });
 
+  } else {
+    location.replace('https://nftydreams.com/go/');
   }
   
 
