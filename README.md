@@ -1,1 +1,1 @@
-# n=Nfty-viewmatic
+# Nfty-viewmatic
