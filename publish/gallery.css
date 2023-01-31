@@ -1,0 +1,43 @@
+body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#fff;
+}
+a {
+  color: #fff;
+}
+ul {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.gallery-info, .gallery-docs {
+  position: absolute;
+  padding: 5px 10px;
+  background: rgba(0,0,0,.8);
+  color: #fff;
+}
+.gallery-docs {
+  right: 0;
+  text-align: right;
+}
+.gallery-docs span {
+  display: block;
+}
+.gallery-wrapper {
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 200ms;
+}
+.gallery-wrapper video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
