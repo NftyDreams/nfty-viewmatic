@@ -1,6 +1,6 @@
 [
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dr Martín",
         "lastName": "Raskovsky",
         "country": "United Kingdom",
@@ -23,7 +23,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mandi",
         "lastName": "Baykaa-Murray",
         "country": "United Kingdom",
@@ -46,7 +46,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Teomia",
         "lastName": "Japaridze",
         "country": "Georgia",
@@ -55,7 +55,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "Artist",
-        "description": "I am a legend. I am one of a king and what I do today is important for tomorrow. The same applies to U! I am=We are!",
+        "description": "I am a legend. I am one of a kind and what I do today is important for tomorrow. The same applies to U! I am=We are!",
         "account": "0x2aF1aD3Db46CF148bec0bd0F49B33f0777575737",
         "license": "",
         "prices": [
@@ -68,7 +68,7 @@
         "ai": "I used AI to generate from my already painted art piece, that I painted a year ago."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Jaana",
         "lastName": "Tenno",
         "country": "Estonia",
@@ -77,7 +77,7 @@
         "media": "jpg",
         "orientation": "L",
         "title": "Sisterhood",
-        "description": "Painting symbolises the bond of sisterhood, the strength of friendship and cherish the special bond between humans.",
+        "description": "Painting symbolizes the bond of sisterhood, the strength of friendship and cherishes the special bond between humans.",
         "account": "0xafa4C76ab13Da41EB9975F52A6bC4159BeF9FB97",
         "license": "",
         "prices": [
@@ -89,7 +89,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Leila",
         "lastName": "Hazini",
         "country": "Iran",
@@ -98,7 +98,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "The Nightmare ",
-        "description": "Nightmares are comes from reality, they are always with us, cause we are living them! it's like a black hand that is holding your throat…",
+        "description": "Nightmares come from reality, they are always with us, cause we are living them! it's like a black hand that is holding your throat…",
         "account": "0x396507e5f35f3a0bca9a0df3dba2e9315e739fbb",
         "license": "",
         "prices": [
@@ -110,7 +110,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ratnadwip",
         "lastName": "Saha",
         "country": "India",
@@ -131,7 +131,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Satyam",
         "lastName": "Bhuyan",
         "country": "India",
@@ -140,7 +140,7 @@
         "media": "jpg",
         "orientation": "L",
         "title": "Sparkling Eyes!!",
-        "description": "This picture was shot at kashmir during winter while the childrens we're playing inside a house and we're excited looking at my camera!!",
+        "description": "This picture was shot in Kashmir during winter while childrens wre playing inside a house and were excited looking at my camera!!",
         "account": "0x8680e393EFEA3faBa344408f7297cfD92852a2cd",
         "license": "",
         "prices": [
@@ -152,7 +152,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Subodh ",
         "lastName": "Shetty ",
         "country": "India",
@@ -161,7 +161,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "Theyyam",
-        "description": "Once these men begin to perform, all barriers vanish - all the differences evaporate. They are no longer just men but gods ",
+        "description": "Once these men begin to perform, all barriers vanish — all the differences evaporate. They are no longer just men but gods.",
         "account": "0x07b957db0167d0401e5001d7e3c7a6b3b628ee7c",
         "license": "Extended Editorial ",
         "prices": [
@@ -173,7 +173,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Zahra",
         "lastName": "Saraf",
         "country": "Iran",
@@ -182,7 +182,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "Mithra",
-        "description": "In ancient Iran, Mithra is mentioned as \"Goddess of light and brightness\". this is a symbol of the victory of light and against darkness. ",
+        "description": "In ancient Iran, Mithra is mentioned as \"Goddess of light and brightness.\" This is a symbol of the victory of light and against darkness. ",
         "account": "0x2B7530d3bc0Ee841aA8799d1cCa17eF0e86d2622",
         "license": "",
         "prices": [
@@ -194,7 +194,7 @@
         "ai": "In the body part of the character, is used.  According to the purpose and the character I wanted to create, I described it on the midjourney and the result was obtained"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Narciss",
         "lastName": "Khazaei",
         "country": "Iran",
@@ -217,7 +217,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mahsa ",
         "lastName": "Abedi",
         "country": "Iran",
@@ -238,7 +238,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Adeola",
         "lastName": "Fadipe",
         "country": "Nigeria",
@@ -247,7 +247,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "your outstretched hand",
-        "description": "The words You speak, turns things around Your outstretched hand Has lifted me You took away the chains and curse That held me bound",
+        "description": "The words You speak, turns things around. Your outstretched hand Has lifted me. You took away the chains and curse That held me bound",
         "account": "0x5d9Fc6A9DFACdda88D23ec9b95C4Ac2E402d74Bf",
         "license": "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
         "prices": [
@@ -259,7 +259,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Saber",
         "lastName": "Owji (magicalords team)",
         "country": "Iran",
@@ -280,7 +280,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Maryam",
         "lastName": "Rezaee KHatoon",
         "country": "Iran",
@@ -303,7 +303,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ronny",
         "lastName": "Onkeo",
         "country": "Kenya",
@@ -324,7 +324,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Anna ",
         "lastName": "Kuss",
         "country": "Peru",
@@ -347,7 +347,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Michael",
         "lastName": "Ehiorobo",
         "country": "Nigeria",
@@ -368,7 +368,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nilesh ",
         "lastName": "Poonia ",
         "country": "India",
@@ -377,7 +377,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "Talking Flames ",
-        "description": "Talking Flames is captured with my phone (Pixel6), One nigh while capturing stars i see these amazing Talking Flames in fire and i captured ",
+        "description": "Talking Flames is captured with my phone (Pixel6), One night while capturing stars i see these amazing Talking Flames in fire and i captured ",
         "account": "0x15dC170eDF5f2658E7786937Fa38D70F7A58860C",
         "license": "",
         "prices": [
@@ -389,7 +389,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Arjan",
         "lastName": "Tupan",
         "country": "Netherlands",
@@ -412,7 +412,7 @@
         "ai": "I used AI (NightCafe Studio - Stable Diffusion) to create the background image. It is inspired by station clocks of the 19th century. "
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nazanin",
         "lastName": "Bagheri",
         "country": "Iran",
@@ -433,7 +433,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rainbow",
         "lastName": "Mosho",
         "country": "United States",
@@ -454,7 +454,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "ArtvisionNFT",
         "lastName": "Anna",
         "country": "Ukraine",
@@ -477,7 +477,7 @@
         "ai": "I use the AI tool StableDiffusion in the process of creating this piece of art. The art started with an empty seed image and I generated this piece in parts, combining them by incrementing the prompt and giving as input image the previous outputs of the tool. This piece of art is one of my most recent strategies on creating art using AI tools, in which I build each piece of art incrementally by using different outputs by the AI to build a single image."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Fateme",
         "lastName": "adlzade",
         "country": "Iran",
@@ -486,7 +486,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "Crocus ",
-        "description": "She  re present hope, dignity, success, pride and show the power of women's",
+        "description": "She represents hope, dignity, success, pride and shows the power of women",
         "account": "0xafe45Ab433E65cbC6b592F38D16592023302A74C",
         "license": "",
         "prices": [
@@ -498,7 +498,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mina",
         "lastName": "Rahmani",
         "country": "Iran",
@@ -507,7 +507,7 @@
         "media": "jpg",
         "orientation": "P",
         "title": "At the end of the garden",
-        "description": "in the garden i will die between the roses- they will kill me i was going mother to pick the roses to find death  “Federico García Lorca” ",
+        "description": "in the garden i will die between the roses - they will kill me i was going mother to pick the roses to find death  “Federico García Lorca” ",
         "account": "0x0A6A8853b787492a5f37e435e9922ED44bF48437",
         "license": "",
         "prices": [
@@ -519,7 +519,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nastaran",
         "lastName": "Shojaei",
         "country": "Iran",
@@ -541,7 +541,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Paschalis",
         "lastName": "Serafeim",
         "country": "Greece",
@@ -564,7 +564,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Victor ",
         "lastName": "Mmendie",
         "country": "Nigeria",
@@ -585,7 +585,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Vivek ",
         "lastName": "Sadasivan",
         "country": "India",
@@ -606,7 +606,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dolores",
         "lastName": "Krajnak",
         "country": "United States",
@@ -629,7 +629,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Tina",
         "lastName": "Alberni",
         "country": "United States",
@@ -652,7 +652,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Muiz",
         "lastName": "Omoboriowo",
         "country": "Nigeria",
@@ -673,7 +673,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Black ",
         "lastName": "Hydar ",
         "country": "Nigeria",
@@ -694,7 +694,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Tamida",
         "lastName": "Ibrahim",
         "country": "Nigeria",
@@ -715,7 +715,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Yugan",
         "lastName": "Silva",
         "country": "Sri Lanka",
@@ -736,7 +736,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Devang",
         "lastName": "Patel",
         "country": "India",
@@ -757,7 +757,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Arun Kumar",
         "lastName": "Nalimela",
         "country": "India",
@@ -778,7 +778,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Satadall ",
         "lastName": "Dey",
         "country": "India",
@@ -799,7 +799,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Vishal kumar",
         "lastName": "singh",
         "country": "India",
@@ -820,7 +820,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Arian",
         "lastName": "Darbandi",
         "country": "Iran",
@@ -841,7 +841,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Daniel",
         "lastName": "John",
         "country": "Nigeria",
@@ -862,7 +862,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Vishal ",
         "lastName": "Kadam",
         "country": "India",
@@ -885,7 +885,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Yuri",
         "lastName": "Santin",
         "country": "Italy",
@@ -906,7 +906,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Soli",
         "lastName": "Jahan",
         "country": "Iran",
@@ -928,7 +928,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Twinkle",
         "lastName": "Pancholi",
         "country": "India",
@@ -950,7 +950,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Arijit",
         "lastName": "Mondal",
         "country": "India",
@@ -971,7 +971,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Spring ",
         "lastName": "bahar",
         "country": "Iran",
@@ -993,7 +993,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ebrahim",
         "lastName": "Elmi",
         "country": "Iran",
@@ -1014,7 +1014,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Morvarid",
         "lastName": "Zal",
         "country": "Iran",
@@ -1035,7 +1035,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mina",
         "lastName": "Zal",
         "country": "Iran",
@@ -1056,7 +1056,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Tapan",
         "lastName": "Sheth",
         "country": "India",
@@ -1077,7 +1077,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "pariis",
         "lastName": "jafari",
         "country": "Iran",
@@ -1098,7 +1098,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Jeanna",
         "lastName": "Golenkova",
         "country": "Russia",
@@ -1120,7 +1120,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Feranmi",
         "lastName": "Odufuwa",
         "country": "Nigeria",
@@ -1141,7 +1141,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sathish",
         "lastName": "Hema",
         "country": "India",
@@ -1162,7 +1162,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Fatima ",
         "lastName": "Suleiman Danjuma",
         "country": "Nigeria",
@@ -1184,7 +1184,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nuwan ",
         "lastName": "Hennayake",
         "country": "Sri Lanka",
@@ -1207,7 +1207,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Intact ",
         "lastName": "Arts",
         "country": "India",
@@ -1228,7 +1228,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "NAKUL ",
         "lastName": "SHARMA",
         "country": "India",
@@ -1249,7 +1249,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Adenike",
         "lastName": "Adeniyi",
         "country": "Nigeria",
@@ -1272,7 +1272,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mehdi",
         "lastName": "Basirat",
         "country": "Iran",
@@ -1293,7 +1293,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kuntal",
         "lastName": "Singhvi",
         "country": "India",
@@ -1316,7 +1316,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Abdul Haseeb",
         "lastName": "Hingoro",
         "country": "Pakistan",
@@ -1337,7 +1337,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ekansh ",
         "lastName": "Mehta",
         "country": "India",
@@ -1360,7 +1360,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Bipradev",
         "lastName": "Roy",
         "country": "India",
@@ -1381,7 +1381,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Saeed",
         "lastName": "Azimi",
         "country": "Turkey",
@@ -1402,7 +1402,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Erfan",
         "lastName": "Samanfar",
         "country": "Iran",
@@ -1423,7 +1423,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sai",
         "lastName": "Sanjay",
         "country": "India",
@@ -1444,7 +1444,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Hamed ",
         "lastName": "Azizi",
         "country": "Iran",
@@ -1465,7 +1465,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Bandana ",
         "lastName": "Meher",
         "country": "India",
@@ -1487,7 +1487,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "MADHUR",
         "lastName": "NANGIA",
         "country": "India",
@@ -1510,7 +1510,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rahul",
         "lastName": "Kale",
         "country": "India",
@@ -1533,7 +1533,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ijlal",
         "lastName": "Aslam",
         "country": "Pakistan",
@@ -1554,7 +1554,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Adebisi",
         "lastName": "Olami",
         "country": "Nigeria",
@@ -1575,7 +1575,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Reza",
         "lastName": "Slbi",
         "country": "Iran",
@@ -1596,7 +1596,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "parisa",
         "lastName": "karsaz",
         "country": "Iran",
@@ -1617,7 +1617,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Brijesh",
         "lastName": "Makadia",
         "country": "India",
@@ -1638,7 +1638,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dheeraj",
         "lastName": "Thakwani",
         "country": "India",
@@ -1660,7 +1660,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pooja",
         "lastName": "Krishna",
         "country": "India",
@@ -1682,7 +1682,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nazanin",
         "lastName": "Borhani",
         "country": "Iran",
@@ -1703,7 +1703,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pranav",
         "lastName": "Sp",
         "country": "India",
@@ -1724,7 +1724,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Stela",
         "lastName": "Narayana",
         "country": "Brazil",
@@ -1745,7 +1745,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mohammed",
         "lastName": "Mahgoub",
         "country": "Sudan",
@@ -1767,7 +1767,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Veepul",
         "lastName": "Rege",
         "country": "India",
@@ -1789,7 +1789,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Parvaneh",
         "lastName": "Elyaszadeh",
         "country": "Iran",
@@ -1810,7 +1810,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sujal",
         "lastName": "Shah",
         "country": "India",
@@ -1833,7 +1833,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Samane",
         "lastName": "Hashemi",
         "country": "Afghanistan",
@@ -1854,7 +1854,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Steveo ",
         "lastName": "Spirals",
         "country": "United States",
@@ -1877,7 +1877,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Emmanuel ",
         "lastName": "Ughele",
         "country": "Nigeria",
@@ -1898,7 +1898,7 @@
         "ai": "Created through Midjourney, illustrated and post production through procreate and Photoshop "
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "milad",
         "lastName": "mohammadi",
         "country": "Iran",
@@ -1919,7 +1919,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mahsa",
         "lastName": "Feyziazar",
         "country": "Iran",
@@ -1940,7 +1940,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Johnpaul",
         "lastName": "Val",
         "country": "Nigeria",
@@ -1963,7 +1963,7 @@
         "ai": "Blender was used for modelling the face of the art character, while AI was incorporated through the florals/flowers.  Photoshop was used for smoothening and enhancement."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Toheeb",
         "lastName": "Bankole",
         "country": "Nigeria",
@@ -1984,7 +1984,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Burnish",
         "lastName": "Photography",
         "country": "United States",
@@ -2007,7 +2007,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Visheh",
         "lastName": "Khatamimoghaddam",
         "country": "Iran",
@@ -2028,7 +2028,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mana ",
         "lastName": "Negah",
         "country": "Iran",
@@ -2049,7 +2049,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Qazal",
         "lastName": "Poorasadi",
         "country": "Iran",
@@ -2070,7 +2070,7 @@
         "ai": "This is my work, a combination of photography and editing with Photoshop by myself, and at the last stage, a small change was made with Ai.  In the Midjourney software"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Davoud",
         "lastName": "Izadpanah",
         "country": "Iran",
@@ -2091,7 +2091,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sachin ",
         "lastName": "Ghai",
         "country": "India",
@@ -2112,7 +2112,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sahil ",
         "lastName": "Phogat",
         "country": "India",
@@ -2133,7 +2133,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sunil Gavaskar",
         "lastName": "ParthaSarathy",
         "country": "India",
@@ -2156,7 +2156,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "All Fly",
         "lastName": "Studios",
         "country": "Canada",
@@ -2179,7 +2179,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dhanya",
         "lastName": "Ajith",
         "country": "India",
@@ -2200,7 +2200,7 @@
         "ai": "I generated an AI image using Stability AI, imported to procreate app, painted over it using alcohol ink brushes and fractal patterns to create the final image."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Akshay",
         "lastName": "Naik",
         "country": "India",
@@ -2221,7 +2221,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Elham ",
         "lastName": "Jafari ",
         "country": "Iran",
@@ -2243,7 +2243,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Eddie",
         "lastName": "Vizitrex",
         "country": "Iran",
@@ -2264,7 +2264,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shubham",
         "lastName": "Diwaker",
         "country": "India",
@@ -2285,7 +2285,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Negar",
         "lastName": "Ghorbani",
         "country": "Iran",
@@ -2306,7 +2306,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Milad ",
         "lastName": "Moghadam",
         "country": "Iran",
@@ -2327,7 +2327,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Choen",
         "lastName": "Lee",
         "country": "Malaysia",
@@ -2348,7 +2348,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Prakruti",
         "lastName": "Thakor",
         "country": "India",
@@ -2370,7 +2370,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Faraz",
         "lastName": "Habiballahian",
         "country": "Iran",
@@ -2391,7 +2391,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mohammad Taha ",
         "lastName": "Khan",
         "country": "India",
@@ -2414,7 +2414,7 @@
         "ai": "made using midjourney and then i fused it with other ai work created in midjourney to get the high quality results"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Daniel",
         "lastName": "Adeeri",
         "country": "Nigeria",
@@ -2435,7 +2435,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mina",
         "lastName": "Mallahnejad",
         "country": "Iran",
@@ -2456,7 +2456,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shreenivas",
         "lastName": "Yenni",
         "country": "India",
@@ -2479,7 +2479,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Joel",
         "lastName": "Ibidayo",
         "country": "Nigeria",
@@ -2501,7 +2501,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Tanmay",
         "lastName": "Shah",
         "country": "India",
@@ -2524,7 +2524,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "firoozeh",
         "lastName": "solati",
         "country": "Iran",
@@ -2547,7 +2547,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dr Vimal",
         "lastName": "Hemani",
         "country": "India",
@@ -2569,7 +2569,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Soso",
         "lastName": "Niick",
         "country": "United States",
@@ -2590,7 +2590,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Aiman",
         "lastName": "Noor",
         "country": "Pakistan",
@@ -2612,7 +2612,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Khadee",
         "lastName": "Ize",
         "country": "Nigeria",
@@ -2633,7 +2633,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sahana",
         "lastName": "Sahana",
         "country": "India",
@@ -2655,7 +2655,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mehrdad ",
         "lastName": "Mir",
         "country": "Iran",
@@ -2676,7 +2676,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Surendra",
         "lastName": "Hansda",
         "country": "India",
@@ -2699,7 +2699,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "A.K.Sani",
         "lastName": "from Fightersgan",
         "country": "Iran",
@@ -2720,7 +2720,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "KRISHNAPRASAD",
         "lastName": "K A",
         "country": "India",
@@ -2742,7 +2742,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Elena",
         "lastName": "Tagliapietra",
         "country": "Italy",
@@ -2763,7 +2763,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rishabh",
         "lastName": "Omar",
         "country": "India",
@@ -2786,7 +2786,7 @@
         "ai": "I have used disco diffusion. I write the code and adjust the graphics and pixel according to what I want in arts."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Farnaz",
         "lastName": "Dashti",
         "country": "Iran",
@@ -2808,7 +2808,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pradeep ",
         "lastName": "Sankunny ",
         "country": "United Arab Emirates",
@@ -2831,7 +2831,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Temitope",
         "lastName": "Ojelade",
         "country": "Nigeria",
@@ -2852,7 +2852,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Emmanuel ",
         "lastName": "Odu ",
         "country": "Nigeria",
@@ -2873,7 +2873,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Anil",
         "lastName": "T Prabhakar",
         "country": "Indonesia",
@@ -2894,7 +2894,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Zini ",
         "lastName": "Pradeep",
         "country": "United Arab Emirates",
@@ -2917,7 +2917,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sahar",
         "lastName": "Nateghi",
         "country": "Iran",
@@ -2938,7 +2938,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Marjan",
         "lastName": "Shariat",
         "country": "Iran",
@@ -2959,7 +2959,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shasa",
         "lastName": "Sajedi",
         "country": "Iran",
@@ -2982,7 +2982,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Prevail",
         "lastName": "Oladimeji",
         "country": "Nigeria",
@@ -3003,7 +3003,7 @@
         "ai": "I used Ai for this art work and I used Dream by Wombo and did some finishing touches on the sketch book app and edited it with photoshop"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Laura",
         "lastName": "Hernandez",
         "country": "Uruguay",
@@ -3024,7 +3024,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Maryam",
         "lastName": "Sadeghi",
         "country": "Iran",
@@ -3045,7 +3045,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Vinayak",
         "lastName": "Bhat",
         "country": "United Arab Emirates",
@@ -3068,7 +3068,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sanaz ",
         "lastName": "Mousavi",
         "country": "Iran",
@@ -3089,7 +3089,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Raana",
         "lastName": "Amiri",
         "country": "Iran",
@@ -3110,7 +3110,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pari ",
         "lastName": "Kokane",
         "country": "India",
@@ -3133,7 +3133,7 @@
         "ai": "Some Ai Art work used for background . With the help of Ai art generator software."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Zeeh",
         "lastName": "Edits",
         "country": "Pakistan",
@@ -3154,7 +3154,7 @@
         "ai": "Yes i use AI for this. A base and roughly sketch made for a road trip then i enhance it Through midjourney and upscaled according to my require result."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Angeleena",
         "lastName": "Mulligan",
         "country": "United States",
@@ -3177,7 +3177,7 @@
         "ai": "AI was used only to format the ornate design in the image. I utilized my own drawing and sketches with the use of Illustrator."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shubham",
         "lastName": "Ganjave",
         "country": "India",
@@ -3199,7 +3199,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Foozee",
         "lastName": "f",
         "country": "India",
@@ -3222,7 +3222,7 @@
         "ai": "I used Midjourney Ai and photoshop to create this artwork."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shabarigirisan",
         "lastName": "Selvam",
         "country": "India",
@@ -3243,7 +3243,7 @@
         "ai": "Yes . Not directly used but some references were taken from my own generated prompt."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Theophilus",
         "lastName": "Dike",
         "country": "Nigeria",
@@ -3264,7 +3264,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Gilda ",
         "lastName": "Atefat pishe",
         "country": "Iran",
@@ -3287,7 +3287,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shahnaz",
         "lastName": "Mokaram Shahraki",
         "country": "Iran",
@@ -3308,7 +3308,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Manou",
         "lastName": "Piransi",
         "country": "France",
@@ -3329,7 +3329,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nahid",
         "lastName": "Abedi",
         "country": "Iran",
@@ -3350,7 +3350,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kate",
         "lastName": "Ibekwe",
         "country": "Nigeria",
@@ -3371,7 +3371,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rohit ",
         "lastName": "Tandon",
         "country": "India",
@@ -3393,7 +3393,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Saeedeh",
         "lastName": "Aghaei",
         "country": "Iran",
@@ -3414,7 +3414,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Asra",
         "lastName": "gharehkhani",
         "country": "Iran",
@@ -3436,7 +3436,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Hadis",
         "lastName": "Mohammadi",
         "country": "Iran",
@@ -3457,7 +3457,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sonya",
         "lastName": "Moradi",
         "country": "Iran",
@@ -3478,7 +3478,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Zary",
         "lastName": "Asar",
         "country": "Iran",
@@ -3500,7 +3500,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Marzy",
         "lastName": "Motamedi ",
         "country": "Iran",
@@ -3521,7 +3521,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Hamideh",
         "lastName": "Hosseini",
         "country": "Iran",
@@ -3543,7 +3543,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mani",
         "lastName": "Saemi",
         "country": "United Kingdom",
@@ -3564,7 +3564,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Alireza",
         "lastName": "Ghaeezade",
         "country": "Iran",
@@ -3585,7 +3585,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Karen ",
         "lastName": "Medina ",
         "country": "Mexico",
@@ -3606,7 +3606,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sara",
         "lastName": "Abdollahi",
         "country": "Iran",
@@ -3627,7 +3627,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Juan",
         "lastName": "R Mon",
         "country": "Nicaragua",
@@ -3648,7 +3648,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kismat ",
         "lastName": "Deora",
         "country": "India",
@@ -3669,7 +3669,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Aiira",
         "lastName": "Mérida",
         "country": "Mexico",
@@ -3691,7 +3691,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Soumya",
         "lastName": "Geetha",
         "country": "India",
@@ -3713,7 +3713,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mrs",
         "lastName": "Invisible",
         "country": "India",
@@ -3734,7 +3734,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Patrick",
         "lastName": "Nwachukwu ",
         "country": "Nigeria",
@@ -3756,7 +3756,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Adnan ",
         "lastName": "Dani",
         "country": "Pakistan",
@@ -3779,7 +3779,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Black",
         "lastName": "Steve",
         "country": "Nigeria",
@@ -3800,7 +3800,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Vanessa",
         "lastName": "Lane ",
         "country": "United States",
@@ -3823,7 +3823,7 @@
         "ai": "Yes, I used AI to create the base image then edited the image in Photoshop. "
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Tangled diva",
         "lastName": ".",
         "country": "United Arab Emirates",
@@ -3846,7 +3846,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Prashanth ",
         "lastName": "B H ",
         "country": "India",
@@ -3869,7 +3869,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "OLAMILEKAN",
         "lastName": "IBIYEMI",
         "country": "Nigeria",
@@ -3890,7 +3890,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Arash",
         "lastName": "Sahra",
         "country": "Iran",
@@ -3911,7 +3911,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Christiana ",
         "lastName": "Fagbenro ",
         "country": "Nigeria",
@@ -3932,7 +3932,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Joon-young",
         "lastName": "Lee",
         "country": "Korea, South",
@@ -3953,7 +3953,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Maria",
         "lastName": "Mindal",
         "country": "Estonia",
@@ -3974,7 +3974,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Narges",
         "lastName": "Shooli",
         "country": "Iran",
@@ -3995,7 +3995,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Aadrika",
         "lastName": "Sharma",
         "country": "India",
@@ -4016,7 +4016,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "saba",
         "lastName": "torkiyan",
         "country": "Iran",
@@ -4038,7 +4038,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mahsa",
         "lastName": "SE",
         "country": "Iran",
@@ -4061,7 +4061,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mirna",
         "lastName": "Teran",
         "country": "Bolivia",
@@ -4082,7 +4082,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Zackster",
         "lastName": "Xenres",
         "country": "India",
@@ -4103,7 +4103,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "alireza",
         "lastName": "akbari",
         "country": "Iran",
@@ -4124,7 +4124,7 @@
         "ai": "i used midjourney ai bot for creating this but i did edit on photoshop "
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Afsaneh",
         "lastName": "Hajiani ",
         "country": "Iran",
@@ -4146,7 +4146,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Elham",
         "lastName": "Shafaei",
         "country": "Iran",
@@ -4167,7 +4167,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mohadeseh",
         "lastName": "bandaar",
         "country": "Iran",
@@ -4188,7 +4188,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "ONe",
         "lastName": "Rad Latina",
         "country": "United States",
@@ -4209,7 +4209,7 @@
         "ai": "The software used to create the animation was AI."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Tulsi Shankar ",
         "lastName": "Kumbhar",
         "country": "India",
@@ -4230,7 +4230,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pouya",
         "lastName": "Gashti",
         "country": "Iran",
@@ -4251,7 +4251,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ali",
         "lastName": "Vision ",
         "country": "Iran",
@@ -4273,7 +4273,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Elham",
         "lastName": "Hamraz",
         "country": "Iran",
@@ -4294,7 +4294,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Elham",
         "lastName": "Shamsabadi",
         "country": "Iran",
@@ -4315,7 +4315,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Bahaar",
         "lastName": "Hamdami",
         "country": "Iran",
@@ -4336,7 +4336,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Lapis",
         "lastName": "Lazuli",
         "country": "Iran",
@@ -4359,7 +4359,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ali Reza",
         "lastName": "Rasti",
         "country": "Iran",
@@ -4382,7 +4382,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ritu",
         "lastName": "Maheshwari",
         "country": "India",
@@ -4403,7 +4403,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Swati",
         "lastName": "S",
         "country": "India",
@@ -4424,7 +4424,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Bita",
         "lastName": "Emami",
         "country": "Iran",
@@ -4445,7 +4445,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Hariprasad",
         "lastName": "CM",
         "country": "India",
@@ -4467,7 +4467,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kiana",
         "lastName": "Khomami",
         "country": "Iran",
@@ -4490,7 +4490,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Subbu",
         "lastName": "Pratapa",
         "country": "India",
@@ -4511,7 +4511,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mai",
         "lastName": "Elbastawessy",
         "country": "Egypt",
@@ -4532,7 +4532,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sepideh",
         "lastName": "Sahebdel",
         "country": "Iran",
@@ -4555,7 +4555,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shweta",
         "lastName": "sharma",
         "country": "India",
@@ -4576,7 +4576,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Giants",
         "lastName": "by Mojtaba",
         "country": "Iran",
@@ -4598,7 +4598,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Key",
         "lastName": "Run",
         "country": "India",
@@ -4619,7 +4619,7 @@
         "ai": "Unminted Mixed media artwork with base images and conceptualization created using AI and final output with help of Canva and PhotoShop for merging, color-grading and layers"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ayomide",
         "lastName": "Ogechi",
         "country": "Nigeria",
@@ -4640,7 +4640,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Niloufar",
         "lastName": "Kiarostami",
         "country": "Iran",
@@ -4661,7 +4661,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "mahnaz",
         "lastName": "sad",
         "country": "Iran",
@@ -4682,7 +4682,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Masis",
         "lastName": "Usenmez",
         "country": "Turkey",
@@ -4705,7 +4705,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ajay",
         "lastName": "Shetty",
         "country": "India",
@@ -4726,7 +4726,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kamlesh",
         "lastName": "D",
         "country": "India",
@@ -4747,7 +4747,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Daniel",
         "lastName": "Sasse",
         "country": "Germany",
@@ -4768,7 +4768,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Bharat",
         "lastName": "Lakhnotra",
         "country": "India",
@@ -4789,7 +4789,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kirit ",
         "lastName": "Prajapati ",
         "country": "United States",
@@ -4810,7 +4810,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Julia",
         "lastName": "Dubovtseva",
         "country": "Russia",
@@ -4833,7 +4833,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kafeel",
         "lastName": "Gillani",
         "country": "India",
@@ -4856,7 +4856,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dasath",
         "lastName": "Nft",
         "country": "India",
@@ -4877,7 +4877,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Darren",
         "lastName": "Gill",
         "country": "United Kingdom",
@@ -4900,7 +4900,7 @@
         "ai": "To enhance."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Alexey",
         "lastName": "Sayko",
         "country": "Ukraine",
@@ -4923,7 +4923,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "pantea",
         "lastName": "khosravi",
         "country": "Iran",
@@ -4944,7 +4944,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rengarajan",
         "lastName": "G",
         "country": "India",
@@ -4965,7 +4965,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Daniel and Emma",
         "lastName": "Vyskoc",
         "country": "Slovakia",
@@ -4986,7 +4986,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Giovani",
         "lastName": "Cordioli",
         "country": "Brazil",
@@ -5007,7 +5007,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ramon",
         "lastName": "Gazhang",
         "country": "United Kingdom",
@@ -5029,7 +5029,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Farzaneh",
         "lastName": "Ahdi",
         "country": "Iran",
@@ -5050,7 +5050,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Igor",
         "lastName": "Reno",
         "country": "France",
@@ -5073,7 +5073,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Saba",
         "lastName": "Fotouhi",
         "country": "Iran",
@@ -5094,7 +5094,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Satish",
         "lastName": "Acharya",
         "country": "India",
@@ -5115,7 +5115,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mayank",
         "lastName": "Tiwari",
         "country": "India",
@@ -5136,7 +5136,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sepideh",
         "lastName": "rafiee",
         "country": "Iran",
@@ -5157,7 +5157,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Akash Pratap",
         "lastName": "Singh",
         "country": "India",
@@ -5180,7 +5180,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Amir",
         "lastName": "Falaki Moghadam",
         "country": "Iran",
@@ -5201,7 +5201,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Yonathan",
         "lastName": "Villegas",
         "country": "Venezuela",
@@ -5224,7 +5224,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Milad",
         "lastName": "Saemi",
         "country": "Iran",
@@ -5245,7 +5245,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Victor",
         "lastName": "Ribeiro",
         "country": "Brazil",
@@ -5267,7 +5267,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Reza",
         "lastName": "Zeidani",
         "country": "Iran",
@@ -5288,7 +5288,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Nihan",
         "lastName": "Ghasemi",
         "country": "Iran",
@@ -5310,7 +5310,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Francis ",
         "lastName": "Beloved",
         "country": "Nigeria",
@@ -5332,7 +5332,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Oluwanifemi",
         "lastName": "Abiodun",
         "country": "Nigeria",
@@ -5353,7 +5353,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sihaan",
         "lastName": "Dixit",
         "country": "Iran",
@@ -5374,7 +5374,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Hader",
         "lastName": "Jaeger",
         "country": "United States",
@@ -5396,7 +5396,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Federico",
         "lastName": "Bianchi",
         "country": "Argentina",
@@ -5417,7 +5417,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Alexis",
         "lastName": "Hartwell",
         "country": "United States",
@@ -5440,7 +5440,7 @@
         "ai": "Photoshop, Procreate. Various tools and functions of each program utilize AI. The Healing brush was used on the base photo extensively. Painting done in Procreate is enhanced by AI."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Maria",
         "lastName": "Voskanyan W3W Space",
         "country": "Georgia",
@@ -5462,7 +5462,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "",
         "lastName": "",
         "country": "",
@@ -5481,7 +5481,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "kooshna",
         "lastName": "shah",
         "country": "Iran",
@@ -5503,7 +5503,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Horacio ",
         "lastName": "Alanís",
         "country": "Argentina",
@@ -5526,7 +5526,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "MahsaAli",
         "lastName": "MahsaAli_art",
         "country": "Iran",
@@ -5547,7 +5547,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pranay",
         "lastName": "Bhatnagar",
         "country": "India",
@@ -5569,7 +5569,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Akshay",
         "lastName": "Upadhya",
         "country": "India",
@@ -5592,7 +5592,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kris",
         "lastName": "Nik",
         "country": "Switzerland",
@@ -5613,7 +5613,7 @@
         "ai": "Used AI that has been derived from my previous creations (fine-tuned SD custom model) and it has some common traits with my usual style and characters (especially Majestic Dolls on tezos) ."
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Radhika",
         "lastName": "Lal",
         "country": "India",
@@ -5636,7 +5636,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Yeganeh",
         "lastName": "Farahani",
         "country": "Iran",
@@ -5659,7 +5659,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Manvendra",
         "lastName": "Powar",
         "country": "India",
@@ -5680,7 +5680,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mark",
         "lastName": "Marroc",
         "country": "United States",
@@ -5701,7 +5701,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Gabriela",
         "lastName": "Ghillanyova",
         "country": "Slovakia",
@@ -5722,7 +5722,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Blacc",
         "lastName": "Inferno",
         "country": "Nigeria",
@@ -5743,7 +5743,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kristen",
         "lastName": "Valent",
         "country": "United States",
@@ -5764,7 +5764,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Juhi",
         "lastName": "Agrawal",
         "country": "India",
@@ -5785,7 +5785,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Gyspy",
         "lastName": "Mermaid",
         "country": "United States",
@@ -5806,7 +5806,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Blossom",
         "lastName": "Itua",
         "country": "Nigeria",
@@ -5827,7 +5827,7 @@
         "ai": "I CREATED THE IMAGE WITH AI AND RAN IT THROUGH PHOTOSHOP AND PICSART"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "NK",
         "lastName": "Randhawa",
         "country": "India",
@@ -5848,7 +5848,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ari",
         "lastName": "Bagus",
         "country": "Indonesia",
@@ -5871,7 +5871,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Babatunde",
         "lastName": "Omotehinse",
         "country": "Nigeria",
@@ -5893,7 +5893,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Solape",
         "lastName": "Oladeji",
         "country": "Nigeria",
@@ -5914,7 +5914,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Christian",
         "lastName": "Redermayer",
         "country": "Canada",
@@ -5935,7 +5935,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Oyinlola ",
         "lastName": "Odumewu ",
         "country": "Nigeria",
@@ -5956,7 +5956,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rouhy",
         "lastName": "Issa",
         "country": "United States",
@@ -5979,7 +5979,7 @@
         "ai": "Photoshop layering, Sketchbook paint, AI enhanced"
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rajaa",
         "lastName": "Mushref",
         "country": "Syria",
@@ -6000,7 +6000,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sahar ",
         "lastName": "Dolatyari",
         "country": "United States",
@@ -6023,7 +6023,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Elina",
         "lastName": "Imre",
         "country": "Ukraine",
@@ -6045,7 +6045,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Akolawole",
         "lastName": "Ezekiel",
         "country": "Nigeria",
@@ -6067,7 +6067,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Mojtaba",
         "lastName": "Mohammadzadeh",
         "country": "Iran",
@@ -6088,7 +6088,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Lida",
         "lastName": "Demehri",
         "country": "United States",
@@ -6109,7 +6109,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Setayesh",
         "lastName": "Azadidana",
         "country": "Iran",
@@ -6131,7 +6131,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Ravi",
         "lastName": "Koranga",
         "country": "India",
@@ -6152,7 +6152,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Lauren",
         "lastName": "Lozita",
         "country": "Australia",
@@ -6173,7 +6173,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Rune ",
         "lastName": "Rasmussen",
         "country": "Denmark",
@@ -6196,7 +6196,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Venus",
         "lastName": "Aghabozorg",
         "country": "Iran",
@@ -6217,7 +6217,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Wilmer",
         "lastName": "Utria Vinent",
         "country": "Cuba",
@@ -6240,7 +6240,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Pamela",
         "lastName": "Franco",
         "country": "Peru",
@@ -6261,7 +6261,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Maryam",
         "lastName": "Rashghi",
         "country": "Iran",
@@ -6282,7 +6282,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "homan",
         "lastName": "heidari",
         "country": "Iran",
@@ -6303,7 +6303,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Amaranta",
         "lastName": "Martinez",
         "country": "United States",
@@ -6324,7 +6324,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Shiba",
         "lastName": "Sha",
         "country": "Iran",
@@ -6345,7 +6345,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Sammya Brata",
         "lastName": "Mullick",
         "country": "India",
@@ -6366,7 +6366,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Meghna ",
         "lastName": "Sharma",
         "country": "India",
@@ -6389,7 +6389,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Kartik",
         "lastName": "Sharma",
         "country": "India",
@@ -6411,7 +6411,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Monika",
         "lastName": "NFT",
         "country": "Germany",
@@ -6434,7 +6434,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Akshay",
         "lastName": "Upadhya",
         "country": "India",
@@ -6456,7 +6456,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Abtin",
         "lastName": "KH",
         "country": "Iran",
@@ -6477,7 +6477,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Dimitri",
         "lastName": "Bello",
         "country": "Nigeria",
@@ -6498,7 +6498,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Alexandru ",
         "lastName": "Iavorschi",
         "country": "Romania",
@@ -6519,7 +6519,7 @@
         "ai": ""
     },
     {
-        "source": "foundry-g1",
+        "project": "foundry-g1",
         "firstName": "Soroor",
         "lastName": "Art",
         "country": "Germany",
