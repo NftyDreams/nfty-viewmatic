@@ -1,4 +1,5 @@
 const MAX_DURATION = 15000;
+const VIDEO_PRELOAD_DELAY = 5000;
 const UHD_WIDTH = 3840;
 const UHD_HEIGHT = 2160;
 const GUTTER = 600;
@@ -162,7 +163,7 @@ function showNextElement() {
 
   timeout = window.setTimeout(function () {
     updateCounter();
-  }, Math.min(queue[counter], MAX_DURATION));
+  }, Math.min(queue[counter]+VIDEO_PRELOAD_DELAY, MAX_DURATION+VIDEO_PRELOAD_DELAY));
 
   const wrapper = document.getElementById(`wrapper-${counter}`);
   wrapper.style.display = 'block';
