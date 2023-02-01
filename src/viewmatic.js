@@ -1,4 +1,5 @@
 const path = require('path');
+const globals = require('./globals');
 const { AssetGen } = require('./assetgen');
 /**
  * Generates all images for an exhibition
@@ -15,7 +16,7 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
         let artfile = artfiles[a];
         let options = {
             path: artfile.path,
-            outputPath: artfile.path.replace('data', 'docs'),
+            outputPath: artfile.path.replace(globals.INPUT_FOLDER, globals.OUTPUT_FOLDER),
             name: artfile.name,
             logoUrl,
             tmpDir
@@ -29,13 +30,13 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
             const flag = flags.find(e => e.name === artwork.country);
             options.flag = (flag ? flag.image : '');
             options.country = artwork.country;
-            options.source = artwork.source;
+            options.project = artwork.project;
             options.account = artwork.account;
             options.description = artwork.description;
             options.landscape = options.path.indexOf('L-') > -1 ? true : false;
 
             // if (options.landscape === true) {
-            //     if (lDone > 3) continue;
+            //     if (lDone > 25) continue;
             //     lDone++;
             // }
 
@@ -47,19 +48,27 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
             const pathFrags = artfile.path.split('-');
             const level = pathFrags[pathFrags.length - 2];
 
-            const artInfo = {
-                id: options.source + '-' + options.account,
-                title: options.title,
-                artist: options.artist,
-                flag: options.flag,
-                country: options.country,
-                source: options.source,
-                account: options.account,
-                description: options.description,
-                landscape: options.landscape,
-                mediaUrl: options.name.indexOf('.mp4') < 0 ? await AssetGen.renderImage(options) : await AssetGen.renderVideo(options),
-                level: level
+            const artInfo = artwork;
+            delete artInfo.orientation;
+            delete artInfo.media;
+            delete artInfo.mediaUrl;
+            artInfo.id = options.project + '-' + options.account;
+            artInfo.artist = options.artist;
+            artInfo.flag = options.flag;
+
+            let mediaInfo = {};
+            if (options.name.indexOf('.mp4') > -1) {
+                mediaInfo = await AssetGen.renderVideo(options);
+            } else {
+                mediaInfo = await AssetGen.renderImage(options);
             }
+            artInfo.isLandscape = options.landscape;
+            artInfo.isVideo = mediaInfo.isVideo;
+            artInfo.displayUrl = mediaInfo.displayUrl;
+            artInfo.originalUrl = mediaInfo.originalUrl;
+            artInfo.duration = mediaInfo.duration;
+            artInfo.level = level;
+            
             exhibits.push(artInfo);
 
         }

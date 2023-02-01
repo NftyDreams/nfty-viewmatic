@@ -1,15 +1,12 @@
 const path = require('path');
 const fse = require('fs-extra');
+const fs = require("fs").promises;
+const globals = require('./globals');
 const sharp = require('sharp');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const QRCode = require('qrcode');
 
-const UHD_WIDTH = 3840;
-const UHD_HEIGHT = 2160;
 
-const GUTTER = 600;
-const MARGIN = 80;
-const WEB_URL = 'https://gallery.nftydreams.com';
 
 class AssetGen {
 
@@ -18,56 +15,67 @@ class AssetGen {
     }
 
 
-    static async _drawImage(options) {
+    static async _drawImage(options, isVideo) {
 
         let src = path.join(options.path, options.name);
 
 
         try {
             let overlays = [];
-            //modulateInfo.hue = sortedLayers[s].hue;
-
-            const metadata = await sharp(src).metadata();
             const isLandscape = options.landscape;
+            let metadata = !isVideo ? 
+                                await sharp(src).metadata() 
+                                : 
+                                { 
+                                    width: isLandscape ? globals.UHD_WIDTH : globals.UHD_HEIGHT,
+                                    height: isLandscape ? globals.UHD_HEIGHT : globals.UHD_WIDTH
+                                };
+
 
             let itemWidth;
             let itemHeight;
 
             // Scale if necessary
+            let scale = 1.0;
             if (isLandscape) {
-                itemWidth = UHD_WIDTH - GUTTER - (MARGIN * 3);
-                itemHeight = (itemWidth / metadata.width) * metadata.height;
+                itemWidth = globals.UHD_WIDTH - globals.GUTTER - (globals.MARGIN * 3);
+                scale = itemWidth / metadata.width;
+                itemHeight = scale * metadata.height;
             } else {
-                itemHeight = UHD_WIDTH - GUTTER - (MARGIN * 3);
-                itemWidth = (itemHeight / metadata.height) * metadata.width;
+                itemHeight = globals.UHD_WIDTH - globals.GUTTER - (globals.MARGIN * 3);
+                scale = itemHeight / metadata.height;
+                itemWidth = scale * metadata.width;
             }
 
-            let topOffset = isLandscape ? MARGIN : metadata.height + (MARGIN * 2);
-            let leftOffset = isLandscape ? metadata.width + (MARGIN * 2) : MARGIN;
+            let topOffset = isLandscape ? globals.MARGIN : (metadata.height * scale) + (globals.MARGIN * 2);
+            let leftOffset = isLandscape ? (metadata.width * scale) + (globals.MARGIN * 2) : globals.MARGIN;
 
             // Main Image
-            overlays.push({
-                input: src,
-                top: MARGIN,
-                left: MARGIN 
-            });
+
+            if (!isVideo) {
+                overlays.push({
+                    input: src,
+                    top: globals.MARGIN,
+                    left: globals.MARGIN 
+                });    
+            } 
 
             overlays.push({
                 input: options.logoUrl,
                 top: topOffset,
-                left: isLandscape ? leftOffset + (GUTTER - 300)/2 : MARGIN,
+                left: isLandscape ? leftOffset + (globals.GUTTER - 300)/2 : globals.MARGIN,
                 height: 300 
             });
 
-            topOffset = isLandscape ? topOffset + 300 + MARGIN : topOffset;
-            leftOffset = isLandscape ? leftOffset : leftOffset + 300 + MARGIN;
+            topOffset = isLandscape ? topOffset + 300 + globals.MARGIN : topOffset;
+            leftOffset = isLandscape ? leftOffset : leftOffset + 300 + globals.MARGIN;
 
             // Title
             overlays.push({
                 input: await sharp({
                                     text: {
                                             text: options.title,
-                                            width: isLandscape ? GUTTER : UHD_HEIGHT * .5, // max width
+                                            width: isLandscape ? globals.GUTTER : globals.UHD_HEIGHT * .5, // max width
                                             height: 120 // max height
                                     }
                             })
@@ -78,12 +86,12 @@ class AssetGen {
             });
 
             // Artist Name
-            topOffset += MARGIN + 120;
+            topOffset += globals.MARGIN + 120;
             overlays.push({
                 input: await sharp({
                                     text: {
                                             text: options.artist,
-                                            width: isLandscape ? GUTTER : UHD_HEIGHT * .5, // max width
+                                            width: isLandscape ? globals.GUTTER : globals.UHD_HEIGHT * .5, // max width
                                             height: 60 // max height
                                     }
                             })
@@ -99,7 +107,7 @@ class AssetGen {
                 input: await sharp({
                                     text: {
                                             text: options.country,
-                                            width: isLandscape ? GUTTER - 60 : (UHD_HEIGHT * .5) - 60, // max width
+                                            width: isLandscape ? globals.GUTTER - 60 : (globals.UHD_HEIGHT * .5) - 60, // max width
                                             height: 40
                                     }
                             })
@@ -120,12 +128,12 @@ class AssetGen {
                 });    
             }
 
-            topOffset += 40 + MARGIN;
+            topOffset += 40 + globals.MARGIN;
             overlays.push({
                 input: await sharp({
                                     text: {
                                             text: options.description,
-                                            width: isLandscape ? GUTTER - 60 : (UHD_HEIGHT * .5) - 60, // max width
+                                            width: isLandscape ? globals.GUTTER - 60 : (globals.UHD_HEIGHT * .5) - 60, // max width
                                             height: 200
                                     }
                             })
@@ -136,18 +144,18 @@ class AssetGen {
             });
 
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            await QRCode.toFile(qrCodeFile, WEB_URL + '?id=' + options.source + '-' + options.account, {width: GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
+            await QRCode.toFile(qrCodeFile, globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
                 input: qrCodeFile,
-                top: isLandscape ? UHD_HEIGHT - GUTTER * .6 - MARGIN : UHD_WIDTH - GUTTER * .6 - MARGIN,
-                left: isLandscape ? leftOffset + (GUTTER - GUTTER *.6)/2 : UHD_HEIGHT - GUTTER * .6 - MARGIN,
-                height: GUTTER * .6
+                top: isLandscape ? globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN : globals.UHD_WIDTH - globals.GUTTER * .6 - globals.MARGIN,
+                left: isLandscape ? leftOffset + (globals.GUTTER - globals.GUTTER *.6)/2 : globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN,
+                height: globals.GUTTER * .6
             });
 
             return await sharp({
                     create: {
-                        width: isLandscape ? UHD_WIDTH: UHD_HEIGHT,
-                        height: isLandscape ? UHD_HEIGHT: UHD_WIDTH,
+                        width: isLandscape ? globals.UHD_WIDTH: globals.UHD_HEIGHT,
+                        height: isLandscape ? globals.UHD_HEIGHT: globals.UHD_WIDTH,
                         channels: 4,
                         background: '#000000'
                     }
@@ -174,10 +182,37 @@ class AssetGen {
             if (!fse.existsSync(options.outputPath)) {
                 fse.mkdirSync(options.outputPath);
             }
-            const outfile = path.join(options.outputPath, options.name.split(' ')[0] + '.mp4');
 
-            fse.copyFileSync(path.join(options.path, options.name), outfile);            
-            return WEB_URL + outfile.split('docs')[1];
+            const originalPath = path.join(options.outputPath, globals.ORIGINAL_FOLDER);
+            if (!fse.existsSync(originalPath)) {
+                fse.mkdirSync(originalPath);
+            }
+
+            const inFile = path.join(options.path, options.name);
+            const originalFile = path.join(originalPath, options.name.split(' ')[0] + '.mp4');
+
+            const buff = Buffer.alloc(100);
+            const header = Buffer.from("mvhd"); // Read header from video file
+
+            const video = await fs.open(inFile, 'r');
+            const { buffer } = await video.read(buff, 0, 100, 0);
+            await video.close();
+        
+            const start = buffer.indexOf(header) + 17;
+            const timeScale = buffer.readUInt32BE(start, 4);
+            const duration = buffer.readUInt32BE(start + 4);
+            const durationInMilliseconds = Math.floor(duration/timeScale * 1000);
+
+            fse.copyFileSync(inFile, originalFile);  
+            
+
+            const outFile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
+            const imgBuffer = await AssetGen._drawImage(options, true);
+            sharp(imgBuffer)
+                .toFile(outFile);
+
+
+            return {displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: true, duration: durationInMilliseconds };
 
         } else {
             throw 'Invalid options';
@@ -194,17 +229,26 @@ class AssetGen {
             AssetGen._log(2, JSON.stringify(options, null, 4));
             AssetGen._log(1, '');
 
-            const buffer = await AssetGen._drawImage(options);
-
             if (!fse.existsSync(options.outputPath)) {
-                fse.mkdirSync(options.outputPath, { recursive: true });
+                fse.mkdirSync(options.outputPath);
             }
-            const outfile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
 
-            sharp(buffer)
-                .toFile(outfile);
+            const originalPath = path.join(options.outputPath, globals.ORIGINAL_FOLDER);
+            if (!fse.existsSync(originalPath)) {
+                fse.mkdirSync(originalPath);
+            }
+            const inFile = path.join(options.path, options.name);
+            const originalFile = path.join(originalPath, options.name.split(' ')[0] + '.png');
+            fse.copyFileSync(inFile, originalFile);  
 
-            return WEB_URL + outfile.split('docs')[1];
+
+            const outFile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
+            const imgBuffer = await AssetGen._drawImage(options, false);
+            sharp(imgBuffer)
+                .toFile(outFile);
+
+
+            return { displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: false, duration: 0};
 
         } else {
             throw 'Invalid options';
