@@ -54,7 +54,7 @@ if (playlist) {
       // For the playlist, build a list of media items and/or URLs
 
       let media = [];
-      const hostUrl = location.href.split('/gallery.html')[0];
+      const hostUrl = location.href.split('/play.html')[0];
       projects.forEach((project) => {
         project.sets.forEach((set) => {
           if (set.startsWith('http')) {
