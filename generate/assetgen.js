@@ -146,7 +146,8 @@ class AssetGen {
             }
 
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            await QRCode.toFile(qrCodeFile, globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
+            await QRCode.toFile(qrCodeFile, "https://winweb3.io/how-to-donate/", {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
+//            await QRCode.toFile(qrCodeFile, globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
                 input: qrCodeFile,
                 top: isLandscape ? globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN : globals.UHD_WIDTH - globals.GUTTER * .6 - globals.MARGIN,
