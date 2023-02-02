@@ -4,9 +4,6 @@ const { resolve } = require('path');
 const postmark = require('postmark');
 require('dotenv').config({ path: './.env' });
 
-// Ensure environment variables are set.
-checkEnv();
-
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2020-08-27'
 });
@@ -176,8 +173,5 @@ app.post('/webhook', async (req, res) => {
 });
 */
 
-app.listen(4242, () => console.log(`Node server listening on port ${4242}!`));
+app.listen(3000, () => console.log(`Node server listening on port ${3000}!`));
 
-
-function checkEnv() {
-}
