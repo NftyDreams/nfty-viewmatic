@@ -1,6 +1,37 @@
 [
   {
     "project": "foundry-g1",
+    "firstName": "Aiira",
+    "lastName": "Mérida",
+    "country": "Mexico",
+    "twitter": "@aiiramerida",
+    "profileUrl": "https://linktr.ee/aiiramerida",
+    "title": "Daedal Dreaming",
+    "description": "Inspired on the NFTY Dreams logo, this artwork represents the ability we all have to develop any skill required to manifest our own dreams.",
+    "account": "0xD18239ad6097a50BDd48066f4f59B62cA6479248",
+    "license": "",
+    "prices": [
+      "A",
+      "B"
+    ],
+    "filename": "0xD18239ad6097a50BDd48066f4f59B62cA6479248.mp4",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0xD18239ad6097a50BDd48066f4f59B62cA6479248",
+    "artist": "Aiira Mérida",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0xD18239ad6097a50BDd48066f4f59B62cA6479248.png",
+    "originalUrl": "/foundry-g1/original/0xD18239ad6097a50BDd48066f4f59B62cA6479248.mp4",
+    "duration": 12032,
+    "tags": [
+      "P-A-Video"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
     "firstName": "Ajay",
     "lastName": "Shetty",
     "country": "India",
@@ -21,9 +52,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x920a34b1c04190a4e5a4fdf8a1139cc542e813e6.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x920a34b1c04190a4e5a4fdf8a1139cc542e813e6.png",
+    "displayUrl": "/foundry-g1/0x920a34b1c04190a4e5a4fdf8a1139cc542e813e6.png",
+    "originalUrl": "/foundry-g1/original/0x920a34b1c04190a4e5a4fdf8a1139cc542e813e6.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -48,9 +82,44 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0xC7E0bA02F839cA42F7318b47718fCf4d69a6A977.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0xC7E0bA02F839cA42F7318b47718fCf4d69a6A977.png",
+    "displayUrl": "/foundry-g1/0xC7E0bA02F839cA42F7318b47718fCf4d69a6A977.png",
+    "originalUrl": "/foundry-g1/original/0xC7E0bA02F839cA42F7318b47718fCf4d69a6A977.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Arjan",
+    "lastName": "Tupan",
+    "country": "Netherlands",
+    "twitter": "@arjantupan",
+    "profileUrl": "arjantupan.bio.link",
+    "title": "Metaverse Standard Time",
+    "description": "The inhabitants of the metaverse start the day with a ritual greeting: GM. As the metaverse is time-agnostic, you'll see GMs at any time.",
+    "account": "0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357",
+    "license": "",
+    "prices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "filename": "0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357.mp4",
+    "aiUsage": "",
+    "ai": "I used AI (NightCafe Studio - Stable Diffusion) to create the background image. It is inspired by station clocks of the 19th century. ",
+    "id": "foundry-g1/0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357",
+    "artist": "Arjan Tupan",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NL.svg",
+    "isLandscape": true,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357.png",
+    "originalUrl": "/foundry-g1/original/0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357.mp4",
+    "duration": 15105,
+    "tags": [
+      "L-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -75,9 +144,72 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0x112F5F98C5E4d47ed1d146292E25cd4AEE60FDCd.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0x112F5F98C5E4d47ed1d146292E25cd4AEE60FDCd.png",
+    "displayUrl": "/foundry-g1/0x112F5F98C5E4d47ed1d146292E25cd4AEE60FDCd.png",
+    "originalUrl": "/foundry-g1/original/0x112F5F98C5E4d47ed1d146292E25cd4AEE60FDCd.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Dasath",
+    "lastName": "Nft",
+    "country": "India",
+    "twitter": "@dasathnft",
+    "profileUrl": "https://opensea.io/miyandal",
+    "title": "Neon Light",
+    "description": "A neon lights that are hand-drawn and animated digitally. Transitions is to create a visually striking and visually pleasing experience.",
+    "account": "0x065bBa09c6Cf5136f0115161718D069b1733f636",
+    "license": "",
+    "prices": [
+      "B"
+    ],
+    "filename": "0x065bBa09c6Cf5136f0115161718D069b1733f636",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x065bBa09c6Cf5136f0115161718D069b1733f636",
+    "artist": "Dasath Nft",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    "isLandscape": true,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x065bBa09c6Cf5136f0115161718D069b1733f636.png",
+    "originalUrl": "/foundry-g1/original/0x065bBa09c6Cf5136f0115161718D069b1733f636.mp4",
+    "duration": 999,
+    "tags": [
+      "L-A-Video"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Elena",
+    "lastName": "Tagliapietra",
+    "country": "Italy",
+    "twitter": "@EleTaglia ",
+    "profileUrl": "https://drive.google.com/drive/folders/1lhimhciKFtEUDeRxbtYMuuerv1BUjwZh?usp=sharing",
+    "title": "Blue Soul",
+    "description": "Blue Soul' is a reinterpretation of the 'Blue Nudes' by Matisse. Uv-paint, photography and an animated editing transform a real body .",
+    "account": "0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d",
+    "license": "",
+    "prices": [
+      "A"
+    ],
+    "filename": "0x473780deaf4a2ac070bbba936b0cdefe7f267dfb",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d",
+    "artist": "Elena Tagliapietra",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IT.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d.png",
+    "originalUrl": "/foundry-g1/original/0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d.mp4",
+    "duration": 10112,
+    "tags": [
+      "P-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -102,9 +234,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0x6826Ba168776251688D4E3a6C4AC430CF4F185A8.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0x6826Ba168776251688D4E3a6C4AC430CF4F185A8.png",
+    "displayUrl": "/foundry-g1/0x6826Ba168776251688D4E3a6C4AC430CF4F185A8.png",
+    "originalUrl": "/foundry-g1/original/0x6826Ba168776251688D4E3a6C4AC430CF4F185A8.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
     "level": "A"
   },
   {
@@ -131,9 +266,104 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0xDd198Ac76e1A900888F262e40e561f0CF3856250.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0xDd198Ac76e1A900888F262e40e561f0CF3856250.png",
+    "displayUrl": "/foundry-g1/0xDd198Ac76e1A900888F262e40e561f0CF3856250.png",
+    "originalUrl": "/foundry-g1/original/0xDd198Ac76e1A900888F262e40e561f0CF3856250.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Giants",
+    "lastName": "by Mojtaba",
+    "country": "Iran",
+    "twitter": "@abbasksani01",
+    "profileUrl": "https://www.twitter.com/abbasksani01",
+    "title": "The Thief of Colors",
+    "description": "The Thief of Colors is an NFT Edition that about world of giants that live without any colors and colors hold by royal family. ",
+    "account": "0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0",
+    "license": "",
+    "prices": [
+      "A",
+      "B"
+    ],
+    "filename": "0x473780deaf4a2ac070bbba936b0cdefe7f267dfb.mp4",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0",
+    "artist": "Giants by Mojtaba",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0.png",
+    "originalUrl": "/foundry-g1/original/0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0.mp4",
+    "duration": 15232,
+    "tags": [
+      "P-A-Video"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Hariprasad",
+    "lastName": "CM",
+    "country": "India",
+    "twitter": "@hariology",
+    "profileUrl": "https://linktr.ee/hariology ",
+    "title": "Swami Vivekananda",
+    "description": "A dream cannot be without a reality, and that reality is that one Infinite Existence. - Swami Vivekananda! Made using 600 Rubik's Cubes!",
+    "account": "0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83",
+    "license": "",
+    "prices": [
+      "A",
+      "B"
+    ],
+    "filename": "0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83.mp4",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83",
+    "artist": "Hariprasad CM",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83.png",
+    "originalUrl": "/foundry-g1/original/0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83.mp4",
+    "duration": 13354,
+    "tags": [
+      "P-A-Video"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Juan",
+    "lastName": "R Mon",
+    "country": "Nicaragua",
+    "twitter": "@Juan_R_Mon",
+    "profileUrl": "https://lynkfire.com/JuanRMon",
+    "title": "Bee-da",
+    "description": "Bee-da(life) is a tribute to the great importance of those tiny beings that help our existence and the creation of life on this planet.",
+    "account": "0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c",
+    "license": "",
+    "prices": [
+      "A"
+    ],
+    "filename": "0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c.mp4",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c",
+    "artist": "Juan R Mon",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg",
+    "isLandscape": true,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c.png",
+    "originalUrl": "/foundry-g1/original/0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c.mp4",
+    "duration": 15040,
+    "tags": [
+      "L-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -159,9 +389,43 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x2124e7D9e540e96E826C7DE4609Ca6CcC3346fEB.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x2124e7D9e540e96E826C7DE4609Ca6CcC3346fEB.png",
+    "displayUrl": "/foundry-g1/0x2124e7D9e540e96E826C7DE4609Ca6CcC3346fEB.png",
+    "originalUrl": "/foundry-g1/original/0x2124e7D9e540e96E826C7DE4609Ca6CcC3346fEB.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Maria",
+    "lastName": "Voskanyan W3W Space",
+    "country": "Georgia",
+    "twitter": "@web3women_space",
+    "profileUrl": "https://instagram.com/web3women.space",
+    "title": "Absorbed",
+    "description": "\"Absorbed\" is an NFT that explores the theme of consumption. It invites the viewer to consider the ways in which we consume information.",
+    "account": "0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8",
+    "license": "",
+    "prices": [
+      "A",
+      "B"
+    ],
+    "filename": "0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8",
+    "artist": "Maria Voskanyan W3W Space",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8.png",
+    "originalUrl": "/foundry-g1/original/0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8.mp4",
+    "duration": 8600,
+    "tags": [
+      "P-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -186,9 +450,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0x0A6A8853b787492a5f37e435e9922ED44bF48437.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0x0A6A8853b787492a5f37e435e9922ED44bF48437.png",
+    "displayUrl": "/foundry-g1/0x0A6A8853b787492a5f37e435e9922ED44bF48437.png",
+    "originalUrl": "/foundry-g1/original/0x0A6A8853b787492a5f37e435e9922ED44bF48437.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
     "level": "A"
   },
   {
@@ -213,9 +480,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x26d8b2ff9cd742cd57ac3a14b71f5db9d75b5b28.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x26d8b2ff9cd742cd57ac3a14b71f5db9d75b5b28.png",
+    "displayUrl": "/foundry-g1/0x26d8b2ff9cd742cd57ac3a14b71f5db9d75b5b28.png",
+    "originalUrl": "/foundry-g1/original/0x26d8b2ff9cd742cd57ac3a14b71f5db9d75b5b28.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -240,9 +510,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0xc3Ff5Af66818A1843cdCf1C64BC5FFb7cf2902b9.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0xc3Ff5Af66818A1843cdCf1C64BC5FFb7cf2902b9.png",
+    "displayUrl": "/foundry-g1/0xc3Ff5Af66818A1843cdCf1C64BC5FFb7cf2902b9.png",
+    "originalUrl": "/foundry-g1/original/0xc3Ff5Af66818A1843cdCf1C64BC5FFb7cf2902b9.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
     "level": "A"
   },
   {
@@ -267,9 +540,42 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0x81F39F8ad565cA3D7F8e620CCFC8060282E357c4.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0x81F39F8ad565cA3D7F8e620CCFC8060282E357c4.png",
+    "displayUrl": "/foundry-g1/0x81F39F8ad565cA3D7F8e620CCFC8060282E357c4.png",
+    "originalUrl": "/foundry-g1/original/0x81F39F8ad565cA3D7F8e620CCFC8060282E357c4.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Rengarajan",
+    "lastName": "G",
+    "country": "India",
+    "twitter": "@grrajan",
+    "profileUrl": "https://linktr.ee/grrajan",
+    "title": "Color Smoke",
+    "description": "Experience the beauty of color in motion, as smoke transforms before your eyes ",
+    "account": "0xbffd0719047636e3f6b643d93c1fcdaefe99ff28",
+    "license": "",
+    "prices": [
+      "A"
+    ],
+    "filename": "0xbffd0719047636e3f6b643d93c1fcdaefe99ff28",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0xbffd0719047636e3f6b643d93c1fcdaefe99ff28",
+    "artist": "Rengarajan G",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0xbffd0719047636e3f6b643d93c1fcdaefe99ff28.png",
+    "originalUrl": "/foundry-g1/original/0xbffd0719047636e3f6b643d93c1fcdaefe99ff28.mp4",
+    "duration": 963,
+    "tags": [
+      "P-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -294,9 +600,42 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x8b323A1835a168d242BF2d9dC84fe5009C3CB938.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x8b323A1835a168d242BF2d9dC84fe5009C3CB938.png",
+    "displayUrl": "/foundry-g1/0x8b323A1835a168d242BF2d9dC84fe5009C3CB938.png",
+    "originalUrl": "/foundry-g1/original/0x8b323A1835a168d242BF2d9dC84fe5009C3CB938.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Sahil ",
+    "lastName": "Phogat",
+    "country": "India",
+    "twitter": "@psdpixology",
+    "profileUrl": "https://linktr.ee/psdpixology",
+    "title": "Letting Go",
+    "description": "There's a time to hold on, and a time to let go; and the wise one knows the difference.",
+    "account": "0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68",
+    "license": "No Derivatives or Commercial Redistribution of the work without prior, written consent of the Artist.",
+    "prices": [
+      "A"
+    ],
+    "filename": "0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68.mp4",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68",
+    "artist": "Sahil  Phogat",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68.png",
+    "originalUrl": "/foundry-g1/original/0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68.mp4",
+    "duration": 10000,
+    "tags": [
+      "P-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -321,9 +660,42 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0x7813879191949A8f59d99D1FfA953E9CC865402B.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0x7813879191949A8f59d99D1FfA953E9CC865402B.png",
+    "displayUrl": "/foundry-g1/0x7813879191949A8f59d99D1FfA953E9CC865402B.png",
+    "originalUrl": "/foundry-g1/original/0x7813879191949A8f59d99D1FfA953E9CC865402B.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
+    "level": "A"
+  },
+  {
+    "project": "foundry-g1",
+    "firstName": "Satadall ",
+    "lastName": "Dey",
+    "country": "India",
+    "twitter": "@DeySatadall",
+    "profileUrl": "https://foundation.app/@sdartstudio",
+    "title": "Astronauts Empowering Ethereum",
+    "description": "Astronauts from different planets has united together to empower the ethereum. Astronauts are using all there power to rise ethereum again.",
+    "account": "0xD603200D35657E681e85b0a55F10D8eF875fC231",
+    "license": "",
+    "prices": [
+      "B"
+    ],
+    "filename": "0xD603200D35657E681e85b0a55F10D8eF875fC231.mp4",
+    "aiUsage": "",
+    "ai": "",
+    "id": "foundry-g1/0xD603200D35657E681e85b0a55F10D8eF875fC231",
+    "artist": "Satadall  Dey",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    "isLandscape": false,
+    "isVideo": true,
+    "displayUrl": "/foundry-g1/0xD603200D35657E681e85b0a55F10D8eF875fC231.png",
+    "originalUrl": "/foundry-g1/original/0xD603200D35657E681e85b0a55F10D8eF875fC231.mp4",
+    "duration": 15082,
+    "tags": [
+      "P-A-Video"
+    ],
     "level": "A"
   },
   {
@@ -348,9 +720,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x2B4edBfa4cdE362545DF0DDFBc2574F4C0ec1a85.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x2B4edBfa4cdE362545DF0DDFBc2574F4C0ec1a85.png",
+    "displayUrl": "/foundry-g1/0x2B4edBfa4cdE362545DF0DDFBc2574F4C0ec1a85.png",
+    "originalUrl": "/foundry-g1/original/0x2B4edBfa4cdE362545DF0DDFBc2574F4C0ec1a85.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -375,9 +750,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x16F192316BF15979C0FBbC3b37989ea2f3445180.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x16F192316BF15979C0FBbC3b37989ea2f3445180.png",
+    "displayUrl": "/foundry-g1/0x16F192316BF15979C0FBbC3b37989ea2f3445180.png",
+    "originalUrl": "/foundry-g1/original/0x16F192316BF15979C0FBbC3b37989ea2f3445180.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -403,9 +781,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0xdbECa36c48306867d9285e0e0d5Ed1F5aeC28a35.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0xdbECa36c48306867d9285e0e0d5Ed1F5aeC28a35.png",
+    "displayUrl": "/foundry-g1/0xdbECa36c48306867d9285e0e0d5Ed1F5aeC28a35.png",
+    "originalUrl": "/foundry-g1/original/0xdbECa36c48306867d9285e0e0d5Ed1F5aeC28a35.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -430,9 +811,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-A-1/0xe5690686D718c5a7718EbCD46E931F29744f5F3C.png",
-    "originalUrl": "/foundry-g1/P-A-1/original/0xe5690686D718c5a7718EbCD46E931F29744f5F3C.png",
+    "displayUrl": "/foundry-g1/0xe5690686D718c5a7718EbCD46E931F29744f5F3C.png",
+    "originalUrl": "/foundry-g1/original/0xe5690686D718c5a7718EbCD46E931F29744f5F3C.png",
     "duration": 0,
+    "tags": [
+      "P-A-1"
+    ],
     "level": "A"
   },
   {
@@ -458,9 +842,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0x1B6e58C8904f320d4f55e17704a9Fe05F50BCe47.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0x1B6e58C8904f320d4f55e17704a9Fe05F50BCe47.png",
+    "displayUrl": "/foundry-g1/0x1B6e58C8904f320d4f55e17704a9Fe05F50BCe47.png",
+    "originalUrl": "/foundry-g1/original/0x1B6e58C8904f320d4f55e17704a9Fe05F50BCe47.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -487,9 +874,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-A-1/0xbe859A2AB26ADdE98A984dBE95f7FaD0C0F0E566.png",
-    "originalUrl": "/foundry-g1/L-A-1/original/0xbe859A2AB26ADdE98A984dBE95f7FaD0C0F0E566.png",
+    "displayUrl": "/foundry-g1/0xbe859A2AB26ADdE98A984dBE95f7FaD0C0F0E566.png",
+    "originalUrl": "/foundry-g1/original/0xbe859A2AB26ADdE98A984dBE95f7FaD0C0F0E566.png",
     "duration": 0,
+    "tags": [
+      "L-A-1"
+    ],
     "level": "A"
   },
   {
@@ -514,9 +904,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0xb88529B224692C249a81c2fFb68A146c8D9a77CC.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0xb88529B224692C249a81c2fFb68A146c8D9a77CC.png",
+    "displayUrl": "/foundry-g1/0xb88529B224692C249a81c2fFb68A146c8D9a77CC.png",
+    "originalUrl": "/foundry-g1/original/0xb88529B224692C249a81c2fFb68A146c8D9a77CC.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -543,9 +936,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0x41887088C90Dce3D4069073DDD57728cfC3432B6.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0x41887088C90Dce3D4069073DDD57728cfC3432B6.png",
+    "displayUrl": "/foundry-g1/0x41887088C90Dce3D4069073DDD57728cfC3432B6.png",
+    "originalUrl": "/foundry-g1/original/0x41887088C90Dce3D4069073DDD57728cfC3432B6.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -570,9 +966,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x5d9Fc6A9DFACdda88D23ec9b95C4Ac2E402d74Bf.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x5d9Fc6A9DFACdda88D23ec9b95C4Ac2E402d74Bf.png",
+    "displayUrl": "/foundry-g1/0x5d9Fc6A9DFACdda88D23ec9b95C4Ac2E402d74Bf.png",
+    "originalUrl": "/foundry-g1/original/0x5d9Fc6A9DFACdda88D23ec9b95C4Ac2E402d74Bf.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -599,9 +998,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x0c809B4c8EF6b9172d4AAC7c9B9cda4b1dd632d7.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x0c809B4c8EF6b9172d4AAC7c9B9cda4b1dd632d7.png",
+    "displayUrl": "/foundry-g1/0x0c809B4c8EF6b9172d4AAC7c9B9cda4b1dd632d7.png",
+    "originalUrl": "/foundry-g1/original/0x0c809B4c8EF6b9172d4AAC7c9B9cda4b1dd632d7.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -628,9 +1030,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CA.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x009B78EA24B49225Ff8d18605AB1EaC66faD2caA.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x009B78EA24B49225Ff8d18605AB1EaC66faD2caA.png",
+    "displayUrl": "/foundry-g1/0x009B78EA24B49225Ff8d18605AB1EaC66faD2caA.png",
+    "originalUrl": "/foundry-g1/original/0x009B78EA24B49225Ff8d18605AB1EaC66faD2caA.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -655,9 +1060,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xF62a4d788feBc809e81F4DEAEA9A80cC2D5D6a16.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xF62a4d788feBc809e81F4DEAEA9A80cC2D5D6a16.png",
+    "displayUrl": "/foundry-g1/0xF62a4d788feBc809e81F4DEAEA9A80cC2D5D6a16.png",
+    "originalUrl": "/foundry-g1/original/0xF62a4d788feBc809e81F4DEAEA9A80cC2D5D6a16.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -682,9 +1090,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x22E089399E370BAd14453F8b0589Be1f03254c39.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x22E089399E370BAd14453F8b0589Be1f03254c39.png",
+    "displayUrl": "/foundry-g1/0x22E089399E370BAd14453F8b0589Be1f03254c39.png",
+    "originalUrl": "/foundry-g1/original/0x22E089399E370BAd14453F8b0589Be1f03254c39.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -709,9 +1120,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MY.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x0b2095Ed0377F44e7Ee71883469A2983b8EbC96c.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x0b2095Ed0377F44e7Ee71883469A2983b8EbC96c.png",
+    "displayUrl": "/foundry-g1/0x0b2095Ed0377F44e7Ee71883469A2983b8EbC96c.png",
+    "originalUrl": "/foundry-g1/original/0x0b2095Ed0377F44e7Ee71883469A2983b8EbC96c.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -736,9 +1150,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x0E5745D571DD126A64702D25e9b3145979E9B54f.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x0E5745D571DD126A64702D25e9b3145979E9B54f.png",
+    "displayUrl": "/foundry-g1/0x0E5745D571DD126A64702D25e9b3145979E9B54f.png",
+    "originalUrl": "/foundry-g1/original/0x0E5745D571DD126A64702D25e9b3145979E9B54f.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -763,9 +1180,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0x5B1022D859A46f42fcF24BCD8F5Ab616e52B4800.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0x5B1022D859A46f42fcF24BCD8F5Ab616e52B4800.png",
+    "displayUrl": "/foundry-g1/0x5B1022D859A46f42fcF24BCD8F5Ab616e52B4800.png",
+    "originalUrl": "/foundry-g1/original/0x5B1022D859A46f42fcF24BCD8F5Ab616e52B4800.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -791,9 +1211,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x6036f0161bbcd72A30ABBfFBE207F71F52E5E000.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x6036f0161bbcd72A30ABBfFBE207F71F52E5E000.png",
+    "displayUrl": "/foundry-g1/0x6036f0161bbcd72A30ABBfFBE207F71F52E5E000.png",
+    "originalUrl": "/foundry-g1/original/0x6036f0161bbcd72A30ABBfFBE207F71F52E5E000.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -818,9 +1241,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xF844a2398a47aD96e8BdDb5d9692Ea659F6c8d9f.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xF844a2398a47aD96e8BdDb5d9692Ea659F6c8d9f.png",
+    "displayUrl": "/foundry-g1/0xF844a2398a47aD96e8BdDb5d9692Ea659F6c8d9f.png",
+    "originalUrl": "/foundry-g1/original/0xF844a2398a47aD96e8BdDb5d9692Ea659F6c8d9f.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -845,9 +1271,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xB2aD2afaf84DbFd508fBB77eAD0cdd49c4A5d30A.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xB2aD2afaf84DbFd508fBB77eAD0cdd49c4A5d30A.png",
+    "displayUrl": "/foundry-g1/0xB2aD2afaf84DbFd508fBB77eAD0cdd49c4A5d30A.png",
+    "originalUrl": "/foundry-g1/original/0xB2aD2afaf84DbFd508fBB77eAD0cdd49c4A5d30A.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -874,9 +1303,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xcdf7e4C56903F48f5E8C04D1279266085D39adA9.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xcdf7e4C56903F48f5E8C04D1279266085D39adA9.png",
+    "displayUrl": "/foundry-g1/0xcdf7e4C56903F48f5E8C04D1279266085D39adA9.png",
+    "originalUrl": "/foundry-g1/original/0xcdf7e4C56903F48f5E8C04D1279266085D39adA9.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -902,9 +1334,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xdFE0C536614f91FDFB9d2ff9f0aaFc7f86581c23.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xdFE0C536614f91FDFB9d2ff9f0aaFc7f86581c23.png",
+    "displayUrl": "/foundry-g1/0xdFE0C536614f91FDFB9d2ff9f0aaFc7f86581c23.png",
+    "originalUrl": "/foundry-g1/original/0xdFE0C536614f91FDFB9d2ff9f0aaFc7f86581c23.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -930,9 +1365,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x43cd12ac683da3460e315638900122a3809331e5.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x43cd12ac683da3460e315638900122a3809331e5.png",
+    "displayUrl": "/foundry-g1/0x43cd12ac683da3460e315638900122a3809331e5.png",
+    "originalUrl": "/foundry-g1/original/0x43cd12ac683da3460e315638900122a3809331e5.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -959,9 +1397,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0xF6f634BB524d1Ed6F5D302499d39d5582C5095FB.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0xF6f634BB524d1Ed6F5D302499d39d5582C5095FB.png",
+    "displayUrl": "/foundry-g1/0xF6f634BB524d1Ed6F5D302499d39d5582C5095FB.png",
+    "originalUrl": "/foundry-g1/original/0xF6f634BB524d1Ed6F5D302499d39d5582C5095FB.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -986,9 +1427,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xA3a5CAE35eaBBA8A1bdC336A4Ffce073Bb6d6cF6.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xA3a5CAE35eaBBA8A1bdC336A4Ffce073Bb6d6cF6.png",
+    "displayUrl": "/foundry-g1/0xA3a5CAE35eaBBA8A1bdC336A4Ffce073Bb6d6cF6.png",
+    "originalUrl": "/foundry-g1/original/0xA3a5CAE35eaBBA8A1bdC336A4Ffce073Bb6d6cF6.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1013,9 +1457,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xC608CA9D0eCc3F7Bc8A3dd2E3518607b35736Ea1.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xC608CA9D0eCc3F7Bc8A3dd2E3518607b35736Ea1.png",
+    "displayUrl": "/foundry-g1/0xC608CA9D0eCc3F7Bc8A3dd2E3518607b35736Ea1.png",
+    "originalUrl": "/foundry-g1/original/0xC608CA9D0eCc3F7Bc8A3dd2E3518607b35736Ea1.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1040,9 +1487,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EE.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0xafa4C76ab13Da41EB9975F52A6bC4159BeF9FB97.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0xafa4C76ab13Da41EB9975F52A6bC4159BeF9FB97.png",
+    "displayUrl": "/foundry-g1/0xafa4C76ab13Da41EB9975F52A6bC4159BeF9FB97.png",
+    "originalUrl": "/foundry-g1/original/0xafa4C76ab13Da41EB9975F52A6bC4159BeF9FB97.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1068,9 +1518,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RU.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xb3375dB1BEC20cA8b6c6651d2E121BDDB3191e57.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xb3375dB1BEC20cA8b6c6651d2E121BDDB3191e57.png",
+    "displayUrl": "/foundry-g1/0xb3375dB1BEC20cA8b6c6651d2E121BDDB3191e57.png",
+    "originalUrl": "/foundry-g1/original/0xb3375dB1BEC20cA8b6c6651d2E121BDDB3191e57.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1096,9 +1549,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x35EF5E5b0917B1B87B7BE81bBA9E91d1deBa7CAa.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x35EF5E5b0917B1B87B7BE81bBA9E91d1deBa7CAa.png",
+    "displayUrl": "/foundry-g1/0x35EF5E5b0917B1B87B7BE81bBA9E91d1deBa7CAa.png",
+    "originalUrl": "/foundry-g1/original/0x35EF5E5b0917B1B87B7BE81bBA9E91d1deBa7CAa.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1125,9 +1581,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x02d34fA1852dCecee565EAE868B689BBD33a11C2.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x02d34fA1852dCecee565EAE868B689BBD33a11C2.png",
+    "displayUrl": "/foundry-g1/0x02d34fA1852dCecee565EAE868B689BBD33a11C2.png",
+    "originalUrl": "/foundry-g1/original/0x02d34fA1852dCecee565EAE868B689BBD33a11C2.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1154,9 +1613,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x6ad102D67e6b7E2C2bbAbad9D05593bE988a5EDb.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x6ad102D67e6b7E2C2bbAbad9D05593bE988a5EDb.png",
+    "displayUrl": "/foundry-g1/0x6ad102D67e6b7E2C2bbAbad9D05593bE988a5EDb.png",
+    "originalUrl": "/foundry-g1/original/0x6ad102D67e6b7E2C2bbAbad9D05593bE988a5EDb.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1181,9 +1643,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x2E105D8583374C88c82e151f8Ac835Cd2DcA592e.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x2E105D8583374C88c82e151f8Ac835Cd2DcA592e.png",
+    "displayUrl": "/foundry-g1/0x2E105D8583374C88c82e151f8Ac835Cd2DcA592e.png",
+    "originalUrl": "/foundry-g1/original/0x2E105D8583374C88c82e151f8Ac835Cd2DcA592e.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1208,9 +1673,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0xD614F79B1b01D42beD92EB05B58f973Be9a3Dd3D.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0xD614F79B1b01D42beD92EB05B58f973Be9a3Dd3D.png",
+    "displayUrl": "/foundry-g1/0xD614F79B1b01D42beD92EB05B58f973Be9a3Dd3D.png",
+    "originalUrl": "/foundry-g1/original/0xD614F79B1b01D42beD92EB05B58f973Be9a3Dd3D.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1237,9 +1705,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x6C1650196dC7fda5Ef852f55d23B7c8387bDEFed.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x6C1650196dC7fda5Ef852f55d23B7c8387bDEFed.png",
+    "displayUrl": "/foundry-g1/0x6C1650196dC7fda5Ef852f55d23B7c8387bDEFed.png",
+    "originalUrl": "/foundry-g1/original/0x6C1650196dC7fda5Ef852f55d23B7c8387bDEFed.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1264,9 +1735,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x06Fb4aB14f1680cB489DB2A352991B46a9E12e1C.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x06Fb4aB14f1680cB489DB2A352991B46a9E12e1C.png",
+    "displayUrl": "/foundry-g1/0x06Fb4aB14f1680cB489DB2A352991B46a9E12e1C.png",
+    "originalUrl": "/foundry-g1/original/0x06Fb4aB14f1680cB489DB2A352991B46a9E12e1C.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1291,9 +1765,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x76634EF890Bc5967BC47eA48bDC58D0576f07FEc.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x76634EF890Bc5967BC47eA48bDC58D0576f07FEc.png",
+    "displayUrl": "/foundry-g1/0x76634EF890Bc5967BC47eA48bDC58D0576f07FEc.png",
+    "originalUrl": "/foundry-g1/original/0x76634EF890Bc5967BC47eA48bDC58D0576f07FEc.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1318,9 +1795,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BO.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xae38ed000577F9E4f8A9A8521D5ABdaf74Ca07De.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xae38ed000577F9E4f8A9A8521D5ABdaf74Ca07De.png",
+    "displayUrl": "/foundry-g1/0xae38ed000577F9E4f8A9A8521D5ABdaf74Ca07De.png",
+    "originalUrl": "/foundry-g1/original/0xae38ed000577F9E4f8A9A8521D5ABdaf74Ca07De.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1347,9 +1827,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xd7c79f8ac566fB2F73bB73a6E53b5A99Fb952360.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xd7c79f8ac566fB2F73bB73a6E53b5A99Fb952360.png",
+    "displayUrl": "/foundry-g1/0xd7c79f8ac566fB2F73bB73a6E53b5A99Fb952360.png",
+    "originalUrl": "/foundry-g1/original/0xd7c79f8ac566fB2F73bB73a6E53b5A99Fb952360.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1374,9 +1857,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x9C335e4d8cACDa86647ff4497789019C7a762A62.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x9C335e4d8cACDa86647ff4497789019C7a762A62.png",
+    "displayUrl": "/foundry-g1/0x9C335e4d8cACDa86647ff4497789019C7a762A62.png",
+    "originalUrl": "/foundry-g1/original/0x9C335e4d8cACDa86647ff4497789019C7a762A62.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1402,9 +1888,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x558c5c07fe8ae28d15cbfbddf9aa36334b71057d.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x558c5c07fe8ae28d15cbfbddf9aa36334b71057d.png",
+    "displayUrl": "/foundry-g1/0x558c5c07fe8ae28d15cbfbddf9aa36334b71057d.png",
+    "originalUrl": "/foundry-g1/original/0x558c5c07fe8ae28d15cbfbddf9aa36334b71057d.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1429,9 +1918,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x21e56d921C7c15F1A0aD2B3983faB569EDC5ba34.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x21e56d921C7c15F1A0aD2B3983faB569EDC5ba34.png",
+    "displayUrl": "/foundry-g1/0x21e56d921C7c15F1A0aD2B3983faB569EDC5ba34.png",
+    "originalUrl": "/foundry-g1/original/0x21e56d921C7c15F1A0aD2B3983faB569EDC5ba34.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1456,9 +1948,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0x7865dcC2B04e0916B1286c36Caec655d4A1b8429.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0x7865dcC2B04e0916B1286c36Caec655d4A1b8429.png",
+    "displayUrl": "/foundry-g1/0x7865dcC2B04e0916B1286c36Caec655d4A1b8429.png",
+    "originalUrl": "/foundry-g1/original/0x7865dcC2B04e0916B1286c36Caec655d4A1b8429.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1484,9 +1979,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x4143F7767Be6AB1b1f83f6759adbc2E50798a193.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x4143F7767Be6AB1b1f83f6759adbc2E50798a193.png",
+    "displayUrl": "/foundry-g1/0x4143F7767Be6AB1b1f83f6759adbc2E50798a193.png",
+    "originalUrl": "/foundry-g1/original/0x4143F7767Be6AB1b1f83f6759adbc2E50798a193.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1511,9 +2009,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x5b7BF2b2f47Da563Ea3B3C797a783D92DAb53693.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x5b7BF2b2f47Da563Ea3B3C797a783D92DAb53693.png",
+    "displayUrl": "/foundry-g1/0x5b7BF2b2f47Da563Ea3B3C797a783D92DAb53693.png",
+    "originalUrl": "/foundry-g1/original/0x5b7BF2b2f47Da563Ea3B3C797a783D92DAb53693.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1538,9 +2039,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0xBA45A9551C9cd0F166F0119A1d087478f70Fc813.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0xBA45A9551C9cd0F166F0119A1d087478f70Fc813.png",
+    "displayUrl": "/foundry-g1/0xBA45A9551C9cd0F166F0119A1d087478f70Fc813.png",
+    "originalUrl": "/foundry-g1/original/0xBA45A9551C9cd0F166F0119A1d087478f70Fc813.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1565,9 +2069,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xcB85b581CaA71949784d2e826Cf9Df391c244b33.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xcB85b581CaA71949784d2e826Cf9Df391c244b33.png",
+    "displayUrl": "/foundry-g1/0xcB85b581CaA71949784d2e826Cf9Df391c244b33.png",
+    "originalUrl": "/foundry-g1/original/0xcB85b581CaA71949784d2e826Cf9Df391c244b33.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1592,9 +2099,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x44714f16c3B4fD47a3298EdDadA67FAA7898A7e8.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x44714f16c3B4fD47a3298EdDadA67FAA7898A7e8.png",
+    "displayUrl": "/foundry-g1/0x44714f16c3B4fD47a3298EdDadA67FAA7898A7e8.png",
+    "originalUrl": "/foundry-g1/original/0x44714f16c3B4fD47a3298EdDadA67FAA7898A7e8.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1621,9 +2131,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0xA092c2239E94e8DF110632E710b0c760f834904B.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0xA092c2239E94e8DF110632E710b0c760f834904B.png",
+    "displayUrl": "/foundry-g1/0xA092c2239E94e8DF110632E710b0c760f834904B.png",
+    "originalUrl": "/foundry-g1/original/0xA092c2239E94e8DF110632E710b0c760f834904B.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1650,9 +2163,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-2/0x8285257eBEf7BEEE5e2CB0cA69aeeF7E70C983d4.png",
-    "originalUrl": "/foundry-g1/L-B-2/original/0x8285257eBEf7BEEE5e2CB0cA69aeeF7E70C983d4.png",
+    "displayUrl": "/foundry-g1/0x8285257eBEf7BEEE5e2CB0cA69aeeF7E70C983d4.png",
+    "originalUrl": "/foundry-g1/original/0x8285257eBEf7BEEE5e2CB0cA69aeeF7E70C983d4.png",
     "duration": 0,
+    "tags": [
+      "L-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1679,9 +2195,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x2fAd50Dc0d9bf67237fbe376E0f2c917A086D64b.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x2fAd50Dc0d9bf67237fbe376E0f2c917A086D64b.png",
+    "displayUrl": "/foundry-g1/0x2fAd50Dc0d9bf67237fbe376E0f2c917A086D64b.png",
+    "originalUrl": "/foundry-g1/original/0x2fAd50Dc0d9bf67237fbe376E0f2c917A086D64b.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1706,9 +2225,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xd7B2Bb8977cE96e4f682a6b060db58Dc87641440.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xd7B2Bb8977cE96e4f682a6b060db58Dc87641440.png",
+    "displayUrl": "/foundry-g1/0xd7B2Bb8977cE96e4f682a6b060db58Dc87641440.png",
+    "originalUrl": "/foundry-g1/original/0xd7B2Bb8977cE96e4f682a6b060db58Dc87641440.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1734,9 +2256,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x37781de47983576E45D981038710842666ab5237.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x37781de47983576E45D981038710842666ab5237.png",
+    "displayUrl": "/foundry-g1/0x37781de47983576E45D981038710842666ab5237.png",
+    "originalUrl": "/foundry-g1/original/0x37781de47983576E45D981038710842666ab5237.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1761,9 +2286,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0xe5865e421c2BB71d371A3734237c00251b30C9Fd.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0xe5865e421c2BB71d371A3734237c00251b30C9Fd.png",
+    "displayUrl": "/foundry-g1/0xe5865e421c2BB71d371A3734237c00251b30C9Fd.png",
+    "originalUrl": "/foundry-g1/original/0xe5865e421c2BB71d371A3734237c00251b30C9Fd.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1788,9 +2316,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-2/0x2B7530d3bc0Ee841aA8799d1cCa17eF0e86d2622.png",
-    "originalUrl": "/foundry-g1/P-B-2/original/0x2B7530d3bc0Ee841aA8799d1cCa17eF0e86d2622.png",
+    "displayUrl": "/foundry-g1/0x2B7530d3bc0Ee841aA8799d1cCa17eF0e86d2622.png",
+    "originalUrl": "/foundry-g1/original/0x2B7530d3bc0Ee841aA8799d1cCa17eF0e86d2622.png",
     "duration": 0,
+    "tags": [
+      "P-B-2"
+    ],
     "level": "B"
   },
   {
@@ -1816,9 +2347,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-B-1/0x4dbe43797014219194D15FCA14660AF349799824.png",
-    "originalUrl": "/foundry-g1/L-B-1/original/0x4dbe43797014219194D15FCA14660AF349799824.png",
+    "displayUrl": "/foundry-g1/0x4dbe43797014219194D15FCA14660AF349799824.png",
+    "originalUrl": "/foundry-g1/original/0x4dbe43797014219194D15FCA14660AF349799824.png",
     "duration": 0,
+    "tags": [
+      "L-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1845,9 +2379,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x78Ad5cb388C1B564cDDf713a2891ab8559fA5C49.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x78Ad5cb388C1B564cDDf713a2891ab8559fA5C49.png",
+    "displayUrl": "/foundry-g1/0x78Ad5cb388C1B564cDDf713a2891ab8559fA5C49.png",
+    "originalUrl": "/foundry-g1/original/0x78Ad5cb388C1B564cDDf713a2891ab8559fA5C49.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1872,9 +2409,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0xB8D0b146E77Ef18aF4B938f32e229e03eC4B5687.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0xB8D0b146E77Ef18aF4B938f32e229e03eC4B5687.png",
+    "displayUrl": "/foundry-g1/0xB8D0b146E77Ef18aF4B938f32e229e03eC4B5687.png",
+    "originalUrl": "/foundry-g1/original/0xB8D0b146E77Ef18aF4B938f32e229e03eC4B5687.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1899,9 +2439,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-B-1/0x9566D73a256cBAccF3698e1962a931A62533942F.png",
-    "originalUrl": "/foundry-g1/P-B-1/original/0x9566D73a256cBAccF3698e1962a931A62533942F.png",
+    "displayUrl": "/foundry-g1/0x9566D73a256cBAccF3698e1962a931A62533942F.png",
+    "originalUrl": "/foundry-g1/original/0x9566D73a256cBAccF3698e1962a931A62533942F.png",
     "duration": 0,
+    "tags": [
+      "P-B-1"
+    ],
     "level": "B"
   },
   {
@@ -1926,9 +2469,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0x79DdBC5fB89267ab622c10Ce5717F4Db1Ce04370.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0x79DdBC5fB89267ab622c10Ce5717F4Db1Ce04370.png",
+    "displayUrl": "/foundry-g1/0x79DdBC5fB89267ab622c10Ce5717F4Db1Ce04370.png",
+    "originalUrl": "/foundry-g1/original/0x79DdBC5fB89267ab622c10Ce5717F4Db1Ce04370.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -1955,9 +2501,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xdad60277896e3577f2e4de935bb033a1010e69e6.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xdad60277896e3577f2e4de935bb033a1010e69e6.png",
+    "displayUrl": "/foundry-g1/0xdad60277896e3577f2e4de935bb033a1010e69e6.png",
+    "originalUrl": "/foundry-g1/original/0xdad60277896e3577f2e4de935bb033a1010e69e6.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -1983,9 +2532,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0x2Ce33028369b022018Ef762D844D522267512670.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0x2Ce33028369b022018Ef762D844D522267512670.png",
+    "displayUrl": "/foundry-g1/0x2Ce33028369b022018Ef762D844D522267512670.png",
+    "originalUrl": "/foundry-g1/original/0x2Ce33028369b022018Ef762D844D522267512670.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2010,9 +2562,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xb9234734C1acE23B0c57c126049a2C40b29093CA.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xb9234734C1acE23B0c57c126049a2C40b29093CA.png",
+    "displayUrl": "/foundry-g1/0xb9234734C1acE23B0c57c126049a2C40b29093CA.png",
+    "originalUrl": "/foundry-g1/original/0xb9234734C1acE23B0c57c126049a2C40b29093CA.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2039,9 +2594,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PE.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0x664D7462634fAC1815353A10f138750Ee11a91F6.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0x664D7462634fAC1815353A10f138750Ee11a91F6.png",
+    "displayUrl": "/foundry-g1/0x664D7462634fAC1815353A10f138750Ee11a91F6.png",
+    "originalUrl": "/foundry-g1/original/0x664D7462634fAC1815353A10f138750Ee11a91F6.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2066,9 +2624,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0x1FC38aA4C444c10ed08b2e709209e857dfCa0f71.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0x1FC38aA4C444c10ed08b2e709209e857dfCa0f71.png",
+    "displayUrl": "/foundry-g1/0x1FC38aA4C444c10ed08b2e709209e857dfCa0f71.png",
+    "originalUrl": "/foundry-g1/original/0x1FC38aA4C444c10ed08b2e709209e857dfCa0f71.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2093,9 +2654,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0x379b4EAd1e51C971B2F4eBA8E7E457B443Dafe40.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0x379b4EAd1e51C971B2F4eBA8E7E457B443Dafe40.png",
+    "displayUrl": "/foundry-g1/0x379b4EAd1e51C971B2F4eBA8E7E457B443Dafe40.png",
+    "originalUrl": "/foundry-g1/original/0x379b4EAd1e51C971B2F4eBA8E7E457B443Dafe40.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2122,9 +2686,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UA.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0x2e407a65DC925cb9884CfF588e0EF1814e221466.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0x2e407a65DC925cb9884CfF588e0EF1814e221466.png",
+    "displayUrl": "/foundry-g1/0x2e407a65DC925cb9884CfF588e0EF1814e221466.png",
+    "originalUrl": "/foundry-g1/original/0x2e407a65DC925cb9884CfF588e0EF1814e221466.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2150,9 +2717,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xc4fFde4B01ee937BB1Bc22cac51AAd795CF67aCA.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xc4fFde4B01ee937BB1Bc22cac51AAd795CF67aCA.png",
+    "displayUrl": "/foundry-g1/0xc4fFde4B01ee937BB1Bc22cac51AAd795CF67aCA.png",
+    "originalUrl": "/foundry-g1/original/0xc4fFde4B01ee937BB1Bc22cac51AAd795CF67aCA.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2178,9 +2748,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0xd0097ae6013253e8B63Ae561ed8bbc475f570414.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0xd0097ae6013253e8B63Ae561ed8bbc475f570414.png",
+    "displayUrl": "/foundry-g1/0xd0097ae6013253e8B63Ae561ed8bbc475f570414.png",
+    "originalUrl": "/foundry-g1/original/0xd0097ae6013253e8B63Ae561ed8bbc475f570414.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2205,9 +2778,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xC76162B6CDCe01E78BA731047704b983490C73b4.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xC76162B6CDCe01E78BA731047704b983490C73b4.png",
+    "displayUrl": "/foundry-g1/0xC76162B6CDCe01E78BA731047704b983490C73b4.png",
+    "originalUrl": "/foundry-g1/original/0xC76162B6CDCe01E78BA731047704b983490C73b4.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2234,9 +2810,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0xFeDeB3992cb5a8beB62D6503996825962A863e00.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0xFeDeB3992cb5a8beB62D6503996825962A863e00.png",
+    "displayUrl": "/foundry-g1/0xFeDeB3992cb5a8beB62D6503996825962A863e00.png",
+    "originalUrl": "/foundry-g1/original/0xFeDeB3992cb5a8beB62D6503996825962A863e00.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2261,9 +2840,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DE.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0xF2119d67c4B853E2B2721C5232E01499Eb9Ff214.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0xF2119d67c4B853E2B2721C5232E01499Eb9Ff214.png",
+    "displayUrl": "/foundry-g1/0xF2119d67c4B853E2B2721C5232E01499Eb9Ff214.png",
+    "originalUrl": "/foundry-g1/original/0xF2119d67c4B853E2B2721C5232E01499Eb9Ff214.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2288,9 +2870,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SK.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xf2c172f3a44D18EE0C8246ee99b1f9e404f42cC0.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xf2c172f3a44D18EE0C8246ee99b1f9e404f42cC0.png",
+    "displayUrl": "/foundry-g1/0xf2c172f3a44D18EE0C8246ee99b1f9e404f42cC0.png",
+    "originalUrl": "/foundry-g1/original/0xf2c172f3a44D18EE0C8246ee99b1f9e404f42cC0.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2317,9 +2902,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xf8A05ea6e8eFD7D97F7c1EB7fB69db80938e8F7b.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xf8A05ea6e8eFD7D97F7c1EB7fB69db80938e8F7b.png",
+    "displayUrl": "/foundry-g1/0xf8A05ea6e8eFD7D97F7c1EB7fB69db80938e8F7b.png",
+    "originalUrl": "/foundry-g1/original/0xf8A05ea6e8eFD7D97F7c1EB7fB69db80938e8F7b.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2344,9 +2932,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0x67a51e690df11343dcca8f4b322d9b35bb5d61fb.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0x67a51e690df11343dcca8f4b322d9b35bb5d61fb.png",
+    "displayUrl": "/foundry-g1/0x67a51e690df11343dcca8f4b322d9b35bb5d61fb.png",
+    "originalUrl": "/foundry-g1/original/0x67a51e690df11343dcca8f4b322d9b35bb5d61fb.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2373,9 +2964,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0xd07D220d7e43eCa35973760F8951c79dEebe0dcc.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0xd07D220d7e43eCa35973760F8951c79dEebe0dcc.png",
+    "displayUrl": "/foundry-g1/0xd07D220d7e43eCa35973760F8951c79dEebe0dcc.png",
+    "originalUrl": "/foundry-g1/original/0xd07D220d7e43eCa35973760F8951c79dEebe0dcc.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2401,9 +2995,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0xa86d808eC95C138d4F4d3bbD76c17Bbb0Bbf6b21.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0xa86d808eC95C138d4F4d3bbD76c17Bbb0Bbf6b21.png",
+    "displayUrl": "/foundry-g1/0xa86d808eC95C138d4F4d3bbD76c17Bbb0Bbf6b21.png",
+    "originalUrl": "/foundry-g1/original/0xa86d808eC95C138d4F4d3bbD76c17Bbb0Bbf6b21.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2430,9 +3027,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xf2cea9C6492348C19Faa54a85fD77965d47fC0ff.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xf2cea9C6492348C19Faa54a85fD77965d47fC0ff.png",
+    "displayUrl": "/foundry-g1/0xf2cea9C6492348C19Faa54a85fD77965d47fC0ff.png",
+    "originalUrl": "/foundry-g1/original/0xf2cea9C6492348C19Faa54a85fD77965d47fC0ff.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2457,9 +3057,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xe738Ab6c859Aef8Ff53a9A9f4172a2c2768aA86b.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xe738Ab6c859Aef8Ff53a9A9f4172a2c2768aA86b.png",
+    "displayUrl": "/foundry-g1/0xe738Ab6c859Aef8Ff53a9A9f4172a2c2768aA86b.png",
+    "originalUrl": "/foundry-g1/original/0xe738Ab6c859Aef8Ff53a9A9f4172a2c2768aA86b.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2486,9 +3089,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RU.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x6de36b306a36ac66a7112d9cfce54cdee1191ba2.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x6de36b306a36ac66a7112d9cfce54cdee1191ba2.png",
+    "displayUrl": "/foundry-g1/0x6de36b306a36ac66a7112d9cfce54cdee1191ba2.png",
+    "originalUrl": "/foundry-g1/original/0x6de36b306a36ac66a7112d9cfce54cdee1191ba2.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2515,9 +3121,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0x84eA8215947e5484EE59818B789de9b4555BCfae.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0x84eA8215947e5484EE59818B789de9b4555BCfae.png",
+    "displayUrl": "/foundry-g1/0x84eA8215947e5484EE59818B789de9b4555BCfae.png",
+    "originalUrl": "/foundry-g1/original/0x84eA8215947e5484EE59818B789de9b4555BCfae.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2544,9 +3153,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x269DA7533dD70db38ddE7642697BBfa35Ff927b7.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x269DA7533dD70db38ddE7642697BBfa35Ff927b7.png",
+    "displayUrl": "/foundry-g1/0x269DA7533dD70db38ddE7642697BBfa35Ff927b7.png",
+    "originalUrl": "/foundry-g1/original/0x269DA7533dD70db38ddE7642697BBfa35Ff927b7.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2571,9 +3183,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0x29378abAF52283Feb3F6337A84e6592D3228bdac.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0x29378abAF52283Feb3F6337A84e6592D3228bdac.png",
+    "displayUrl": "/foundry-g1/0x29378abAF52283Feb3F6337A84e6592D3228bdac.png",
+    "originalUrl": "/foundry-g1/original/0x29378abAF52283Feb3F6337A84e6592D3228bdac.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2600,9 +3215,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x98175fCaFCBD021769431b29Bcc8fa7D7408E5fA.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x98175fCaFCBD021769431b29Bcc8fa7D7408E5fA.png",
+    "displayUrl": "/foundry-g1/0x98175fCaFCBD021769431b29Bcc8fa7D7408E5fA.png",
+    "originalUrl": "/foundry-g1/original/0x98175fCaFCBD021769431b29Bcc8fa7D7408E5fA.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2627,9 +3245,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xE44e610334c1497f97800907C69e22FBa8e82361.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xE44e610334c1497f97800907C69e22FBa8e82361.png",
+    "displayUrl": "/foundry-g1/0xE44e610334c1497f97800907C69e22FBa8e82361.png",
+    "originalUrl": "/foundry-g1/original/0xE44e610334c1497f97800907C69e22FBa8e82361.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2654,9 +3275,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0x41fe6f796fdDE9EC7Fd112317b2135c3d99273eA.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0x41fe6f796fdDE9EC7Fd112317b2135c3d99273eA.png",
+    "displayUrl": "/foundry-g1/0x41fe6f796fdDE9EC7Fd112317b2135c3d99273eA.png",
+    "originalUrl": "/foundry-g1/original/0x41fe6f796fdDE9EC7Fd112317b2135c3d99273eA.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2681,9 +3305,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xf95571e434d4cf8dd32e68c1a23ed809e58a7cf5.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xf95571e434d4cf8dd32e68c1a23ed809e58a7cf5.png",
+    "displayUrl": "/foundry-g1/0xf95571e434d4cf8dd32e68c1a23ed809e58a7cf5.png",
+    "originalUrl": "/foundry-g1/original/0xf95571e434d4cf8dd32e68c1a23ed809e58a7cf5.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2708,9 +3335,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0x4144156d976e41f9a0bcbabfd95b842e81b58f5f.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0x4144156d976e41f9a0bcbabfd95b842e81b58f5f.png",
+    "displayUrl": "/foundry-g1/0x4144156d976e41f9a0bcbabfd95b842e81b58f5f.png",
+    "originalUrl": "/foundry-g1/original/0x4144156d976e41f9a0bcbabfd95b842e81b58f5f.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2735,9 +3365,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x6d807646699364ded3fB01ECB432de8a14341534.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x6d807646699364ded3fB01ECB432de8a14341534.png",
+    "displayUrl": "/foundry-g1/0x6d807646699364ded3fB01ECB432de8a14341534.png",
+    "originalUrl": "/foundry-g1/original/0x6d807646699364ded3fB01ECB432de8a14341534.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2762,9 +3395,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0x9FF1e054C9dF9bCff45D47725b19E9210B8428F4.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0x9FF1e054C9dF9bCff45D47725b19E9210B8428F4.png",
+    "displayUrl": "/foundry-g1/0x9FF1e054C9dF9bCff45D47725b19E9210B8428F4.png",
+    "originalUrl": "/foundry-g1/original/0x9FF1e054C9dF9bCff45D47725b19E9210B8428F4.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2789,9 +3425,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xc979a6e2F98D31beC9669d088Dcf787a2a0ccE57.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xc979a6e2F98D31beC9669d088Dcf787a2a0ccE57.png",
+    "displayUrl": "/foundry-g1/0xc979a6e2F98D31beC9669d088Dcf787a2a0ccE57.png",
+    "originalUrl": "/foundry-g1/original/0xc979a6e2F98D31beC9669d088Dcf787a2a0ccE57.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2816,9 +3455,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x9Ff3D60CeF60e835f142CE5E13a180C70aC89549.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x9Ff3D60CeF60e835f142CE5E13a180C70aC89549.png",
+    "displayUrl": "/foundry-g1/0x9Ff3D60CeF60e835f142CE5E13a180C70aC89549.png",
+    "originalUrl": "/foundry-g1/original/0x9Ff3D60CeF60e835f142CE5E13a180C70aC89549.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2845,9 +3487,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0x01d22C18dF22f5fA6ED3a82E918c4Df677777e64.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0x01d22C18dF22f5fA6ED3a82E918c4Df677777e64.png",
+    "displayUrl": "/foundry-g1/0x01d22C18dF22f5fA6ED3a82E918c4Df677777e64.png",
+    "originalUrl": "/foundry-g1/original/0x01d22C18dF22f5fA6ED3a82E918c4Df677777e64.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2873,9 +3518,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x8FC74f9B8836825D8377EFB90Bdc1E5d9cE20223.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x8FC74f9B8836825D8377EFB90Bdc1E5d9cE20223.png",
+    "displayUrl": "/foundry-g1/0x8FC74f9B8836825D8377EFB90Bdc1E5d9cE20223.png",
+    "originalUrl": "/foundry-g1/original/0x8FC74f9B8836825D8377EFB90Bdc1E5d9cE20223.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2900,9 +3548,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xF41B4De9442B7aC46A14746687a0BC9223e35833.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xF41B4De9442B7aC46A14746687a0BC9223e35833.png",
+    "displayUrl": "/foundry-g1/0xF41B4De9442B7aC46A14746687a0BC9223e35833.png",
+    "originalUrl": "/foundry-g1/original/0xF41B4De9442B7aC46A14746687a0BC9223e35833.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -2927,9 +3578,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x174cd4CD4B023dcB812DCffc45D52D3185782E48.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x174cd4CD4B023dcB812DCffc45D52D3185782E48.png",
+    "displayUrl": "/foundry-g1/0x174cd4CD4B023dcB812DCffc45D52D3185782E48.png",
+    "originalUrl": "/foundry-g1/original/0x174cd4CD4B023dcB812DCffc45D52D3185782E48.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -2955,9 +3609,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xdB4De348E361E2F52CdA0620eEC2fb2E48CF7d0D.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xdB4De348E361E2F52CdA0620eEC2fb2E48CF7d0D.png",
+    "displayUrl": "/foundry-g1/0xdB4De348E361E2F52CdA0620eEC2fb2E48CF7d0D.png",
+    "originalUrl": "/foundry-g1/original/0xdB4De348E361E2F52CdA0620eEC2fb2E48CF7d0D.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -2984,9 +3641,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x41f07238C5096Eb7eb68c50FE8AE5AdDECBBF5C2.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x41f07238C5096Eb7eb68c50FE8AE5AdDECBBF5C2.png",
+    "displayUrl": "/foundry-g1/0x41f07238C5096Eb7eb68c50FE8AE5AdDECBBF5C2.png",
+    "originalUrl": "/foundry-g1/original/0x41f07238C5096Eb7eb68c50FE8AE5AdDECBBF5C2.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3011,9 +3671,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0x792da2048AdC0DD828f10582dc6f6dA34c2B47C0.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0x792da2048AdC0DD828f10582dc6f6dA34c2B47C0.png",
+    "displayUrl": "/foundry-g1/0x792da2048AdC0DD828f10582dc6f6dA34c2B47C0.png",
+    "originalUrl": "/foundry-g1/original/0x792da2048AdC0DD828f10582dc6f6dA34c2B47C0.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3040,9 +3703,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-1/0x18f765e1470f16D793Ed43C35D1ad7B01B9e5B33.png",
-    "originalUrl": "/foundry-g1/L-C-1/original/0x18f765e1470f16D793Ed43C35D1ad7B01B9e5B33.png",
+    "displayUrl": "/foundry-g1/0x18f765e1470f16D793Ed43C35D1ad7B01B9e5B33.png",
+    "originalUrl": "/foundry-g1/original/0x18f765e1470f16D793Ed43C35D1ad7B01B9e5B33.png",
     "duration": 0,
+    "tags": [
+      "L-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3068,9 +3734,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0xb5b027c15ce936a2d5cfb90a6bf93176ef18710f.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0xb5b027c15ce936a2d5cfb90a6bf93176ef18710f.png",
+    "displayUrl": "/foundry-g1/0xb5b027c15ce936a2d5cfb90a6bf93176ef18710f.png",
+    "originalUrl": "/foundry-g1/original/0xb5b027c15ce936a2d5cfb90a6bf93176ef18710f.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3097,9 +3766,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x0CC77F72Bf8a447ce3C4231eD97991B238F10BAB.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x0CC77F72Bf8a447ce3C4231eD97991B238F10BAB.png",
+    "displayUrl": "/foundry-g1/0x0CC77F72Bf8a447ce3C4231eD97991B238F10BAB.png",
+    "originalUrl": "/foundry-g1/original/0x0CC77F72Bf8a447ce3C4231eD97991B238F10BAB.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3125,9 +3797,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0xCF9a828d1D6a014A75f1e98e9cefEd89BDA0dbEc.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0xCF9a828d1D6a014A75f1e98e9cefEd89BDA0dbEc.png",
+    "displayUrl": "/foundry-g1/0xCF9a828d1D6a014A75f1e98e9cefEd89BDA0dbEc.png",
+    "originalUrl": "/foundry-g1/original/0xCF9a828d1D6a014A75f1e98e9cefEd89BDA0dbEc.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3154,9 +3829,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xA8Ae2c14f6da7A078b399e358b98de215bA2F546.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xA8Ae2c14f6da7A078b399e358b98de215bA2F546.png",
+    "displayUrl": "/foundry-g1/0xA8Ae2c14f6da7A078b399e358b98de215bA2F546.png",
+    "originalUrl": "/foundry-g1/original/0xA8Ae2c14f6da7A078b399e358b98de215bA2F546.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3183,9 +3861,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0x5A25F738730514f33588002c1B1B426e678E8187.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0x5A25F738730514f33588002c1B1B426e678E8187.png",
+    "displayUrl": "/foundry-g1/0x5A25F738730514f33588002c1B1B426e678E8187.png",
+    "originalUrl": "/foundry-g1/original/0x5A25F738730514f33588002c1B1B426e678E8187.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3210,9 +3891,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0x9e35AB71667478CfC079249Fd496F0937a1e39C2.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0x9e35AB71667478CfC079249Fd496F0937a1e39C2.png",
+    "displayUrl": "/foundry-g1/0x9e35AB71667478CfC079249Fd496F0937a1e39C2.png",
+    "originalUrl": "/foundry-g1/original/0x9e35AB71667478CfC079249Fd496F0937a1e39C2.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3237,9 +3921,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xDA70FBBe72660C5CBd28E9ef6Da10A2e3ca9618C.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xDA70FBBe72660C5CBd28E9ef6Da10A2e3ca9618C.png",
+    "displayUrl": "/foundry-g1/0xDA70FBBe72660C5CBd28E9ef6Da10A2e3ca9618C.png",
+    "originalUrl": "/foundry-g1/original/0xDA70FBBe72660C5CBd28E9ef6Da10A2e3ca9618C.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3264,9 +3951,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KE.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x375613Dd7A028aFb7D865FF5f015b5A62474171b.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x375613Dd7A028aFb7D865FF5f015b5A62474171b.png",
+    "displayUrl": "/foundry-g1/0x375613Dd7A028aFb7D865FF5f015b5A62474171b.png",
+    "originalUrl": "/foundry-g1/original/0x375613Dd7A028aFb7D865FF5f015b5A62474171b.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3291,9 +3981,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0xF2e47d728a05782C0814609f256aFDd30e5EeE9a.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0xF2e47d728a05782C0814609f256aFDd30e5EeE9a.png",
+    "displayUrl": "/foundry-g1/0xF2e47d728a05782C0814609f256aFDd30e5EeE9a.png",
+    "originalUrl": "/foundry-g1/original/0xF2e47d728a05782C0814609f256aFDd30e5EeE9a.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3319,9 +4012,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x0C794Ced2833eA6A9A2F85A24F7689c37d1E8B6e.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x0C794Ced2833eA6A9A2F85A24F7689c37d1E8B6e.png",
+    "displayUrl": "/foundry-g1/0x0C794Ced2833eA6A9A2F85A24F7689c37d1E8B6e.png",
+    "originalUrl": "/foundry-g1/original/0x0C794Ced2833eA6A9A2F85A24F7689c37d1E8B6e.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3346,9 +4042,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xe97f6Eb52C028a01EA9be6321A587038AAe693C2.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xe97f6Eb52C028a01EA9be6321A587038AAe693C2.png",
+    "displayUrl": "/foundry-g1/0xe97f6Eb52C028a01EA9be6321A587038AAe693C2.png",
+    "originalUrl": "/foundry-g1/original/0xe97f6Eb52C028a01EA9be6321A587038AAe693C2.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3373,9 +4072,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AF.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0xFBF2AdD8917053b82dD654CBcf4139bb363A1D3f.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0xFBF2AdD8917053b82dD654CBcf4139bb363A1D3f.png",
+    "displayUrl": "/foundry-g1/0xFBF2AdD8917053b82dD654CBcf4139bb363A1D3f.png",
+    "originalUrl": "/foundry-g1/original/0xFBF2AdD8917053b82dD654CBcf4139bb363A1D3f.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3400,9 +4102,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xaC2Eb6591B402C1E2ec0C741eF34c4625803C045.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xaC2Eb6591B402C1E2ec0C741eF34c4625803C045.png",
+    "displayUrl": "/foundry-g1/0xaC2Eb6591B402C1E2ec0C741eF34c4625803C045.png",
+    "originalUrl": "/foundry-g1/original/0xaC2Eb6591B402C1E2ec0C741eF34c4625803C045.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3429,9 +4134,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x0cBC5CcA96Dd21513283D1a30BD6348d5577C6B1.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x0cBC5CcA96Dd21513283D1a30BD6348d5577C6B1.png",
+    "displayUrl": "/foundry-g1/0x0cBC5CcA96Dd21513283D1a30BD6348d5577C6B1.png",
+    "originalUrl": "/foundry-g1/original/0x0cBC5CcA96Dd21513283D1a30BD6348d5577C6B1.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3456,9 +4164,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xd8603890BA24dc7e74345cC170D512e9976771b6.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xd8603890BA24dc7e74345cC170D512e9976771b6.png",
+    "displayUrl": "/foundry-g1/0xd8603890BA24dc7e74345cC170D512e9976771b6.png",
+    "originalUrl": "/foundry-g1/original/0xd8603890BA24dc7e74345cC170D512e9976771b6.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3485,9 +4196,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xA55F978742879539a752FDC6Bea250B1198c760C.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xA55F978742879539a752FDC6Bea250B1198c760C.png",
+    "displayUrl": "/foundry-g1/0xA55F978742879539a752FDC6Bea250B1198c760C.png",
+    "originalUrl": "/foundry-g1/original/0xA55F978742879539a752FDC6Bea250B1198c760C.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3513,9 +4227,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0xb329bD5735402Ab1dCD3C26A962889FcC70B54bb.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0xb329bD5735402Ab1dCD3C26A962889FcC70B54bb.png",
+    "displayUrl": "/foundry-g1/0xb329bD5735402Ab1dCD3C26A962889FcC70B54bb.png",
+    "originalUrl": "/foundry-g1/original/0xb329bD5735402Ab1dCD3C26A962889FcC70B54bb.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3540,9 +4257,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xA218B071f705e43A3cc7Db6D8499F7285a89Eb0D.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xA218B071f705e43A3cc7Db6D8499F7285a89Eb0D.png",
+    "displayUrl": "/foundry-g1/0xA218B071f705e43A3cc7Db6D8499F7285a89Eb0D.png",
+    "originalUrl": "/foundry-g1/original/0xA218B071f705e43A3cc7Db6D8499F7285a89Eb0D.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3569,9 +4289,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0x13e0d0A9e4024F1804FA2a0dde4F7c38abCc63F7.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0x13e0d0A9e4024F1804FA2a0dde4F7c38abCc63F7.png",
+    "displayUrl": "/foundry-g1/0x13e0d0A9e4024F1804FA2a0dde4F7c38abCc63F7.png",
+    "originalUrl": "/foundry-g1/original/0x13e0d0A9e4024F1804FA2a0dde4F7c38abCc63F7.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3596,9 +4319,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x07b957db0167d0401e5001d7e3c7a6b3b628ee7c.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x07b957db0167d0401e5001d7e3c7a6b3b628ee7c.png",
+    "displayUrl": "/foundry-g1/0x07b957db0167d0401e5001d7e3c7a6b3b628ee7c.png",
+    "originalUrl": "/foundry-g1/original/0x07b957db0167d0401e5001d7e3c7a6b3b628ee7c.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3625,9 +4351,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-2/0x08e2dab9d6091255a1697987fcac9d2f04c71dc6.png",
-    "originalUrl": "/foundry-g1/P-C-2/original/0x08e2dab9d6091255a1697987fcac9d2f04c71dc6.png",
+    "displayUrl": "/foundry-g1/0x08e2dab9d6091255a1697987fcac9d2f04c71dc6.png",
+    "originalUrl": "/foundry-g1/original/0x08e2dab9d6091255a1697987fcac9d2f04c71dc6.png",
     "duration": 0,
+    "tags": [
+      "P-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3652,9 +4381,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x7A5CBf74033d5Eb7FE36E6A429232fb7d23F45B3.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x7A5CBf74033d5Eb7FE36E6A429232fb7d23F45B3.png",
+    "displayUrl": "/foundry-g1/0x7A5CBf74033d5Eb7FE36E6A429232fb7d23F45B3.png",
+    "originalUrl": "/foundry-g1/original/0x7A5CBf74033d5Eb7FE36E6A429232fb7d23F45B3.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3681,9 +4413,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0xddb0fcf7bf0d546e0a4881fc8c55b6f320e80753.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0xddb0fcf7bf0d546e0a4881fc8c55b6f320e80753.png",
+    "displayUrl": "/foundry-g1/0xddb0fcf7bf0d546e0a4881fc8c55b6f320e80753.png",
+    "originalUrl": "/foundry-g1/original/0xddb0fcf7bf0d546e0a4881fc8c55b6f320e80753.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3710,9 +4445,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xfdE7c35BcE9D39022426a6e683952c898e8012f2.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xfdE7c35BcE9D39022426a6e683952c898e8012f2.png",
+    "displayUrl": "/foundry-g1/0xfdE7c35BcE9D39022426a6e683952c898e8012f2.png",
+    "originalUrl": "/foundry-g1/original/0xfdE7c35BcE9D39022426a6e683952c898e8012f2.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3738,9 +4476,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-3/0xB64D5E45bD16373b9e286C79eb25FF9aA3D225ab.png",
-    "originalUrl": "/foundry-g1/L-C-3/original/0xB64D5E45bD16373b9e286C79eb25FF9aA3D225ab.png",
+    "displayUrl": "/foundry-g1/0xB64D5E45bD16373b9e286C79eb25FF9aA3D225ab.png",
+    "originalUrl": "/foundry-g1/original/0xB64D5E45bD16373b9e286C79eb25FF9aA3D225ab.png",
     "duration": 0,
+    "tags": [
+      "L-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3767,9 +4508,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-1/0x2604B0eF8fcb77077211E219E01A218fA0e108C1.png",
-    "originalUrl": "/foundry-g1/P-C-1/original/0x2604B0eF8fcb77077211E219E01A218fA0e108C1.png",
+    "displayUrl": "/foundry-g1/0x2604B0eF8fcb77077211E219E01A218fA0e108C1.png",
+    "originalUrl": "/foundry-g1/original/0x2604B0eF8fcb77077211E219E01A218fA0e108C1.png",
     "duration": 0,
+    "tags": [
+      "P-C-1"
+    ],
     "level": "C"
   },
   {
@@ -3794,9 +4538,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0x8C53e7C9834456831AAA18302F2CD9643973b043.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0x8C53e7C9834456831AAA18302F2CD9643973b043.png",
+    "displayUrl": "/foundry-g1/0x8C53e7C9834456831AAA18302F2CD9643973b043.png",
+    "originalUrl": "/foundry-g1/original/0x8C53e7C9834456831AAA18302F2CD9643973b043.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
   },
   {
@@ -3821,9 +4568,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg",
     "isLandscape": false,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/P-C-3/0xcf534Aaa64D1005a3CFd16918169B0d01eeEd1a7.png",
-    "originalUrl": "/foundry-g1/P-C-3/original/0xcf534Aaa64D1005a3CFd16918169B0d01eeEd1a7.png",
+    "displayUrl": "/foundry-g1/0xcf534Aaa64D1005a3CFd16918169B0d01eeEd1a7.png",
+    "originalUrl": "/foundry-g1/original/0xcf534Aaa64D1005a3CFd16918169B0d01eeEd1a7.png",
     "duration": 0,
+    "tags": [
+      "P-C-3"
+    ],
     "level": "C"
   },
   {
@@ -3848,312 +4598,12 @@
     "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
     "isLandscape": true,
     "isVideo": false,
-    "displayUrl": "/foundry-g1/L-C-2/0xc14296959259d2C6774aecda8d09d3CF42267f1e.png",
-    "originalUrl": "/foundry-g1/L-C-2/original/0xc14296959259d2C6774aecda8d09d3CF42267f1e.png",
+    "displayUrl": "/foundry-g1/0xc14296959259d2C6774aecda8d09d3CF42267f1e.png",
+    "originalUrl": "/foundry-g1/original/0xc14296959259d2C6774aecda8d09d3CF42267f1e.png",
     "duration": 0,
+    "tags": [
+      "L-C-2"
+    ],
     "level": "C"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Arjan",
-    "lastName": "Tupan",
-    "country": "Netherlands",
-    "twitter": "@arjantupan",
-    "profileUrl": "arjantupan.bio.link",
-    "title": "Metaverse Standard Time",
-    "description": "The inhabitants of the metaverse start the day with a ritual greeting: GM. As the metaverse is time-agnostic, you'll see GMs at any time.",
-    "account": "0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357",
-    "license": "",
-    "prices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "filename": "0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357.mp4",
-    "aiUsage": "",
-    "ai": "I used AI (NightCafe Studio - Stable Diffusion) to create the background image. It is inspired by station clocks of the 19th century. ",
-    "id": "foundry-g1/0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357",
-    "artist": "Arjan Tupan",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NL.svg",
-    "isLandscape": true,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/L-Video/0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357.png",
-    "originalUrl": "/foundry-g1/L-Video/original/0xB31Faa5c1D581C70F4b6ed095c944936cBd2a357.mp4",
-    "duration": 15105,
-    "level": "g1/L"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Dasath",
-    "lastName": "Nft",
-    "country": "India",
-    "twitter": "@dasathnft",
-    "profileUrl": "https://opensea.io/miyandal",
-    "title": "Neon Light",
-    "description": "A neon lights that are hand-drawn and animated digitally. Transitions is to create a visually striking and visually pleasing experience.",
-    "account": "0x065bBa09c6Cf5136f0115161718D069b1733f636",
-    "license": "",
-    "prices": [
-      "B"
-    ],
-    "filename": "0x065bBa09c6Cf5136f0115161718D069b1733f636",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x065bBa09c6Cf5136f0115161718D069b1733f636",
-    "artist": "Dasath Nft",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-    "isLandscape": true,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/L-Video/0x065bBa09c6Cf5136f0115161718D069b1733f636.png",
-    "originalUrl": "/foundry-g1/L-Video/original/0x065bBa09c6Cf5136f0115161718D069b1733f636.mp4",
-    "duration": 999,
-    "level": "g1/L"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Juan",
-    "lastName": "R Mon",
-    "country": "Nicaragua",
-    "twitter": "@Juan_R_Mon",
-    "profileUrl": "https://lynkfire.com/JuanRMon",
-    "title": "Bee-da",
-    "description": "Bee-da(life) is a tribute to the great importance of those tiny beings that help our existence and the creation of life on this planet.",
-    "account": "0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c",
-    "license": "",
-    "prices": [
-      "A"
-    ],
-    "filename": "0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c.mp4",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c",
-    "artist": "Juan R Mon",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg",
-    "isLandscape": true,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/L-Video/0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c.png",
-    "originalUrl": "/foundry-g1/L-Video/original/0x2095EE74c2Cc2e54D6FEa973e425A9fE2110B70c.mp4",
-    "duration": 15040,
-    "level": "g1/L"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Aiira",
-    "lastName": "Mérida",
-    "country": "Mexico",
-    "twitter": "@aiiramerida",
-    "profileUrl": "https://linktr.ee/aiiramerida",
-    "title": "Daedal Dreaming",
-    "description": "Inspired on the NFTY Dreams logo, this artwork represents the ability we all have to develop any skill required to manifest our own dreams.",
-    "account": "0xD18239ad6097a50BDd48066f4f59B62cA6479248",
-    "license": "",
-    "prices": [
-      "A",
-      "B"
-    ],
-    "filename": "0xD18239ad6097a50BDd48066f4f59B62cA6479248.mp4",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0xD18239ad6097a50BDd48066f4f59B62cA6479248",
-    "artist": "Aiira Mérida",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0xD18239ad6097a50BDd48066f4f59B62cA6479248.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0xD18239ad6097a50BDd48066f4f59B62cA6479248.mp4",
-    "duration": 12032,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Elena",
-    "lastName": "Tagliapietra",
-    "country": "Italy",
-    "twitter": "@EleTaglia ",
-    "profileUrl": "https://drive.google.com/drive/folders/1lhimhciKFtEUDeRxbtYMuuerv1BUjwZh?usp=sharing",
-    "title": "Blue Soul",
-    "description": "Blue Soul' is a reinterpretation of the 'Blue Nudes' by Matisse. Uv-paint, photography and an animated editing transform a real body .",
-    "account": "0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d",
-    "license": "",
-    "prices": [
-      "A"
-    ],
-    "filename": "0x473780deaf4a2ac070bbba936b0cdefe7f267dfb",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d",
-    "artist": "Elena Tagliapietra",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IT.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0x5E83a805E75C0Dfe244ccf667f2FC22adfCf165d.mp4",
-    "duration": 10112,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Giants",
-    "lastName": "by Mojtaba",
-    "country": "Iran",
-    "twitter": "@abbasksani01",
-    "profileUrl": "https://www.twitter.com/abbasksani01",
-    "title": "The Thief of Colors",
-    "description": "The Thief of Colors is an NFT Edition that about world of giants that live without any colors and colors hold by royal family. ",
-    "account": "0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0",
-    "license": "",
-    "prices": [
-      "A",
-      "B"
-    ],
-    "filename": "0x473780deaf4a2ac070bbba936b0cdefe7f267dfb.mp4",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0",
-    "artist": "Giants by Mojtaba",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0x25507582fee1A0CaCC37EdA1eB6B95A2736a11D0.mp4",
-    "duration": 15232,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Hariprasad",
-    "lastName": "CM",
-    "country": "India",
-    "twitter": "@hariology",
-    "profileUrl": "https://linktr.ee/hariology ",
-    "title": "Swami Vivekananda",
-    "description": "A dream cannot be without a reality, and that reality is that one Infinite Existence. - Swami Vivekananda! Made using 600 Rubik's Cubes!",
-    "account": "0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83",
-    "license": "",
-    "prices": [
-      "A",
-      "B"
-    ],
-    "filename": "0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83.mp4",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83",
-    "artist": "Hariprasad CM",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0x4e1829da30cd7ae2f3e9915cb8c9f3f203ac7d83.mp4",
-    "duration": 13354,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Maria",
-    "lastName": "Voskanyan W3W Space",
-    "country": "Georgia",
-    "twitter": "@web3women_space",
-    "profileUrl": "https://instagram.com/web3women.space",
-    "title": "Absorbed",
-    "description": "\"Absorbed\" is an NFT that explores the theme of consumption. It invites the viewer to consider the ways in which we consume information.",
-    "account": "0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8",
-    "license": "",
-    "prices": [
-      "A",
-      "B"
-    ],
-    "filename": "0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8",
-    "artist": "Maria Voskanyan W3W Space",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0x3d48dF0B15f81BC492619B689B2a8d8520ba56F8.mp4",
-    "duration": 8600,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Rengarajan",
-    "lastName": "G",
-    "country": "India",
-    "twitter": "@grrajan",
-    "profileUrl": "https://linktr.ee/grrajan",
-    "title": "Color Smoke",
-    "description": "Experience the beauty of color in motion, as smoke transforms before your eyes ",
-    "account": "0xbffd0719047636e3f6b643d93c1fcdaefe99ff28",
-    "license": "",
-    "prices": [
-      "A"
-    ],
-    "filename": "0xbffd0719047636e3f6b643d93c1fcdaefe99ff28",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0xbffd0719047636e3f6b643d93c1fcdaefe99ff28",
-    "artist": "Rengarajan G",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0xbffd0719047636e3f6b643d93c1fcdaefe99ff28.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0xbffd0719047636e3f6b643d93c1fcdaefe99ff28.mp4",
-    "duration": 963,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Sahil ",
-    "lastName": "Phogat",
-    "country": "India",
-    "twitter": "@psdpixology",
-    "profileUrl": "https://linktr.ee/psdpixology",
-    "title": "Letting Go",
-    "description": "There's a time to hold on, and a time to let go; and the wise one knows the difference.",
-    "account": "0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68",
-    "license": "No Derivatives or Commercial Redistribution of the work without prior, written consent of the Artist.",
-    "prices": [
-      "A"
-    ],
-    "filename": "0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68.mp4",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68",
-    "artist": "Sahil  Phogat",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0x85a28F15578Fc27aC9E9392f0dbE6fB56BE45B68.mp4",
-    "duration": 10000,
-    "level": "g1/P"
-  },
-  {
-    "project": "foundry-g1",
-    "firstName": "Satadall ",
-    "lastName": "Dey",
-    "country": "India",
-    "twitter": "@DeySatadall",
-    "profileUrl": "https://foundation.app/@sdartstudio",
-    "title": "Astronauts Empowering Ethereum",
-    "description": "Astronauts from different planets has united together to empower the ethereum. Astronauts are using all there power to rise ethereum again.",
-    "account": "0xD603200D35657E681e85b0a55F10D8eF875fC231",
-    "license": "",
-    "prices": [
-      "B"
-    ],
-    "filename": "0xD603200D35657E681e85b0a55F10D8eF875fC231.mp4",
-    "aiUsage": "",
-    "ai": "",
-    "id": "foundry-g1/0xD603200D35657E681e85b0a55F10D8eF875fC231",
-    "artist": "Satadall  Dey",
-    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-    "isLandscape": false,
-    "isVideo": true,
-    "displayUrl": "/foundry-g1/P-Video/0xD603200D35657E681e85b0a55F10D8eF875fC231.png",
-    "originalUrl": "/foundry-g1/P-Video/original/0xD603200D35657E681e85b0a55F10D8eF875fC231.mp4",
-    "duration": 15082,
-    "level": "g1/P"
   }
 ]
