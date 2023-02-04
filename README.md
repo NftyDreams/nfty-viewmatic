@@ -1,4 +1,4 @@
-# Nfty-viewmatic
+# Nfty-Viewmatic
 
 URL root: https://gallery.nftydreams.com
 
