@@ -19,6 +19,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 
 let playlist = params.p;
+let newDuration = params.d;
 
 if (playlist) {
 
@@ -63,7 +64,7 @@ if (playlist) {
               media.push({ url: set, duration: project.duration });
             }
           } else {
-            const filtered = exhibits.filter(e => e.project === project.name && e.displayUrl.indexOf(`/${set}/`) > -1);
+            const filtered = exhibits.filter(e => e.project === project.name && e.tags.includes(set));
             filtered.forEach((exhibit) => {
               media.push({
                 displayUrl: hostUrl + exhibit.displayUrl,
@@ -102,7 +103,7 @@ function preloadAll() {
         div.style.position = 'relative';
         container.appendChild(div);
         img.remove();
-        queue.push(item.duration);
+        queue.push(newDuration ?? item.duration);
         out.innerText = `${queue.length} items loaded`;
 
         if (queue.length === 1) {
@@ -126,7 +127,7 @@ function preloadAll() {
           div.id = `wrapper-${queue.length}`;
           vid.id = `video-${queue.length}`;
           div.appendChild(vid);
-          queue.push(item.duration);
+          queue.push(Math.min(item.duration+VIDEO_PRELOAD_DELAY, MAX_DURATION+VIDEO_PRELOAD_DELAY));
           out.innerText = `${queue.length} items loaded`;
           if (queue.length === 1) {
             updateCounter();
@@ -163,7 +164,7 @@ function showNextElement() {
 
   timeout = window.setTimeout(function () {
     updateCounter();
-  }, Math.min(queue[counter]+VIDEO_PRELOAD_DELAY, MAX_DURATION+VIDEO_PRELOAD_DELAY));
+  }, queue[counter]);
 
   const wrapper = document.getElementById(`wrapper-${counter}`);
   wrapper.style.display = 'block';

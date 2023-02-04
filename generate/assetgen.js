@@ -146,8 +146,8 @@ class AssetGen {
             }
 
             const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            await QRCode.toFile(qrCodeFile, "https://winweb3.io/how-to-donate/", {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
-//            await QRCode.toFile(qrCodeFile, globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
+            const qrcodeUrl = options.qrcodeUrl ? options.qrcodeUrl : globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account;
+            await QRCode.toFile(qrCodeFile, qrcodeUrl, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
             overlays.push({
                 input: qrCodeFile,
                 top: isLandscape ? globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN : globals.UHD_WIDTH - globals.GUTTER * .6 - globals.MARGIN,
@@ -182,11 +182,14 @@ class AssetGen {
             AssetGen._log(2, JSON.stringify(options, null, 4));
             AssetGen._log(1, '');
 
-            if (!fse.existsSync(options.outputPath)) {
-                fse.mkdirSync(options.outputPath);
+            const newOutputPath = options.outputPath.substr(0, options.outputPath.lastIndexOf('/'));
+            const tag = options.outputPath.replace(newOutputPath + '/', '');
+
+            if (!fse.existsSync(newOutputPath)) {
+                fse.mkdirSync(newOutputPath);
             }
 
-            const originalPath = path.join(options.outputPath, globals.ORIGINAL_FOLDER);
+            const originalPath = path.join(newOutputPath, globals.ORIGINAL_FOLDER);
             if (!fse.existsSync(originalPath)) {
                 fse.mkdirSync(originalPath);
             }
@@ -209,13 +212,13 @@ class AssetGen {
             fse.copyFileSync(inFile, originalFile);  
             
 
-            const outFile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
+            const outFile = path.join(newOutputPath, options.name.split(' ')[0] + '.png');
             const imgBuffer = await AssetGen._drawImage(options, true);
             sharp(imgBuffer)
                 .toFile(outFile);
 
 
-            return {displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: true, duration: durationInMilliseconds };
+            return {tag, displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: true, duration: durationInMilliseconds };
 
         } else {
             throw 'Invalid options';
@@ -232,11 +235,14 @@ class AssetGen {
             AssetGen._log(2, JSON.stringify(options, null, 4));
             AssetGen._log(1, '');
 
-            if (!fse.existsSync(options.outputPath)) {
-                fse.mkdirSync(options.outputPath);
+            const newOutputPath = options.outputPath.substr(0, options.outputPath.lastIndexOf('/'));
+            const tag = options.outputPath.replace(newOutputPath + '/', '');
+
+            if (!fse.existsSync(newOutputPath)) {
+                fse.mkdirSync(newOutputPath);
             }
 
-            const originalPath = path.join(options.outputPath, globals.ORIGINAL_FOLDER);
+            const originalPath = path.join(newOutputPath, globals.ORIGINAL_FOLDER);
             if (!fse.existsSync(originalPath)) {
                 fse.mkdirSync(originalPath);
             }
@@ -245,14 +251,13 @@ class AssetGen {
             fse.copyFileSync(inFile, originalFile);  
 
 
-            const outFile = path.join(options.outputPath, options.name.split(' ')[0] + '.png');
+            const outFile = path.join(newOutputPath, options.name.split(' ')[0] + '.png');
             const imgBuffer = await AssetGen._drawImage(options, false);
-            console.log(outFile)
             sharp(imgBuffer)
                 .toFile(outFile);
 
 
-            return { displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: false, duration: 0};
+            return { tag, displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: false, duration: 0};
 
         } else {
             throw 'Invalid options';

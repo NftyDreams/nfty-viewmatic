@@ -17,8 +17,6 @@ var dir = require('node-dir');
     const flagsFile = path.join(dataPath, 'flags.json');
     const artworksDir = path.join(dataPath, project);
     const outputDir = path.join(__dirname, '..', globals.OUTPUT_FOLDER, project);
-//    const logoUrl = path.join(dataPath, 'NftyDreams-Logomark.png');
-    const logoUrl = path.join(dataPath, 'winweb3.png');
     const tmpDir = path.join(dataPath, 'tmp');
     const outFileJson = path.join(outputDir, project + '-exhibits.json');
     const outFileHtml = path.join(outputDir, project + '.html');
@@ -36,7 +34,7 @@ var dir = require('node-dir');
     if (fse.existsSync(artworksFile)) {
         console.log(String("\nUsing \"" + artworksFile + "\" for artworks.").blue);
 
-        const artworks = fse.readJSONSync(artworksFile);
+        const artworkInfo = fse.readJSONSync(artworksFile);
         const flags = fse.readJSONSync(flagsFile);
         const artfiles = [];
 
@@ -50,7 +48,7 @@ var dir = require('node-dir');
                 });
             });
 
-            const result = await viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir)
+            const result = await viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDir)
 
             // Write output files
             fse.writeJsonSync(outFileJson, result, { spaces: 2 });

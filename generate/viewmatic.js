@@ -5,7 +5,7 @@ const { AssetGen } = require('./assetgen');
  * Generates all images for an exhibition
  */
 
-async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
+async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDir) {
 
     const exhibits = [];
 
@@ -14,15 +14,15 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
 
     for (let a = 0; a < artfiles.length; a++) {  //async/await in forEach has problems; don't use
         let artfile = artfiles[a];
+        console.log(artfile.path)
         let options = {
             path: artfile.path,
             outputPath: artfile.path.replace(globals.INPUT_FOLDER, globals.OUTPUT_FOLDER),
             name: artfile.name,
-            logoUrl,
             tmpDir
         }
         let account = artfile.name.split(' ')[0].toLowerCase();
-        let artwork = artworks.find(e => e.account.toLowerCase() === account);
+        let artwork = artworkInfo.artworks.find(e => e.account.toLowerCase() === account);
         if (artwork) {
 
             options.title = artwork.title;
@@ -31,9 +31,11 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
             options.flag = (flag ? flag.image : '');
             options.country = artwork.country;
             options.project = artwork.project;
+            options.logoUrl = path.join(outputDir, '..', 'logos', artworkInfo.logo);
             options.account = artwork.account;
             options.description = artwork.description;
             options.landscape = options.path.indexOf('L-') > -1 ? true : false;
+            options.qrcodeUrl = artworkInfo?.qrcodeUrl;
 
             // if (options.landscape === true) {
             //     if (lDone > 25) continue;
@@ -67,8 +69,9 @@ async function viewmatic(project, artworks, artfiles, flags, logoUrl, tmpDir) {
             artInfo.displayUrl = mediaInfo.displayUrl;
             artInfo.originalUrl = mediaInfo.originalUrl;
             artInfo.duration = mediaInfo.duration;
+            artInfo.tags = [mediaInfo.tag];
             artInfo.level = level;
-            
+                        
             exhibits.push(artInfo);
 
         }
