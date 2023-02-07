@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
 const { resolve } = require('path');
-const postmark = require('postmark');
 require('dotenv').config({ path: './.env' });
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2020-08-27'
 });
+const sgMail = require('@sendgrid/mail');
 
 app.use(express.static(process.env.STATIC_DIR));
 app.use(express.urlencoded());
@@ -42,24 +42,24 @@ app.post('/create-checkout-session', async (req, res) => {
     quantity: 1
   }
 
-/*
-
-      if (id) {
-       
-        const project = id.split('/')[0];
-        const account = id.split('/')[1];
-
-        fetch(`./${project}/${project}-exhibits.json`)
-          .then((response) => response.json())
-          .then((exhibits) => {
-
-                const exhibit = exhibits.find(e => e.account === account);
-                if (exhibit) {
-                    location.replace('go.html', 'artwork.html');
-                }
-          });
-        }
-*/
+  /*
+  
+        if (id) {
+         
+          const project = id.split('/')[0];
+          const account = id.split('/')[1];
+  
+          fetch(`./${project}/${project}-exhibits.json`)
+            .then((response) => response.json())
+            .then((exhibits) => {
+  
+                  const exhibit = exhibits.find(e => e.account === account);
+                  if (exhibit) {
+                      location.replace('go.html', 'artwork.html');
+                  }
+            });
+          }
+  */
 
 
   // Create new Checkout Session for the order
@@ -113,15 +113,40 @@ app.post('/create-checkout-session', async (req, res) => {
 app.get('/checkout-session', async (req, res) => {
   const { sessionId } = req.query;
   const session = await stripe.checkout.sessions.retrieve(sessionId, { expand: ['line_items'] });
-  const serverToken = process.env.POSTMARK_TOKEN;
-  var client = new postmark.ServerClient(serverToken);
-  
-  client.sendEmail({
-      "From": "shop@nftydreams.com",
-      "To": session.customer_details.email,
-      "Subject": "Test",
-      "TextBody": "Hello from NftyDreams!"
-  });
+ 
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  const msg = {
+
+    "from": {
+      "email": "noreply@nftydreams.com",
+      "name": "NftyDreams DAO"
+    },
+   "personalizations":[
+      {
+         "to":[
+            {
+               "email":session.customer_details.email
+            }
+         ],
+         "dynamic_template_data":{
+            "claim_link": "https://www.microsoft.com"
+          }
+      }
+   ],
+   "template_id": "d-49f987625a564f68a69442e57c0c68b2"
+    
+  }
+
+  try {
+    await sgMail.send(msg);
+  } catch (error) {
+    console.error(error);
+
+    if (error.response) {
+      console.error(error.response.body)
+    }
+  }
+
   console.log(JSON.stringify(session, null, 2))
   res.send(session);
 });
