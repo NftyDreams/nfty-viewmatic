@@ -9,18 +9,17 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
 
     const exhibits = [];
 
-    // let lDone = 0;
-    // let pDone = 0;
-
     for (let a = 0; a < artfiles.length; a++) {  //async/await in forEach has problems; don't use
         let artfile = artfiles[a];
+        if (artfile.name.startsWith('.')) continue;
         console.log(artfile.path)
         let options = {
             path: artfile.path,
-            outputPath: artfile.path.replace(globals.INPUT_FOLDER, globals.OUTPUT_FOLDER),
+            outputPath: path.resolve(artfile.path.replace(globals.INPUT_FOLDER, globals.OUTPUT_FOLDER)),
             name: artfile.name,
             tmpDir
         }
+        console.log('####', artworkInfo.artworks)
         let account = artfile.name.split(' ')[0].toLowerCase();
         let artwork = artworkInfo.artworks.find(e => e.account.toLowerCase() === account);
         if (artwork) {
@@ -31,24 +30,17 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
             options.flag = (flag ? flag.image : '');
             options.country = artwork.country;
             options.project = artwork.project;
-            options.logoUrl = path.join(outputDir, '..', 'logos', artworkInfo.logo);
+            options.logoUrl = path.join(artfile.path, '..', '..','..','logos', artworkInfo.logo);
             options.account = artwork.account;
             options.description = artwork.description;
             options.landscape = options.path.indexOf('L-') > -1 ? true : false;
             options.qrcodeUrl = artworkInfo?.qrcodeUrl;
+            options.outputDir = outputDir;
 
-            // if (options.landscape === true) {
-            //     if (lDone > 25) continue;
-            //     lDone++;
-            // }
-
-            // if (options.landscape === false) {
-            //     if (pDone > 3) continue;
-            //     pDone++;
-            // }
-
-            const pathFrags = artfile.path.split('-');
-            const level = pathFrags[pathFrags.length - 2];
+            // Folder names must be in the format P-A where the second letter is the level of the artwork
+            const pathFrags = artfile.path.split('/');
+            const folderFrags = pathFrags[pathFrags.length-1].split('-')
+            options.level = folderFrags[1];
 
             const artInfo = artwork;
             delete artInfo.orientation;
@@ -70,7 +62,7 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
             artInfo.originalUrl = mediaInfo.originalUrl;
             artInfo.duration = mediaInfo.duration;
             artInfo.tags = [mediaInfo.tag];
-            artInfo.level = level;
+            artInfo.level = options.level;
                         
             exhibits.push(artInfo);
 

