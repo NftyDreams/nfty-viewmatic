@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+/publish
+/data
 /data/tmp
 /data/X
 
