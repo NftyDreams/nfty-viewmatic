@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NftyDreams Gallery</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <style>
+      body {
+        padding: 50px;
+      }
+      canvas {
+        display: none;
+      }
+      #artwork {
+        width: 100%;
+        max-width: 1920px;
+      }
+      #account {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NftyDreams Gallery Viewer</h1>
+    <form method="GET" action="view.html">
+      <p>
+        Ethereum Address:
+        <input
+          id="account"
+          name="a"
+          value="0xd07D220d7e43eCa35973760F8951c79dEebe0dcc"
+        />
+      </p>
+      <p>
+        Project:
+        <select name="p" id="project">
+          <option value="foundry-g1" selected="selected">
+            Foundry Group 1
+          </option>
+          <option value="foundry-g2">Foundry Group 2</option>
+        </select>
+      </p>
+      <p>
+        View:
+        <select name="t" id="template">
+          <option value="foundry1" selected="selected">Foundry 1</option>
+          <option value="foundry2">Foundry 2</option>
+          <option value="foundry3">Foundry 3</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" />
+      </p>
+    </form>
+
+    <img src="" id="artwork" />
+
+    <canvas id="canvas"></canvas>
+    <script src="assets/js/perspective.js"></script>
+    <script src="assets/js/view.js"></script>
+  </body>
+</html>
