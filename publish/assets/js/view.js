@@ -6,7 +6,7 @@
   });
 
   const project = params.p ?? 'foundry-g2';
-  const account = params.a ?? '0x2938a5C54A35059D9e343D5921972a6667664DA9';
+  const account = params.a ?? '0xf2a0d70B63b9f87925d753EdcEb13d03B529f7e5';
   const rootUrl = 'https://nfty-artworks.s3-us-west-1.amazonaws.com/';
   const templatesUrl = 'assets/images/templates/';
 
