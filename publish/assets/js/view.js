@@ -355,6 +355,21 @@
           },
 
         ]
+      },
+      {
+        name: 'foundry6',
+        src: 'foundry6.jpg',
+        frames: [
+          {
+            isLandscape: true,
+            featured: true,
+            left: 85,
+            top: 512,
+            right: 1176,
+            bottom: 1170,
+            offsets: [0, 0, -12, 80, 0, 0, 14, 0]
+          }
+        ]
       }
     ]
   }
