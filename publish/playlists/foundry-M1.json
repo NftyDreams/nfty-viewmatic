@@ -1,0 +1,14 @@
+[
+    {
+        "duration": 15000,
+        "sets": {
+            "foundry-g1": [
+                "L-C-2",
+                "L-C-3"
+            ],
+            "foundry-g2": [
+                "L-C-1"
+            ]
+        }
+    }
+]
