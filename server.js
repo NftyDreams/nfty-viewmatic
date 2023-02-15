@@ -30,8 +30,8 @@ app.get('/', (req, res) => {
 
 app.post('/create-checkout-session', async (req, res) => {
   const domainURL = process.env.DOMAIN;
-  const project = req.query.id.split('/')[0];
-  const itemId = req.query.id.split('/')[1];
+  const project = req.query.id.split('_')[0];
+  const itemId = req.query.id.split('_')[1];
   let order = {
     project,
     itemId,
@@ -67,7 +67,7 @@ app.post('/create-checkout-session', async (req, res) => {
   // For full details see https://stripe.com/docs/api/checkout/sessions/create
   const session = await stripe.checkout.sessions.create({
     mode: 'payment',
-    client_reference_id: `${order.itemId}`,
+    client_reference_id: order.itemId,
     line_items: [{
 
       price_data: {
@@ -75,10 +75,7 @@ app.post('/create-checkout-session', async (req, res) => {
         product_data: {
           name: `${order.product}`,
           description: `${order.description}`,
-          images: [`${order.imageUrl}`],
-          metadata: {
-            project: `${order.project}`
-          }
+          images: [`${order.imageUrl}`]
         },
         unit_amount: order.price
       },
@@ -89,10 +86,14 @@ app.post('/create-checkout-session', async (req, res) => {
         message: 'Print fulfillment by Gelato.com'
       }
     },
+    metadata: {
+      project: order.project,
+      itemId: order.itemId
+    },
     invoice_creation: {
       enabled: false,
       invoice_data: {
-        description: `${order.description}`
+        description: order.description
       }
     },
     shipping_address_collection: {

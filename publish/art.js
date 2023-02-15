@@ -5,8 +5,8 @@ function processRequest() {
   });
 
   if (params.id) {
-    const project = params.id.split('/')[0];
-    const account = params.id.split('/')[1];
+    const project = params.id.split('_')[0];
+    const account = params.id.split('_')[1];
 
     fetch(`./${project}/${project}-exhibits.json`)
           .then((response) => response.json())
