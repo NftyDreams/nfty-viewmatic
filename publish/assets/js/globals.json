@@ -13,8 +13,8 @@
         {
             "title": "Digital Collectible",
             "sku": "dc-none",
-            "width": 3840,
-            "height": 2160,
+            "width": 3000,
+            "height": 2000,
             "aed_price": {
                 "A": 699,
                 "B": 399,
