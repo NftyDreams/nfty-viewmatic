@@ -281,11 +281,13 @@ class AssetGen {
             sharp(imgBuffer)
                 .toFile(outFile);
 
+            // 
+
                 return{
                     tag, 
                     displayUrl: path.join('/', options.project, outFile.replace(options.outputDir,'')), 
                     originalUrl: path.join('/', options.project, originalFile.replace(options.outputDir,'')),
-                    isVideo: true, 
+                    isVideo: false, 
                     duration: 0
             }
         } else {
