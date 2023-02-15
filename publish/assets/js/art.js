@@ -4,6 +4,7 @@ let exhibit = null;
 
 function renderPage(project, account, exhibit, flag) {
   document.getElementById('artwork').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`;
+  document.getElementById('artwork_large').href = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl}`;
   document.getElementById('form').action = `/create-checkout-session?id=${project}/${account}`;
   document.getElementById('artwork_title').innerText = exhibit.title;
   document.getElementById('artwork_description').innerText = exhibit.description;
