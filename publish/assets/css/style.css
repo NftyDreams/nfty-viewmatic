@@ -45,7 +45,7 @@ Author: Kamleshyadav
     --heading-color:#2f3942;
     --sub-txt-color:#566686;
     --line-color:#e5eaf5;
-    --primary-color:#60babe;
+    --primary-color:#6505D6;
     --border-color:#e0e4ed;
     --gray-color:#222222;
     --fur-primary-color:#09acb5;
@@ -59,6 +59,10 @@ body {
     font-weight: 400;
     color: var(--txt-color);
     background-color: var(--white-color);
+}
+.hs-left-logo {
+    width:150px;
+    margin-bottom: 10px;
 }
 .nice-select:active, .nice-select.open, .nice-select:focus, .nice-select:hover {
     border-color: #e9e9e9;
@@ -2621,7 +2625,7 @@ input.quantity {
     18. Product description tab CSS Start
 ********************************************************/
 .e-pdtab-wrap {
-    padding: 45px 0 0;
+    padding: 20px 0 0;
 }
 .e-pdtab-tabs {
     border-bottom: 1px solid #dde3f0;
@@ -2652,7 +2656,7 @@ input.quantity {
     bottom: 0;
     height: 3px;
     width: 0%;
-    background: rgb(96, 186, 190);
+    background: #6505D6;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -ms-transition: all 0.3s linear 0s;

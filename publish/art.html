@@ -1,55 +1,171 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NftyDreams Art Shop</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/global.css" />
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="art.js"></script>
-  </head>
-  <body>
-    <div class="sr-root">
-      <div class="sr-main">
-        <section class="container">
-          <div>
-            <h1>Buy Digital Collectible</h1>
-            <h4>Thanks for your interest in this artwork. Art purchases will be active soon.</h4>
+<!doctype html>
+<html lang="en">
 
-            <p>
-            <a href="https://mint.nftydreams.com">Join NftyDreams DAO</a>
-            </p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="MobileOptimized" content="320">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>NftyDreams</title>
+</head>
 
-            <div class="pasha-image">
-              <img
-                id="artwork"
-                src=""
-                width="300"
-              />
+<body>
+    <!-- main-wrapper start -->
+    <div class="main-wrapper">
+
+        <!-- Header Start -->
+        <div class="header-main-wrapper">
+            <div class="header-sticky-wrapper">
+                <div class="hs-left">
+                    <div class="hs-left-logo">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="hs-medium custom-scroll">
+                    <div class="nav-items main-menu-wraper">
+                        <ul class="menu-list d-xl-flex">
+                            <li>
+                                <a href="index.html" class="hs-mobile-logo">
+                                    <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
 
-          <form id="form" action="/create-checkout-session?id=foundry-g1_0x21e56d921C7c15F1A0aD2B3983faB569EDC5ba34" method="POST">
-            <button id="submit">Buy</button>
-          </form>
+        <!-- Product Details start -->
+        <section class="e-prodetails-wrap mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="pd-gallery-wrap">
+
+                            <div class="pd-img-wrap">
+                                <div class="pd-img text-center ">
+                                    <img src="" id="artwork" alt="artwork-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="prodetails-info">
+                            <div class="pd-infotop">
+                                <h2 class="pd-title" id="artwork_title"></h2>
+                                <div class="pd-special-price">
+                                    <span class="pd-price-end" id="headline">Buy a Digital Collectible and Canvas Print of this artwork</span>
+                                </div>
+                                <ul class="pd-price-wrap">
+                                    <li><span class="pd-price-tile" id="price_aed"></span> <span id="price_usd"></span></li>
+                                </ul>
+                            </div>
+                            <div class="pd-info-bottom">
+                                <ul class="info-bottom-list">
+                                    <li>
+                                        <div class="ib-list-right">
+                                            <ul class="mt-2" id="variants">
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <strong><p>The Digital Collectible will be available in your account within 48 hours of purchase. The Canvas Print will arrive within 7-10 business days.</p></strong>
+                                    </li>
+                                    <li>
+                                        <div class="ib-list-right">
+                                            <ul class="pd-qua-wrap">
+                                                <li>
+
+                                                    <form id="form" action="" method="POST">
+                                                        <button id="submit" class="e-btn">Buy</button>
+                                                      </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product Description tab start -->
+        <section class="e-pdtab-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="e-pdtab-inner">
+                            <ul class="nav nav-pills e-pdtab-tabs" role="tablist">
+                                <li>
+                                    <a class="active" data-bs-toggle="pill" href="#description" role="tab"
+                                        aria-controls="description" aria-selected="true">Description</a>
+                                </li>
+                                <li>
+                                    <a data-bs-toggle="pill" href="#artist_info" role="tab" aria-controls="artist_info"
+                                        aria-selected="false">About the Artist</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="description" role="tabpanel">
+                                    <div class="tab-content-inner">
+                                        <p class="mb-20" id="artwork_description"></p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="artist_info" role="tabpanel">
+                                    <div class="tab-content-inner">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <ul class="pdtab-addinfo">
+                                                    <li>
+                                                        <p><span id="artist_name"></span></p>
+                                                        <p><span id="artist_country"></span></p>
+                                                    </li>
+                                                    <li>
+                                                        <p><a href="" id="artist_profile" target="_new">Artist Profile</a></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <div id="error-message"></div>
-      </div>
+
     </div>
-  
+    <!-- main-wrapper End -->
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import * as Art from './assets/js/art.js'
+      Art.processRequest();
+      window.Art = Art;
+    </script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RR5XDQVCXV"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-RR5XDQVCXV');
-      //location.replace('https://nftydreams.com/go/');
-      //processRequest();
-      
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-RR5XDQVCXV');
+
+        //location.replace('https://nftydreams.com/go/');
     </script>
   </body>
+
 </html>

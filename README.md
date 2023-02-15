@@ -12,6 +12,8 @@ https://gallery.nftydreams.com/play.html?p=foundry-g1-P-B2C1
 
 
 
-Sample URL for Pay:
+Sample URLs for Pay:
 
-http://localhost:5000/art.html?id=foundry-g1_0x21e56d921C7c15F1A0aD2B3983faB569EDC5ba34
+http://localhost:5000/art.html?id=foundry-g2/0x78Ad5cb388C1B564cDDf713a2891ab8559fA5C49
+
+http://localhost:5000/art.html?id=foundry-g1/0xafa4C76ab13Da41EB9975F52A6bC4159BeF9FB97

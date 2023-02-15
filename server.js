@@ -1,12 +1,37 @@
 const express = require('express');
 const app = express();
 const { resolve } = require('path');
+const globals = require('./publish/assets/js/globals.json');
+
 require('dotenv').config({ path: './.env' });
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2020-08-27'
 });
 const sgMail = require('@sendgrid/mail');
+
+const reqHandler = async (req) => {
+  const project = req.query.id.split('_')[0];
+  const itemId = req.query.id.split('_')[1];
+  const sku = req.query.id.split('_')[2];
+
+  let product = globals.PRICE_DATA.find(f => f.sku === sku);
+
+  const resp1 = await fetch(`${globals.AWS_BUCKET_URL}/${project}/${project}-exhibits.json`);
+  const exhibits = await resp1.json();
+  const exhibit = exhibits.find(e => e.account === itemId);
+
+  return {
+    project,
+    itemId,
+    sku,
+    product: exhibit.title,
+    description: product.title,
+    imageUrl: `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`,
+    price: product.aed_price[exhibit.level] * 100,
+    quantity: 1
+  }
+}
 
 app.use(express.static(process.env.STATIC_DIR));
 app.use(express.urlencoded());
@@ -30,37 +55,7 @@ app.get('/', (req, res) => {
 
 app.post('/create-checkout-session', async (req, res) => {
   const domainURL = process.env.DOMAIN;
-  const project = req.query.id.split('_')[0];
-  const itemId = req.query.id.split('_')[1];
-  let order = {
-    project,
-    itemId,
-    product: 'This is the product',
-    description: 'This is the description',
-    imageUrl: 'https://files.stripe.com/files/MDB8YWNjdF8xRUozTWdIRWJwcEk2MHVJfGZfbGl2ZV95MzYzWW1qMUo1NmZiRlZxOXlONUFBZ3k00d463ThBo',
-    price: 8000,
-    quantity: 1
-  }
-
-  /*
-  
-        if (id) {
-         
-          const project = id.split('/')[0];
-          const account = id.split('/')[1];
-  
-          fetch(`./${project}/${project}-exhibits.json`)
-            .then((response) => response.json())
-            .then((exhibits) => {
-  
-                  const exhibit = exhibits.find(e => e.account === account);
-                  if (exhibit) {
-                      location.replace('go.html', 'artwork.html');
-                  }
-            });
-          }
-  */
-
+  const order = await reqHandler(req);
 
   // Create new Checkout Session for the order
   // Other optional params include:
@@ -87,6 +82,7 @@ app.post('/create-checkout-session', async (req, res) => {
       }
     },
     metadata: {
+      sku: order.sku,
       project: order.project,
       itemId: order.itemId
     },
@@ -101,7 +97,7 @@ app.post('/create-checkout-session', async (req, res) => {
         'AE', 'AT', 'AU', 'BE', 'BR', 'CA', 'CH', 'CL', 'CN', 'CZ', 'DE', 'DK', 'ES', 'FR', 'GB', 'IE', 'IN', 'IT', 'JP', 'KR', 'MX', 'NL', 'NO', 'NZ', 'PT', 'RU', 'SE', 'SG', 'TR', 'US'
       ]
     },
-    success_url: `${domainURL}/success.html?session_id={CHECKOUT_SESSION_ID}`,
+    success_url: `${domainURL}/success.html?session_id={CHECKOUT_SESSION_ID}&id=${req.query.id}`,
     cancel_url: `${domainURL}/canceled.html`
   });
 
@@ -110,9 +106,8 @@ app.post('/create-checkout-session', async (req, res) => {
 
 
 
-// Fetch the Checkout Session to display the JSON result on the success page
 app.get('/checkout-session', async (req, res) => {
-  const { sessionId } = req.query;
+  const { sessionId } = req.query;console.log(req.query)
   const session = await stripe.checkout.sessions.retrieve(sessionId, { expand: ['line_items'] });
  
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
@@ -152,51 +147,5 @@ app.get('/checkout-session', async (req, res) => {
   res.send(session);
 });
 
-/*
-// Webhook handler for asynchronous events.
-app.post('/webhook', async (req, res) => {
-  let event;
-
-  // Check if webhook signing is configured.
-  if (process.env.STRIPE_WEBHOOK_SECRET) {
-    // Retrieve the event by verifying the signature using the raw body and secret.
-    let signature = req.headers['stripe-signature'];
-
-    try {
-      event = stripe.webhooks.constructEvent(
-        req.rawBody,
-        signature,
-        process.env.STRIPE_WEBHOOK_SECRET
-      );
-    } catch (err) {
-      console.log(`⚠️  Webhook signature verification failed.`);
-      return res.sendStatus(400);
-    }
-  } else {
-    // Webhook signing is recommended, but if the secret is not configured in `.env`,
-    // retrieve the event data directly from the request body.
-    event = req.body;
-  }
-
-  if (event.type === 'checkout.session.completed') {
-    console.log(`🔔  Payment received!`);
-
-    // Note: If you need access to the line items, for instance to
-    // automate fullfillment based on the the ID of the Price, you'll
-    // need to refetch the Checkout Session here, and expand the line items:
-    //
-    // const session = await stripe.checkout.sessions.retrieve(
-    //   'cs_test_KdjLtDPfAjT1gq374DMZ3rHmZ9OoSlGRhyz8yTypH76KpN4JXkQpD2G0',
-    //   {
-    //     expand: ['line_items'],
-    //   }
-    // );
-    //
-    // const lineItems = session.line_items;
-  }
-
-  res.sendStatus(200);
-});
-*/
 app.listen(process.env.PORT, () => console.log(`Node server listening on port ${process.env.PORT}!`));
 

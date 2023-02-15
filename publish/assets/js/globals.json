@@ -1,16 +1,18 @@
-export default {
-    INPUT_FOLDER: 'data',
-    OUTPUT_FOLDER: '../nfty-artworks',
-    ORIGINAL_FOLDER: 'original',
-    UHD_WIDTH: 3840,
-    UHD_HEIGHT: 2160,
-    GUTTER: 600,
-    MARGIN: 80,
-    WEB_URL: 'https://gallery.nftydreams.com/art.html',
-    ID_SEPARATOR: '/',
-    PRICE_DATA: [
+{
+    "INPUT_FOLDER": "data",
+    "OUTPUT_FOLDER": "../nfty-artworks",
+    "ORIGINAL_FOLDER": "original",
+    "UHD_WIDTH": 3840,
+    "UHD_HEIGHT": 2160,
+    "GUTTER": 600,
+    "MARGIN": 80,
+    "WEB_URL": "https: //gallery.nftydreams.com/art.html",
+    "AWS_BUCKET_URL": "https://nfty-artworks.s3-us-west-1.amazonaws.com",
+    "ID_SEPARATOR": "/",
+    "PRICE_DATA": [
         {
             "title": "Digital Collectible",
+            "sku": "dc-none",
             "width": 3840,
             "height": 2160,
             "aed_price": {
@@ -22,10 +24,11 @@ export default {
                 "A": 191,
                 "B": 109,
                 "C": 55
-            },
+            }
         },
         {
-            "title": "Digital Collectible + Small Canvas (30x20 cm)",
+            "title": "Digital Collectible + Small Canvas",
+            "sku": "dc-small",
             "width": 30,
             "height": 20,
             "aed_price": {
@@ -40,7 +43,8 @@ export default {
             }
         },
         {
-            "title": "Digital Collectible + Medium Canvas (60x40 cm)",
+            "title": "Digital Collectible + Medium Canvas",
+            "sku": "dc-medium",
             "width": 60,
             "height": 40,
             "aed_price": {
@@ -55,7 +59,8 @@ export default {
             }
         },
         {
-            "title": "Digital Collectible + Large Canvas (90x60 cm)",
+            "title": "Digital Collectible + Large Canvas",
+            "sku": "dc-large",
             "width": 90,
             "height": 60,
             "aed_price": {
@@ -69,7 +74,5 @@ export default {
                 "C": 136
             }
         }
-
     ]
 }
-
