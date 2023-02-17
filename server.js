@@ -5,9 +5,6 @@ const globals = require('./public/assets/js/globals.json');
 
 require('dotenv').config({ path: './.env' });
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2020-08-27'
-});
 const sgMail = require('@sendgrid/mail');
 
 const reqHandler = async (req) => {
@@ -43,7 +40,13 @@ app.get('/', (req, res) => {
 });
 
 app.post('/api/create-checkout-session', async (req, res) => {
-  const domainURL = process.env.DOMAIN;
+  const stripe = require('stripe')(
+  req.query.mode === 'test' ? process.env.STRIPE_SECRET_KEY : process.env.STRIPE_SECRET_LIVE_KEY, 
+  {
+    apiVersion: '2020-08-27'
+  });
+ 
+  const domainURL = `${req.protocol}://${req.headers.host}`;
   const order = await reqHandler(req);
 
   // Create new Checkout Session for the order
@@ -96,7 +99,13 @@ app.post('/api/create-checkout-session', async (req, res) => {
 
 
 app.get('/api/checkout-session', async (req, res) => {
-  const { sessionId } = req.query;console.log(req.query)
+  
+  const stripe = require('stripe')(
+    req.query.mode === 'test' ? process.env.STRIPE_SECRET_KEY : STRIPE_SECRET_LIVE_KEY, 
+  {
+    apiVersion: '2020-08-27'
+  });
+  const { sessionId } = req.query;
   const session = await stripe.checkout.sessions.retrieve(sessionId, { expand: ['line_items'] });
  
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);

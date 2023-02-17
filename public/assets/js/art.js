@@ -1,8 +1,11 @@
 
+const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
 let globals = {};
 let exhibit = null;
 
-function renderPage(project, account, exhibit, flag) {
+function renderPage(exhibit, flag) {
   document.getElementById('artwork').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`;
   document.getElementById('artwork_large').href = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl}`;
   document.getElementById('artwork_title').innerText = exhibit.title;
@@ -10,6 +13,10 @@ function renderPage(project, account, exhibit, flag) {
   document.getElementById('artist_name').innerText = exhibit.artist;
   document.getElementById('artist_country').innerText = (flag ? flag.emoji + ' ': '') + exhibit.country;
   document.getElementById('artist_profile').href = exhibit.profileUrl;
+  
+  if ((params.mode && params.mode === 'test')) {
+    document.getElementById('submit').disabled = false;
+  }
 
   let itemHtml = '';
   globals.PRICE_DATA.forEach((item) => {
@@ -31,14 +38,10 @@ export function switchItem(sku) {
 }
 
 export async function processRequest() {
-  const params = new Proxy(new URLSearchParams(window.location.search), {
-    get: (searchParams, prop) => searchParams.get(prop),
-  });
+
 
   if (params.id) {
     const project = params.id.split('/')[0];
-    const account = params.id.split('/')[1];
-
     const resp1 = await fetch('assets/js/globals.json');
     globals = await resp1.json();
 
@@ -49,7 +52,7 @@ export async function processRequest() {
       const resp2 = await fetch('assets/js/flags.json');
       const flags = await resp2.json();
       const flag = flags.find(f => f.name === exhibit.country);
-      renderPage(project, account, exhibit, flag);
+      renderPage(exhibit, flag);
     }
         
   } else {
