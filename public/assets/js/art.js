@@ -5,7 +5,6 @@ let exhibit = null;
 function renderPage(project, account, exhibit, flag) {
   document.getElementById('artwork').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`;
   document.getElementById('artwork_large').href = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl}`;
-  document.getElementById('form').action = `/create-checkout-session?id=${project}/${account}`;
   document.getElementById('artwork_title').innerText = exhibit.title;
   document.getElementById('artwork_description').innerText = exhibit.description;
   document.getElementById('artist_name').innerText = exhibit.artist;
@@ -28,7 +27,7 @@ export function switchItem(sku) {
   document.getElementById(`radio_${sku}`).checked = true;
   document.getElementById('price_aed').innerText = `AED ${priceItem.aed_price[exhibit.level]}`;
   document.getElementById('price_usd').innerText = `  USD ${priceItem.usd_price[exhibit.level]}`;
-  document.getElementById('form').action = `/create-checkout-session?id=${exhibit.project}_${exhibit.account}_${sku}`;
+  document.getElementById('form').action = `/api/create-checkout-session?id=${exhibit.project}_${exhibit.account}_${sku}`;
 }
 
 export async function processRequest() {

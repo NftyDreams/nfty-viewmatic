@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
   res.sendFile(path);
 });
 
-app.post('/create-checkout-session', async (req, res) => {
+app.post('/api/create-checkout-session', async (req, res) => {
   const domainURL = process.env.DOMAIN;
   const order = await reqHandler(req);
 
@@ -95,7 +95,7 @@ app.post('/create-checkout-session', async (req, res) => {
 
 
 
-app.get('/checkout-session', async (req, res) => {
+app.get('/api/checkout-session', async (req, res) => {
   const { sessionId } = req.query;console.log(req.query)
   const session = await stripe.checkout.sessions.retrieve(sessionId, { expand: ['line_items'] });
  
