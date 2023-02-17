@@ -89,7 +89,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
         'AE', 'AT', 'AU', 'BE', 'BR', 'CA', 'CH', 'CL', 'CN', 'CZ', 'DE', 'DK', 'ES', 'FR', 'GB', 'IE', 'IN', 'IT', 'JP', 'KR', 'MX', 'NL', 'NO', 'NZ', 'PT', 'RU', 'SE', 'SG', 'TR', 'US'
       ]
     },
-    success_url: `${domainURL}/success.html?session_id={CHECKOUT_SESSION_ID}&id=${req.query.id}`,
+    success_url: `${domainURL}/success.html?session_id={CHECKOUT_SESSION_ID}&id=${req.query.id}${req.query.mode === 'test' ? '&mode=test' : ''}`,
     cancel_url: `${domainURL}/canceled.html`
   });
 
@@ -101,7 +101,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
 app.get('/api/checkout-session', async (req, res) => {
   
   const stripe = require('stripe')(
-    req.query.mode === 'test' ? process.env.STRIPE_SECRET_KEY : STRIPE_SECRET_LIVE_KEY, 
+    req.query.mode === 'test' ? process.env.STRIPE_SECRET_KEY : process.env.STRIPE_SECRET_LIVE_KEY, 
   {
     apiVersion: '2020-08-27'
   });
