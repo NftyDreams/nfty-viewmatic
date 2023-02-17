@@ -7,6 +7,10 @@
     ],
     "routes": [
         {
+            "src": "/(.*).html(.*)",
+            "dest": "publish/$1"
+        },
+        {
           "src": "/(.*)",
           "dest": "server.js"
         }
