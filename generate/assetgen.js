@@ -1,7 +1,7 @@
 const path = require('path');
 const fse = require('fs-extra');
 const fs = require("fs").promises;
-const globals = require('../publish/assets/js/globals');
+const globals = require('../public/assets/js/globals');
 const sharp = require('sharp');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const QRCode = require('qrcode');

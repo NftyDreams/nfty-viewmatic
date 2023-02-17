@@ -1,6 +1,6 @@
 const path = require('path');
 const fse = require('fs-extra');
-const globals = require('../publish/assets/js/globals');
+const globals = require('../public/assets/js/globals');
 const { viewmatic } = require('./viewmatic.js');
 const colors = require('colors');
 var dir = require('node-dir');

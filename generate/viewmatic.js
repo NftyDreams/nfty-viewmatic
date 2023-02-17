@@ -1,5 +1,5 @@
 const path = require('path');
-const globals = require('../publish/assets/js/globals');
+const globals = require('../public/assets/js/globals');
 const { AssetGen } = require('./assetgen');
 /**
  * Generates all images for an exhibition

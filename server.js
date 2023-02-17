@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const { resolve } = require('path');
-const globals = require('./publish/assets/js/globals.json');
+const globals = require('./public/assets/js/globals.json');
 
 require('dotenv').config({ path: './.env' });
 
@@ -36,17 +36,6 @@ const reqHandler = async (req) => {
 app.use(express.static(process.env.STATIC_DIR));
 app.use(express.urlencoded());
 app.use(express.json())
-app.use(
-  express.json({
-    // We need the raw body to verify webhook signatures.
-    // Let's compute it only when hitting the Stripe webhook endpoint.
-    verify: function (req, res, buf) {
-      if (req.originalUrl.startsWith('/webhook')) {
-        req.rawBody = buf.toString();
-      }
-    },
-  })
-);
 
 app.get('/', (req, res) => {
   const path = resolve(process.env.STATIC_DIR + '/index.html');
