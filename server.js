@@ -44,17 +44,21 @@ app.get('/api/launch-wallet', async (req, res) => {
   try {
     const email = req.query.e;
     if (email) {
-      const res = await axios.post(
+      const resp = await axios.post(
         'https://api.nftydreams.com/v1/public/user/request-otp',
         {
           'email': email
         },
         {
-          'Content-Type': 'application/json',
-          'api-key': 'GaqsJYxZjDVNMP9iPx83fRG2Tyzvzo@Hs8aR.PsB'
+          'headers': {
+            'Content-Type': 'application/json',
+            'api-key': 'GaqsJYxZjDVNMP9iPx83fRG2Tyzvzo@Hs8aR.PsB'
+          }
         }
       );
-      console.log(res.data.json);
+      if (resp.data.success === true) {
+        res.redirect(`https://wallet.nftydreams.com/verify?email=${email}`);
+      }
     }
   } catch (error) {
     console.error(error);
@@ -158,7 +162,8 @@ app.get('/api/checkout-session', async (req, res) => {
             }
           ],
           "dynamic_template_data": {
-            "claim_link": "https://www.microsoft.com"
+            "image_url": `${globals.AWS_BUCKET_URL}/${session.metadata.project}/original/thumb/${session.metadata.itemId}.jpg`,
+            "claim_link": `https://gallery.nftydreams.com/api/launch-wallet?e=${session.customer_details.email}`
           }
         }
       ],
