@@ -43,13 +43,13 @@
         <section class="e-prodetails-wrap mt-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12" id="artwork_col">
                         <div class="pd-gallery-wrap">
 
                             <div class="pd-img-wrap">
                                 <div class="pd-img text-center ">
                                     <a href="" id="artwork_large" target="_new">
-                                        <img src="" id="artwork" alt="artwork-img">
+                                        <img src="" id="artwork" alt="artwork-img" style="display:none;">
                                     </a>
                                 </div>
                             </div>
@@ -60,7 +60,9 @@
                             <div class="pd-infotop">
                                 <h2 class="pd-title" id="artwork_title"></h2>
                                 <div class="pd-special-price">
-                                    <span class="pd-price-end" id="headline">Buy a Digital Collectible and Canvas Print of this artwork</span>
+                                    <div>🎨 <a href="" id="artist_profile" target="_new"><span id="artist_name"></span></a></div>
+                                    <div><span id="artist_country"></span></div>
+                                    <div class="pd-price-end" id="headline">Buy a Digital Collectible and Canvas Print (images only) of this artwork</div>
                                 </div>
                                 <ul class="pd-price-wrap">
                                     <li><span class="pd-price-tile" id="price_aed"></span> <span id="price_usd"></span></li>
@@ -76,7 +78,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <strong><p>The Digital Collectible will be available in your account within 48 hours of purchase. The Canvas Print will arrive within 7-10 business days.</p></strong>
+                                        <strong><p>The Digital Collectible will be available in your account within 48 hours of purchase. <span id="canvas_note">The Canvas Print will arrive within 7-10 business days. See below for more information.</span></p></strong>
                                     </li>
                                     <li>
                                         <div class="ib-list-right">
@@ -84,7 +86,7 @@
                                                 <li>
 
                                                     <form id="form" action="" method="POST">
-                                                        <button id="submit" class="e-btn">Buy</button>
+                                                        <button id="submit" class="e-btn" disabled="disabled">Buy</button>
                                                       </form>
                                                 </li>
                                             </ul>
@@ -108,11 +110,15 @@
                             <ul class="nav nav-pills e-pdtab-tabs" role="tablist">
                                 <li>
                                     <a class="active" data-bs-toggle="pill" href="#description" role="tab"
-                                        aria-controls="description" aria-selected="true">Description</a>
+                                        aria-controls="description" aria-selected="true">Art Description</a>
                                 </li>
                                 <li>
-                                    <a data-bs-toggle="pill" href="#artist_info" role="tab" aria-controls="artist_info"
-                                        aria-selected="false">About the Artist</a>
+                                    <a data-bs-toggle="pill" href="#dc_info" role="tab" aria-controls="dc_info"
+                                        aria-selected="false">Digital Collectible Information</a>
+                                </li>
+                                <li id="canvas_tab">
+                                    <a data-bs-toggle="pill" href="#canvas_info" role="tab" aria-controls="canvas_info"
+                                        aria-selected="false">Canvas Print Information</a>
                                 </li>
                             </ul>
                             <div class="tab-content">
@@ -121,21 +127,42 @@
                                         <p class="mb-20" id="artwork_description"></p>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="artist_info" role="tabpanel">
+                                <div class="tab-pane fade show" id="dc_info" role="tabpanel">
                                     <div class="tab-content-inner">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <ul class="pdtab-addinfo">
-                                                    <li>
-                                                        <p><span id="artist_name"></span></p>
-                                                        <p><span id="artist_country"></span></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><a href="" id="artist_profile" target="_new">Artist Profile</a></p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                        <p class="mb-20">
+                                            After payment is complete, you will receive an email with login instructions for your NftyDreams account where you can view your Digital Collectible.
+                                            The Digital Collectible (also called NFT) will be created on the Ethereum blockchain and available in your NftyDreams account within 48 hours of purchase. 
+                                            (We have to wait for funds to clear from your credit card issuing bank before we can issue the Digital Collectible.)                                            
+                                        </p>
+                                        <p class="mb-20">
+                                            Whenever you wish to transfer the Digital Collectible to another blockchain account (also called "wallet"), you can do 
+                                            so with one click of a "Transfer" button from your NftyDreams account. The Digital Collectible will be transferred at no additional cost.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="canvas_info" role="tabpanel">
+                                    <div class="tab-content-inner">
+                                        <p class="mb-20">
+                                            Turn your collectible art into a beautiful canvas. The canvas texture intensifies the image's natural look and feel.
+                                        </p>
+                                        <p>
+                                            <img src="assets/images/canvas.png" alt="Canvas" style="max-width:80%"/>
+                                        </p>
+                                        <ul class="mt-20">
+                                            <li>- Canvas print is shipped directly from <a href="https://gelato.com">Gelato.com</a></li>
+                                            <li>- Canvas frames are made of FSC® certified wood. When not available PEFC or equivalent.</li>
+
+                                                <li>- Canvas has a 2-3 cm (0.8-1.2") thick frame</li>
+                                                                                        
+                                                        <li>- Shipped in protective packaging and strong boxes to ensure no damage during transportation.</li>
+                                            
+                                                            <li>- Mounting kit included</li>
+                                            
+                                                                <li>- Colored edges are not supported</li>
+                                            
+                                        </ul>
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>

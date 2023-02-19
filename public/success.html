@@ -1,36 +1,91 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!doctype html>
+<html lang="en">
 
-    <title>Stripe Checkout Sample</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="MobileOptimized" content="320">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>NftyDreams</title>
+</head>
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/global.css" />
-    <script src="./success.js" defer></script>
-  </head>
+<body>
+    <!-- main-wrapper start -->
+    <div class="main-wrapper">
 
-  <body>
-    <div class="sr-root">
-      <div class="sr-main">
-        <header class="sr-header">
-          <div class="sr-header__logo"></div>
-        </header>
+        <!-- Header Start -->
+        <div class="header-main-wrapper">
+            <div class="header-sticky-wrapper">
+                <div class="hs-left">
+                    <div class="hs-left-logo">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="hs-medium custom-scroll">
+                    <div class="nav-items main-menu-wraper">
+                        <ul class="menu-list d-xl-flex">
+                            <li>
+                                <a href="index.html" class="hs-mobile-logo">
+                                    <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                                </a>
+                            </li>
 
-        <div class="sr-payment-summary completed-view">
-          <h1>Your payment succeeded</h1>
-          <h4>View CheckoutSession response:</h4>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="sr-section completed-view">
-          <div class="sr-callout">
-            <pre></pre>
-          </div>
-          <button onclick="window.location.href = '/';">Restart demo</button>
-        </div>
-      </div>
 
+        <!-- Product Details start -->
+        <section class="e-prodetails-wrap mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                      <h2 class="pd-title mb-2" id="artwork_title"></h2>
+                      <div class="pd-gallery-wrap">
+
+                            <div class="pd-img-wrap">
+                                <div class="pd-img text-center ">
+                                    <a href="" id="artwork_large" target="_new">
+                                        <img src="" id="artwork" alt="artwork-img" style="display:none">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="mb-4 mt-4">Thank you!</h1>
+                        <h2 class="mb-4">Your payment succeeded.</h2>
+                        <p class="mb-4">Check your inbox for an email from us with next steps.</p>
+                        <p class="mb-4">If you don't see this email in the next 15-20 mins (do check your junk mail folder), send us an email at support@nftydreams.com and we'll help you with next steps.</p>
+                        <p class="mb-4">Please allow 12-24 hours for a response (we work during U.S. Pacific time zone business hours).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+    <!-- main-wrapper End -->
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import * as Success from './assets/js/success.js'
+      Success.processRequest();
+      window.Success = Success;
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RR5XDQVCXV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-RR5XDQVCXV');
+    </script>
   </body>
+
 </html>

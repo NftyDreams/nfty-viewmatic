@@ -2388,9 +2388,10 @@ body.open-cart .main-wrapper:not(.sb-cartbox) {
     color: var(--sub-txt-color);
 }
 .pd-special-price {
-    display: flex;
-    align-items: center;
     margin: 7px 0 10px;
+}
+.pd-special-price div {
+    margin: 7px 0 0;
 }
 .pd-price-end {
     font-size: 14px;

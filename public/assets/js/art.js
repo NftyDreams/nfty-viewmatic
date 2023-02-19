@@ -6,7 +6,14 @@ let globals = {};
 let exhibit = null;
 
 function renderPage(exhibit, flag) {
-  document.getElementById('artwork').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`;
+  if (exhibit.isVideo === false) {
+    document.getElementById('artwork').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`;
+    document.getElementById('artwork').style.display = 'block';  
+  } else {
+    document.getElementById('canvas_note').style.display = 'none'
+    document.getElementById('canvas_tab').style.display = 'none'
+    document.getElementById('artwork_col').style.display = 'none'
+  }
   document.getElementById('artwork_large').href = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl}`;
   document.getElementById('artwork_title').innerText = exhibit.title;
   document.getElementById('artwork_description').innerText = exhibit.description;
@@ -23,10 +30,17 @@ function renderPage(exhibit, flag) {
     const width = exhibit.isLandscape ? item.width : item.height;
     const height = exhibit.isLandscape ? item.height : item.width;
     const suffix = item.sku === 'dc-none' ? ' pixels' : ' cm';
-    itemHtml += `<li class="mb-2"><input type="radio" name="variant" onclick="Art.switchItem('${item.sku}')" id="radio_${item.sku}"> ${item.title}<br />&nbsp;&nbsp;&nbsp; (${width}x${height}${suffix})</input></li>`;
+    if ((exhibit.isVideo === false) || (exhibit.isVideo === true) && (item.sku === 'dc-none')) {
+          itemHtml += `<li class="mb-2"><input type="radio" name="variant" onclick="Art.switchItem('${item.sku}')" id="radio_${item.sku}"> ${item.title}<br />&nbsp;&nbsp;&nbsp; (${width}x${height}${suffix})</input></li>`;
+    }
   });
   document.getElementById('variants').innerHTML = itemHtml;
-  Art.switchItem('dc-small');
+  if (exhibit.isVideo === false) {
+    Art.switchItem('dc-small');
+  } else 
+  {
+    Art.switchItem('dc-none');
+  }
 }
 
 export function switchItem(sku) {
