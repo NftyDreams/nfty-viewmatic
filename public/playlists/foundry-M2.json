@@ -2,10 +2,9 @@
     {
         "duration": 15000,
         "sets": {
-            "foundry-win": [
-                "P-A-1",
-                "P-A-2"
-            ]
+            "foundry-g1": [
+                "P-B-1",
+                "P-B-2"            ]
         }
     }
 ]

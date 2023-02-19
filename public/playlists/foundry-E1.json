@@ -3,9 +3,10 @@
         "duration": 15000,
         "sets": {
             "foundry-g1": [
-                "L-A-1",
-                "L-B-1",
-                "L-A-Video"
+                "L-A-1"
+            ],
+            "foundry-g2": [
+                "L-A-1"
             ]
         }
     }
