@@ -165,7 +165,7 @@ app.get('/api/checkout-session', async (req, res) => {
           ],
           "dynamic_template_data": {
             "image_url": `${globals.AWS_BUCKET_URL}/${session.metadata.project}/original/thumb/${session.metadata.itemId}.jpg`,
-            "claim_link": `https://gallery.nftydreams.com/api/launch-wallet?e=${session.customer_details.email}${req.query.mode === 'test' ? '&mode=test':''}`
+            "claim_link": `https://gallery.nftydreams.com/api/launch-wallet?e=${session.customer_details.email}${req.query.mode === 'test' ? '&mode=test' : ''}`
           }
         }
       ],
@@ -185,6 +185,58 @@ app.get('/api/checkout-session', async (req, res) => {
       console.error(error.response.body)
     }
   }
+});
+
+
+app.post('/stripe-webhook', async (req, res) => {
+
+  const event = req.body;
+
+  // Handle the event
+  switch (event.type) {
+    case 'payment_intent.succeeded':
+      
+      sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+      const msg = {
+
+        "from": {
+          "email": "noreply@nftydreams.com",
+          "name": "NftyDreams DAO"
+        },
+        "personalizations": [
+          {
+            "to": [
+              {
+                "email": "support@nftydreams.com"
+              }
+            ]
+          }
+        ],
+        "subject": "New Order " + event.data.object.id,
+        content: [
+          {
+            type: 'text/plain',
+            value: JSON.stringify(event.data, null, 2)
+          }
+        ]
+
+      }
+
+      await sgMail.send(msg);
+
+      break;
+    case 'payment_method.attached':
+      // const paymentMethod = event.data.object;
+      // console.log('PaymentMethod was attached to a Customer!');
+      break;
+    // ... handle other event types
+    default:
+    // console.log(`Unhandled event type ${event.type}`);
+  }
+
+  // Return a 200 response to acknowledge receipt of the event
+  res.json({ received: true });
+
 });
 
 app.listen(process.env.PORT, () => console.log(`Node server listening on port ${process.env.PORT}!`));
