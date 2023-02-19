@@ -43,9 +43,11 @@ app.get('/', (req, res) => {
 app.get('/api/launch-wallet', async (req, res) => {
   try {
     const email = req.query.e;
+    const testMode = req.query.mode === 'test' ? true : false;
+
     if (email) {
       const resp = await axios.post(
-        'https://api.nftydreams.com/v1/public/user/request-otp',
+        `https://${testMode === true ? 'dev-' : ''}api.nftydreams.com/v1/public/user/request-otp`,
         {
           'email': email
         },
@@ -163,7 +165,7 @@ app.get('/api/checkout-session', async (req, res) => {
           ],
           "dynamic_template_data": {
             "image_url": `${globals.AWS_BUCKET_URL}/${session.metadata.project}/original/thumb/${session.metadata.itemId}.jpg`,
-            "claim_link": `https://gallery.nftydreams.com/api/launch-wallet?e=${session.customer_details.email}`
+            "claim_link": `https://gallery.nftydreams.com/api/launch-wallet?e=${session.customer_details.email}${req.query.mode === 'test' ? '&mode=test':''}`
           }
         }
       ],
@@ -172,6 +174,10 @@ app.get('/api/checkout-session', async (req, res) => {
     }
 
     await sgMail.send(msg);
+
+    console.log(JSON.stringify(session, null, 2))
+    res.send(session);
+
   } catch (error) {
     console.error(error);
 
@@ -179,9 +185,6 @@ app.get('/api/checkout-session', async (req, res) => {
       console.error(error.response.body)
     }
   }
-
-  console.log(JSON.stringify(session, null, 2))
-  res.send(session);
 });
 
 app.listen(process.env.PORT, () => console.log(`Node server listening on port ${process.env.PORT}!`));
