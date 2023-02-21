@@ -10,9 +10,11 @@ function renderPage(exhibit, flag) {
     document.getElementById('artwork').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png','.jpg')}`;
     document.getElementById('artwork').style.display = 'block';  
   } else {
+    document.getElementById('artwork_video').src = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl}`;
+    document.getElementById('artwork_video').style.display = 'block';  
     document.getElementById('canvas_note').style.display = 'none'
     document.getElementById('canvas_tab').style.display = 'none'
-    document.getElementById('artwork_col').style.display = 'none'
+//    document.getElementById('artwork_col').style.display = 'none'
   }
   document.getElementById('artwork_large').href = `${globals.AWS_BUCKET_URL}${exhibit.originalUrl}`;
   document.getElementById('artwork_title').innerText = exhibit.title;

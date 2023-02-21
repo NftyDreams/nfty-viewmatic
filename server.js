@@ -35,10 +35,10 @@ app.use(express.static(process.env.STATIC_DIR));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
-app.get('/', (req, res) => {
-  const path = resolve(process.env.STATIC_DIR + '/index.html');
-  res.sendFile(path);
-});
+// app.get('/', (req, res) => {
+//   const path = resolve(process.env.STATIC_DIR + '/index.html');
+//   res.sendFile(path);
+// });
 
 app.get('/api/launch-wallet', async (req, res) => {
   try {

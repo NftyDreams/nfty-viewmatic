@@ -1,7 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="MobileOptimized" content="320" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
+    <title>NftyDreams</title>
+    <style>
+      .gallery {
+        position: absolute;
+        margin: auto;
+      }
+      .js-masonry-list img {
+        height: auto;
+        width: 100%;
+        vertical-align: top;
+      }
+      .js-masonry-list {
+        max-width: 1200px;
+        margin: 0 auto 100px;
+        padding: 0 50px;
+        list-style: none;
+      }
+
+      .js-masonry-elm {
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        font-size: 14px;
+      }
+
+    </style>
+  </head>
+
   <body>
+    <!-- main-wrapper start -->
+    <div class="main-wrapper">
+      <div class="header-main-wrapper">
+        <div class="header-sticky-wrapper">
+          <div class="hs-left">
+            <div class="hs-left-logo">
+              <a href="index.html">
+                <img
+                  src="assets/images/logo.png"
+                  alt="logo"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="e-prodetails-wrap mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="js-masonry-list" id="gallery"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="assets/js/simple-masonry.min.js"></script>
+    <script type="module">
+      import * as Gallery from './assets/js/gallery.js'
+      Gallery.processRequest()
+      window.Gallery = Gallery
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RR5XDQVCXV"
+    ></script>
     <script>
-      location.replace('https://nftydreams.com/go/')
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-RR5XDQVCXV')
     </script>
   </body>
 </html>
