@@ -42,7 +42,7 @@ export async function display(artworkInfo) {
   markers = L.markerClusterGroup({
     spiderfyOnMaxZoom: false,
     spiderfyDistanceMultiplier: 2,
-    showCoverageOnHover: true,
+    showCoverageOnHover: false,
     zoomToBoundsOnClick: true
   })
 
