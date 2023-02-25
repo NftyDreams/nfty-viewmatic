@@ -2,11 +2,16 @@
     "INPUT_FOLDER": "data",
     "OUTPUT_FOLDER": "../nfty-artworks",
     "ORIGINAL_FOLDER": "original",
+    "THUMB_FOLDER": "thumb",
+    "THUMB_WIDTH": 960,
+    "THUMB_HEIGHT": 540,
+    "ORIGINAL_THUMB_WIDTH": 960,
+    "ORIGINAL_THUMB_HEIGHT": 640,
     "UHD_WIDTH": 3840,
     "UHD_HEIGHT": 2160,
     "GUTTER": 600,
     "MARGIN": 80,
-    "WEB_URL": "https: //gallery.nftydreams.com/art.html",
+    "WEB_URL": "https://gallery.nftydreams.com/art.html",
     "AWS_BUCKET_URL": "https://nfty-artworks.s3-us-west-1.amazonaws.com",
     "ID_SEPARATOR": "/",
     "PRICE_DATA": [
@@ -15,15 +20,10 @@
             "sku": "dc-none",
             "width": 3000,
             "height": 2000,
-            "aed_price": {
-                "A": 699,
-                "B": 399,
-                "C": 199
-            },
             "usd_price": {
-                "A": 191,
-                "B": 109,
-                "C": 55
+                "A": 199,
+                "B": 119,
+                "C": 59
             }
         },
         {
@@ -31,15 +31,10 @@
             "sku": "dc-small",
             "width": 30,
             "height": 20,
-            "aed_price": {
-                "A": 799,
-                "B": 499,
-                "C": 299
-            },
             "usd_price": {
-                "A": 218,
-                "B": 136,
-                "C": 82
+                "A": 219,
+                "B": 139,
+                "C": 89
             }
         },
         {
@@ -47,15 +42,10 @@
             "sku": "dc-medium",
             "width": 60,
             "height": 40,
-            "aed_price": {
-                "A": 899,
-                "B": 599,
-                "C": 399
-            },
             "usd_price": {
-                "A": 245,
-                "B": 164,
-                "C": 109
+                "A": 249,
+                "B": 169,
+                "C": 119
             }
         },
         {
@@ -63,15 +53,10 @@
             "sku": "dc-large",
             "width": 90,
             "height": 60,
-            "aed_price": {
-                "A": 999,
-                "B": 699,
-                "C": 499
-            },
             "usd_price": {
-                "A": 273,
-                "B": 191,
-                "C": 136
+                "A": 279,
+                "B": 199,
+                "C": 139
             }
         }
     ]

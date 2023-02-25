@@ -8,18 +8,19 @@ const { AssetGen } = require('./assetgen');
 async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDir) {
 
     const exhibits = [];
+    const errors = [];
 
     for (let a = 0; a < artfiles.length; a++) {  //async/await in forEach has problems; don't use
         let artfile = artfiles[a];
         if (artfile.name.startsWith('.')) continue;
-        console.log(artfile.path)
+        //console.log(artfile.path)
         let options = {
             path: artfile.path,
             outputPath: path.resolve(artfile.path.replace(globals.INPUT_FOLDER, globals.OUTPUT_FOLDER)),
             name: artfile.name,
             tmpDir
         }
-        console.log('####', artworkInfo.artworks)
+        //console.log('####', artworkInfo.artworks)
         let account = artfile.name.split(' ')[0].toLowerCase();
         let artwork = artworkInfo.artworks.find(e => e.account.toLowerCase() === account);
         if (artwork) {
@@ -33,7 +34,7 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
             options.logoUrl = path.join(artfile.path, '..', '..','..','logos', artworkInfo.logo);
             options.account = artwork.account;
             options.description = artwork.description;
-            options.landscape = options.path.indexOf('L-') > -1 ? true : false;
+            options.isLandscape = options.path.indexOf('L-') > -1 ? true : false;
             options.qrcodeUrl = artworkInfo?.qrcodeUrl;
             options.outputDir = outputDir;
 
@@ -41,6 +42,8 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
             const pathFrags = artfile.path.split('/');
             const folderFrags = pathFrags[pathFrags.length-1].split('-')
             options.level = folderFrags[1];
+
+         //   if ((options.landscape === true) || (options.name.indexOf('.mp4') < 0)) continue;
 
             const artInfo = artwork;
             delete artInfo.orientation;
@@ -50,27 +53,30 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
             artInfo.artist = options.artist;
             artInfo.flag = options.flag;
 
-            let mediaInfo = {};
-            if (options.name.indexOf('.mp4') > -1) {
-                mediaInfo = await AssetGen.renderVideo(options);
+            let mediaInfo = await AssetGen.renderMedia(options);            
+            if (mediaInfo.error === false) {
+                artInfo.isLandscape = options.isLandscape;
+                artInfo.isVideo = mediaInfo.isVideo;
+                artInfo.displayUrl = mediaInfo.displayUrl;
+                artInfo.originalUrl = mediaInfo.originalUrl;
+                artInfo.duration = mediaInfo.duration;
+                artInfo.tags = [mediaInfo.tag];
+                artInfo.level = artwork.prices[0];
+                            
+                exhibits.push(artInfo);
             } else {
-                mediaInfo = await AssetGen.renderImage(options);
+                console.log('Error with ', artwork);
+                console.log(mediaInfo.err);
+                errors.push(artInfo);
             }
-            artInfo.isLandscape = options.landscape;
-            artInfo.isVideo = mediaInfo.isVideo;
-            artInfo.displayUrl = mediaInfo.displayUrl;
-            artInfo.originalUrl = mediaInfo.originalUrl;
-            artInfo.duration = mediaInfo.duration;
-            artInfo.tags = [mediaInfo.tag];
-            artInfo.level = options.level;
-                        
-            exhibits.push(artInfo);
-
         }
-
     }
 
-    return exhibits.sort((a,b)=> (a.level + a.artist > b.level + b.artist ? 1 : -1))
+    return {
+        
+        exhibits: exhibits.sort((a,b)=> (a.level + a.artist > b.level + b.artist ? 1 : -1)),
+        errors
+    }
 }
 
 

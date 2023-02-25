@@ -26,7 +26,7 @@ const reqHandler = async (req) => {
     product: exhibit.title,
     description: product.title,
     imageUrl: `${globals.AWS_BUCKET_URL}${exhibit.originalUrl.replace('original', 'original/thumb').replace('.png', '.jpg')}`,
-    price: product.aed_price[exhibit.level] * 100,
+    price: product.usd_price[exhibit.level] * 100,
     quantity: 1
   }
 }
@@ -91,7 +91,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
       line_items: [{
 
         price_data: {
-          currency: 'AED',
+          currency: 'USD',
           product_data: {
             name: `${order.product}`,
             description: `${order.description}`,

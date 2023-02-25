@@ -48,8 +48,7 @@ function renderPage(exhibit, flag) {
 export function switchItem(sku) {
   const priceItem = globals.PRICE_DATA.find(f => f.sku === sku);
   document.getElementById(`radio_${sku}`).checked = true;
-  document.getElementById('price_aed').innerText = `AED ${priceItem.aed_price[exhibit.level]}`;
-  document.getElementById('price_usd').innerText = `  USD ${priceItem.usd_price[exhibit.level]}`;
+  document.getElementById('price_usd').innerText = `USD ${priceItem.usd_price[exhibit.level]}`;
   document.getElementById('form').action = `/api/create-checkout-session?id=${exhibit.project}_${exhibit.account}_${sku}${params?.mode === 'test' ? '&mode=test' : ''}`;
 }
 

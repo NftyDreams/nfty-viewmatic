@@ -19,6 +19,7 @@ var dir = require('node-dir');
     const outputDir = path.join(__dirname, '..', globals.OUTPUT_FOLDER, project);
     const tmpDir = path.join(dataPath, 'tmp');
     const outFileJson = path.join(outputDir, project + '-exhibits.json');
+    const errorFileJson = path.join(outputDir, project + '-errors.json');
     const outFileHtml = path.join(outputDir, project + '.html');
 
     if (fse.existsSync(outputDir)) {
@@ -51,11 +52,12 @@ var dir = require('node-dir');
             const result = await viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDir)
 
             // Write output files
-            fse.writeJsonSync(outFileJson, result, { spaces: 2 });
+            fse.writeJsonSync(outFileJson, result.exhibits, { spaces: 2 });
+            fse.writeJsonSync(errorFileJson, result.errors, { spaces: 2 });
 
             let html = '';
             let prevLevel = ''
-            result.forEach((item) => {
+            result.exhibits.forEach((item) => {
                 if (item.level !== prevLevel) {
                     html += `<h2>Level ${item.level}</h2>\n`;
                     prevLevel = item.level;
