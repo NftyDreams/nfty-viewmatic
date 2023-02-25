@@ -29,7 +29,7 @@
       .js-masonry-list {
         max-width: 1200px;
         margin: 0 auto 100px;
-        padding: 0 50px;
+        padding: 0;
         list-style: none;
       }
 
@@ -49,7 +49,7 @@
   <body>
     <!-- main-wrapper start -->
     <div class="main-wrapper">
-      <div class="header-main-wrapper">
+      <div class="header-main-wrapper" id="header-row">
         <div class="header-sticky-wrapper">
           <div class="hs-left">
             <div class="hs-left-logo">
@@ -67,7 +67,7 @@
 
       <section class="e-prodetails-wrap mt-4">
         <div class="container">
-          <div class="row">
+          <div class="row" id="info-row">
             <div class="col-12">
               <h4>
               NftyDreams DAO is a global collective of artists using tech to revolutionize the world's relationship
@@ -89,9 +89,12 @@
 
     <script src="assets/js/simple-masonry.min.js"></script>
     <script type="module">
+      import * as Projects from './assets/js/projects.js'
       import * as Gallery from './assets/js/gallery.js'
-      Gallery.processRequest()
-      window.Gallery = Gallery
+      const artworkInfo = await Projects.loadArtworks(true);
+      Gallery.display(artworkInfo);
+      window.Projects = Projects;
+      window.Gallery = Gallery;
     </script>
 
     <script

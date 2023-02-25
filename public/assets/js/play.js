@@ -78,7 +78,6 @@ if (playlist) {
           }
         });
       });
-      console.log('MEDIA', media)
       gallery.media = media;
       all = gallery.media.length;
       preloadAll();
