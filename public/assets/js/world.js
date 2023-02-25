@@ -22,9 +22,23 @@ export async function display(artworkInfo) {
   // ),
   const latlng = L.latLng(38, -97);
 
-  const layer = new L.StamenTileLayer('watercolor');
+  var watercolorUrl = "https://stamen-tiles-a.a.ssl.fastly.net/watercolor/{Z}/{X}/{Y}.png";
+
+  const url = watercolorUrl.replace(/({[A-Z]})/g, function(s) {
+      return s.toLowerCase();
+  });
+
+  const layer = L.tileLayer(url, {
+      subdomains: ['','a.','b.','c.','d.'],
+      minZoom: 0,
+      maxZoom: 20,
+      type: 'png',
+      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
+  });
+
   map = L.map('map', { center: latlng, zoom: 3, maxZoom: 5, layers: [layer], attribution: '© OpenStreetMap' }).addLayer(layer);
   
+
   markers = L.markerClusterGroup({
     spiderfyOnMaxZoom: false,
     spiderfyDistanceMultiplier: 2,
