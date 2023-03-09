@@ -9,7 +9,7 @@ const country = params.c || null;
 
 export async function loadArtworks(randomize) {
 
-  const resp = await fetch(`${AWS_BUCKET_URL}/projects.json`);
+  const resp = await fetch(`${AWS_BUCKET_URL}/metadata/projects.json`);
   const projects = await resp.json();
   let artworks = [];
 
