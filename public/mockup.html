@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NftyDreams Artwork Viewer</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/view.css" />
+  </head>
+  <body>
+    <h2 class="heading-text">NftyDreams Artwork Viewer</h2>
+    <form method="GET" action="mockup.html">
+      <p>
+        <label>Ethereum Address:</label>
+        <input
+          id="account"
+          name="a"
+        />
+      </p>
+      <p>
+        <label>Project:</label>
+        <select name="p" id="project">
+          <option value="foundry-g1" selected="selected">
+            Foundry Group 1
+          </option>
+          <option value="foundry-g2">Foundry Group 2</option>
+        </select>
+
+        <input type="submit" value="View" />
+      </p>
+      <p>
+        Right-click image to Save hi-res file. Please use <strong>#artistIQ</strong> on social media and tag <a href="https://twitter.com/@NftyDreams">@NftyDreams</a> <a href="https://twitter.com/@techbubble">@techbubble</a>
+      </p>
+    </form>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+      <!-- Full-width images with number text -->
+      <div id="slides">
+
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row" id="row">
+      </div>
+    </div>
+
+    <script>
+      let slideIndex = 1
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n))
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n))
+      }
+
+      function showSlides(n) {
+        let i
+        let slides = document.getElementsByClassName('slides')
+        let views = document.getElementsByClassName('view')
+        let captionText = document.getElementById('caption')
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none'
+        }
+
+        for (i = 0; i < views.length; i++) {
+          views[i].className = views[i].className.replace(' active', '')
+        }
+        slides[slideIndex - 1].style.display = 'block'
+        views[slideIndex - 1].className += ' active'
+        captionText.innerHTML = views[slideIndex - 1].alt
+      }
+    </script>
+    <script src="assets/js/perspective.js"></script>
+    <script src="assets/js/mockup.js"></script>
+
+    </script>
+  </body>
+</html>

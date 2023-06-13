@@ -1,6 +1,6 @@
 
 export async function display(artworkInfo) {
-console.log(location.href)
+
   if (location.href.indexOf('hide=') > -1) {
     document.getElementById('info-row').style.display = 'none';
     document.getElementById('header-row').style.display = 'none';

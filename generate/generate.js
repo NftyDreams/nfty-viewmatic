@@ -45,10 +45,14 @@ var dir = require('node-dir');
             subdirs.forEach(function(filePath) {
                 const files = fse.readdirSync(filePath);
                 files.forEach((file) => {         
-                    artfiles.push({ path: filePath, name: file})
+                    let fileName = file;
+                    if (fileName.indexOf(' ') < 0) {
+                        fileName = file.replace('.', ' - x.');
+                        fse.renameSync(path.join(filePath,file), path.join(filePath, fileName));
+                    }
+                    artfiles.push({ path: filePath, name: fileName})
                 });
             });
-
             const result = await viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDir)
 
             // Write output files

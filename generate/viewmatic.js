@@ -13,7 +13,7 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
     for (let a = 0; a < artfiles.length; a++) {  //async/await in forEach has problems; don't use
         let artfile = artfiles[a];
         if (artfile.name.startsWith('.')) continue;
-        //console.log(artfile.path)
+        
         let options = {
             path: artfile.path,
             outputPath: path.resolve(artfile.path.replace(globals.INPUT_FOLDER, globals.OUTPUT_FOLDER)),
@@ -21,8 +21,8 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
             tmpDir
         }
         //console.log('####', artworkInfo.artworks)
-        let account = artfile.name.split(' ')[0].toLowerCase();
-        let artwork = artworkInfo.artworks.find(e => e.account.toLowerCase() === account);
+        let account = artfile.name.indexOf(' ') > -1 ? artfile.name.split(' ')[0].toLowerCase() : artfile.name.split('.')[0].toLowerCase();
+        let artwork = artworkInfo.artworks.find(e => e.account.toLowerCase() === account.toLowerCase());
         if (artwork) {
 
             options.title = artwork.title;
@@ -62,6 +62,8 @@ async function viewmatic(project, artworkInfo, artfiles, flags, outputDir, tmpDi
                 artInfo.duration = mediaInfo.duration;
                 artInfo.tags = [mediaInfo.tag];
                 artInfo.level = artwork.prices[0];
+                artInfo.nft = artwork.nft;
+                delete artInfo.prices
                             
                 exhibits.push(artInfo);
             } else {
